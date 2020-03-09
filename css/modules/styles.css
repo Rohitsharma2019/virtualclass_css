@@ -1,0 +1,5227 @@
+[id="virtualclassCont"] [class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: none;
+  width: auto;
+  height: auto;
+}
+
+#virtualclassCont.congrea {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  position: relative;
+}
+
+#virtualclassCont.congrea .clear,
+#virtualclassCont.congrea #conControler,
+#virtualclassCont.congrea #virtualclassOptionsCont,
+#virtualclassCont.congrea .msgBoxCanvasimg,
+#virtualclassCont.congrea .msgBoxCanvasimg,
+#virtualclassCont.congrea #mainContainer,
+#virtualclassCont.congrea #chatWidget,
+#virtualclassCont.congrea #preCheckcontainer #vcMicCheck .result,
+#virtualclassCont.congrea #preCheckcontainer #vcWebCamCheck .result,
+#virtualclassCont.congrea #virtualclassApp {
+  clear: both;
+}
+
+#virtualclassCont.congrea {
+  height: 100%;
+}
+
+#virtualclassCont.congrea #divForReloadMsg {
+  border: #8eb9ce solid 1px;
+  background: #ddeef6;
+  margin: 15px 0;
+}
+
+#virtualclassCont.congrea #serverErrorCont,
+#virtualclassCont.congrea #divForReloadMsg {
+  width: auto;
+  float: left;
+  margin-left: 35%;
+  border-radius: 5px;
+  padding: 15px;
+  line-height: 120%;
+  letter-spacing: 0.3px;
+  font-size: 12px;
+}
+
+#virtualclassCont.congrea #virtualclassOptionsCont {
+  width: 53px;
+  float: left;
+  clear: both;
+}
+
+#virtualclassCont.congrea #virtualclassOptionsCont .appOptions a img {
+  padding: 12px;
+  opacity: 0.699999988079071044921875;
+}
+
+#virtualclassCont.congrea #virtualclassOptionsCont .appOptions.active a img {
+  opacity: inherit;
+}
+
+#virtualclassCont.congrea #virtualclassOptionsCont .appOptions:hover {
+  border-top-right-radius: 0;
+}
+
+#virtualclassCont.congrea #virtualclassOptionsCont #virtualclassSessionEndTool {
+  border-top-right-radius: 0;
+}
+
+#virtualclassCont.congrea #virtualclassOptionsCont div:last-child {
+  border-bottom-right-radius: 8px;
+}
+
+#virtualclassCont.congrea.student #videoMinMize,
+#virtualclassCont.congrea #videoMinMize {
+  background-image: url('/virtualclass/images/min.png') !important;
+  background-position: left top;
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 16px;
+  right: 2px;
+  z-index: 100;
+}
+
+#virtualclassCont.congrea.student #videoMaxMize,
+#virtualclassCont.congrea #videoMaxMize {
+  background-image: url('/virtualclass/images/max.png') !important;
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+#virtualclassCont.congrea.student #videos #videoMinMize,
+#virtualclassCont.congrea.student #videos #videoMaxMize {
+  height: 16px;
+  position: absolute;
+  top: 2px;
+  width: 16px;
+  right: -1px;
+}
+
+#virtualclassCont.congrea.student #videos #videoMinMize,
+#virtualclassCont.congrea #videoMinMize {
+  height: 16px;
+  position: absolute;
+  width: 16px;
+  right: -1px;
+  border-left: none;
+  border-bottom: none;
+}
+
+#virtualclassCont.congrea.student #videos #videoMaxMize,
+#virtualclassCont.congrea #videoMaxMize {
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-right: none;
+  height: 16px;
+  right: 0;
+  top: -33px;
+  width: 16px;
+}
+
+#virtualclassCont.congrea.student #videos {
+  top: 16px;
+  border-bottom: 1px solid #ccc;
+}
+
+#virtualclassCont.congrea #containerWb {
+  margin: 0;
+  padding: 0;
+}
+
+#virtualclassCont.congrea #containerWb .tool .congtooltip:hover::after {
+  bottom: -2.5em;
+  padding: 0.6em 1em;
+  border-radius: 0;
+}
+
+#virtualclassCont.congrea #t_line a img[title]:hover::after {
+  content: attr(title);
+  padding: 4px 8px;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  white-space: nowrap;
+  border-radius: 5px;
+  box-shadow: 0 0 4px #222;
+}
+
+#virtualclassCont.congrea #t_assign.controlCmd a {
+  background-image: none;
+  padding-right: 15px;
+}
+
+#virtualclassCont.congrea .commandToolsWrapper {
+  position: relative;
+  z-index: 1;
+}
+
+#virtualclassCont.congrea .commandToolsWrapper,
+#virtualclassCont.congrea #dataInfoHeading {
+  padding-left: 1%;
+  width: 99%;
+}
+
+#virtualclassCont.congrea #canvasWrapper {
+  float: left;
+  margin: 0;
+  padding: 0;
+  margin-top: 0;
+}
+
+#virtualclassCont.congrea .commandToolsWrapper a,
+#virtualclassCont.congrea video,
+#virtualclassCont.congrea canvas,
+#virtualclassCont.congrea #allVideosCont,
+#virtualclassCont.congrea {
+  float: left;
+}
+
+#virtualclassCont.congrea .commandToolsWrapper a img {
+  padding: 13px 20px;
+}
+
+#virtualclassCont.congrea #canvasDrawMsgContFirefox {
+  left: 510px;
+  position: absolute;
+  z-index: 100;
+}
+
+#virtualclassCont.congrea #canvas {
+  border: black solid 1px;
+  display: block;
+  border: none;
+}
+
+#virtualclassCont.congrea .numbers {
+  float: right;
+}
+
+#virtualclassCont.congrea #sentMsgInfo {
+  margin-bottom: 10px;
+}
+
+#virtualclassCont.congrea #rcvdMsgInfo,
+#virtualclassCont.congrea #sentMsgInfo {
+  margin-top: 10px;
+  border: #ccc solid 1px;
+  margin-right: 10px;
+  padding: 5px;
+  min-height: 62px;
+  text-align: left;
+}
+
+#virtualclassCont.congrea #videos {
+  margin: 0;
+  padding: 0;
+  width: 930px;
+  margin-top: 20px;
+  padding: 15px;
+  clear: both;
+}
+
+#virtualclassCont.congrea #localVideo {
+  border: #ccc solid 1px;
+  width: 30%;
+}
+
+#virtualclassCont.congrea #remoteVideo {
+  border: #ccc solid 1px;
+  width: 100%;
+}
+
+#virtualclassCont.congrea #remoteVideo2 {
+  border: green solid 3px;
+  width: 30%;
+}
+
+/* #virtualclassCont.congrea #chat_div .ui-memblist-usr.teacher { */
+
+/* padding-top : 0; */
+
+/* } */
+
+/* #virtualclassCont.congrea #chat_div .ui-memblist-usr.student, #virtualclassCont.congrea #chat_div .ui-memblist-usr , #virtualclassCont.congrea #chat_div .ui-memblist-usr.teacher{ */
+
+/* padding-left : 4px; */
+
+/* } */
+
+/* #virtualclassCont.congrea div.ui-memblist-usr video { */
+
+/* width : 60px; */
+
+/* height : 50px; */
+
+/* margin : 0; */
+
+/* outline : 1px solid #5A5757; */
+
+/* margin-left : 2px; */
+
+/* } */
+
+/* #virtualclassCont.congrea div.ui-memblist-usr .userVideos { */
+
+/* width : 60px; */
+
+/* height : 45px; */
+
+/* margin-top : 6px; */
+
+/* outline : 1px solid #5A5757; */
+
+/* } */
+
+/* #virtualclassCont.congrea #graphCanvas { */
+
+/* top : -5px !important; */
+
+/* } */
+
+/* #virtualclassCont.congrea #chat_div .ui-memblist-usr:first-child { */
+
+/* margin-top : 0; */
+
+/* margin-bottom: 0px; */
+
+/* } */
+
+/* #virtualclassCont.congrea #chat_div .ui-memblist-usr span { */
+
+/* font-weight : normal; */
+
+/* position:relative; */
+
+/* } */
+
+#virtualclassCont.congrea .msgBoxWebRtc p,
+#virtualclassCont.congrea .msgBoxCanvas p {
+  position: relative;
+  background: #fff;
+  background-color: #fff !important;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2) !important;
+  border: #ccc solid 1px !important;
+  padding: 15px;
+  border-radius: 5px;
+  color: #333;
+  font-size: 13px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+#virtualclassCont.congrea .msgBoxWebRtc p::after,
+#virtualclassCont.congrea .msgBoxCanvas p::after,
+#virtualclassCont.congrea .msgBoxWebRtc p::before,
+#virtualclassCont.congrea .msgBoxCanvas p::before {
+  bottom: 100%;
+  left: 24%;
+  border: transparent solid;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+}
+
+#virtualclassCont.congrea .msgBoxWebRtc p::after,
+#virtualclassCont.congrea .msgBoxCanvas p::after {
+  border-color: rgba(255, 255, 255, 0);
+  border-bottom-color: #fff;
+  border-width: 11px;
+  margin-left: -10px;
+}
+
+#virtualclassCont.congrea .msgBoxWebRtc p::before,
+#virtualclassCont.congrea .msgBoxCanvas p::before {
+  border-color: rgba(170, 170, 170, 0);
+  border-bottom-color: #aaa;
+  border-width: 12px;
+  margin-left: -11px;
+}
+
+#virtualclassCont.congrea #chormeWebrtcCont p::after,
+#virtualclassCont.congrea #chormeWebrtcCont p::before {
+  left: 93%;
+}
+
+#virtualclassCont.congrea .msgBoxWebRtc {
+  width: 387px;
+}
+
+#virtualclassCont.congrea .msgBoxWebRtc p,
+#virtualclassCont.congrea .msgBoxCanvas p {
+  border: #ddd solid 2px;
+  padding: 5px;
+}
+
+#virtualclassCont.congrea .msgBoxCanvas p {
+  margin-top: 25px;
+}
+
+#virtualclassCont.congrea #chormeWebrtcCont {
+  position: absolute;
+  right: 2%;
+  top: 0%;
+}
+
+#virtualclassCont.congrea #chormeWebrtcContimg {
+  height: 15px;
+}
+
+#virtualclassCont.congrea #chormeWebrtcCont p {
+  padding: 12px;
+  z-index: 10000;
+}
+
+#virtualclassCont.congrea #fireFoxWebrtcCont {
+  position: absolute;
+  left: 160px;
+  top: 235px;
+  z-index: 100;
+}
+
+#virtualclassCont.congrea .msgBoxCanvas {
+  width: 350px;
+}
+
+#virtualclassCont.congrea #canvasDrawMsgContFirefox {
+  left: 510px;
+  position: absolute;
+  z-index: 100;
+}
+
+#virtualclassCont.congrea #canvasDrawMsgContChrome {
+  position: absolute;
+  left: 225px;
+}
+
+#virtualclassCont.congrea #canvasDrawArea {
+  clear: both;
+  position: relative;
+  bottom: 400px;
+  font-size: 50px;
+  color: #ddd;
+}
+
+#virtualclassCont.congrea #canvasDrawArea p {
+  text-align: center;
+  color: rgb(197, 161, 161);
+}
+
+#virtualclassCont.congrea a[title]:hover::after {
+  /* content : attr(title); */
+  padding: 4px 8px;
+  color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 100%;
+  white-space: nowrap;
+  z-index: 2;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#virtualclassCont.congrea .error {
+  border: #ddd solid 2px;
+  width: 50%;
+  padding: 10px;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+#virtualclassCont.congrea #virtualclassPreCheck .error {
+  width: 100%;
+  margin-left: 0;
+}
+
+#virtualclassCont.congrea .commandToolsWrapper #t_line a img[title]:hover::after {
+  content: attr(title);
+  padding: 4px 8px;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  white-space: nowrap;
+  border-radius: 5px;
+  box-shadow: 0 0 4px #222;
+}
+
+#virtualclassCont.congrea #vcanvas {
+  float: left;
+  border: #ccc solid 1px;
+  margin-left: 0;
+}
+
+#virtualclassCont.congrea .commandToolsWrapper #t_assign.controlCmd a {
+  background-image: none;
+  padding-right: 15px;
+}
+
+#virtualclassCont.congrea .teacher .commandToolsWrapper #t_assign.controlCmd a,
+#virtualclassCont.congrea .commandToolsWrapper #t_connectionoff a,
+.con.controlCmd,
+.controlCmd.coff {
+  background-image: url(/virtualclass/images/border-img.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+#virtualclassCont.congrea .commandToolsWrapper #t_connectionoff a,
+#virtualclassCont.congrea .commandToolsWrapper #t_connectionon a {
+  padding-top: 5px;
+}
+
+#virtualclassCont.congrea .commandToolsWrapper #t_assign a {
+  padding-top: 2px;
+}
+
+#virtualclassCont.congrea #informationCont h4 {
+  margin-top: 5px;
+}
+
+#virtualclassCont.congrea #videos #remoteVideo {
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-bottom: 5px;
+  height: 180px;
+}
+
+#virtualclassCont.congrea #videos #localVideo {
+  margin-left: 198px;
+  margin-top: 8px;
+  height: 180px;
+  margin-bottom: 5px;
+  padding: 2px;
+}
+
+/* #virtualclassCont.congrea .selfClear:after , #virtualclassCont.congrea #chat_div .ui-memblist-usr:after{ */
+
+/* content : "."; */
+
+/* display : block; */
+
+/* height : 0; */
+
+/* clear : both; */
+
+/* visibility : hidden; */
+
+/* } */
+
+#virtualclassCont.congrea .selfClear {
+  display: inline-block;
+}
+
+#virtualclassCont.congrea .congtooltip {
+  /*	display : inline; */
+  position: relative;
+  font-size: 0.875rem;
+}
+
+/* #virtualclassCont.congrea .user-details .controls .congtooltip  { */
+
+/* position : static; */
+
+/* } */
+
+#virtualclassCont.congrea #virtualclassOptionsCont:first-child,
+#virtualclassOptionsCont {
+  position: absolute;
+  top: 130px;
+  border-left: 0;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  z-index: 0;
+}
+
+#virtualclassCont.congrea .congtooltip:hover::after {
+  background: #fff;
+  border: #ccc solid 1px;
+  border-radius: 0.25em;
+  bottom: 2.6em;
+  content: attr(data-title);
+  display: block;
+
+  /*	right:0px; */
+  padding: 0.2em 0.5em;
+  position: absolute;
+  white-space: nowrap;
+  z-index: 100;
+  color: #000;
+  pointer-events: none;
+
+  /* box-shadow : 0px 0px 1px #a4a4a4; */
+  font-size: 0.75rem;
+  font-weight: normal !important;
+}
+
+#virtualclassCont.congrea .list-group-item.congtooltip:hover::after {
+  border: #615c5c solid 0;
+  top: -0.2em;
+  height: 22px;
+  left: 0;
+  padding: 0.1em 0.3em;
+  position: absolute;
+  font-size: 11px;
+}
+
+#virtualclassCont.congrea .zoomControler .zoomIn.congtooltip:hover::after,
+#virtualclassCont.congrea .zoomOut.congtooltip:hover::after,
+#virtualclassCont.congrea .fitScreen.congtooltip:hover::after {
+  border: #ccc solid 1px;
+  bottom: 4px;
+  right: 44px;
+  position: absolute;
+}
+
+#virtualclassCont.congrea .reloadNote .congtooltip:hover::after {
+  border: #ccc solid 1px;
+  bottom: 3.8em;
+  height: 20px;
+  left: auto;
+  position: fixed;
+}
+
+#virtualclassCont.congrea #videLatency.congtooltip:hover::after {
+  background: #fff;
+  border: #ccc solid 0;
+  border-radius: 0.25em;
+  bottom: -4em;
+  content: attr(data-title);
+  display: block;
+  left: -6em;
+  padding: 0.2em 0.5em;
+  position: absolute;
+  white-space: nowrap;
+  z-index: 100;
+  color: #000;
+  box-shadow: 0 0 1px #a4a4a4;
+  font-size: 12px;
+  font-weight: normal !important;
+}
+
+#virtualclassCont.congrea #t_reclaim .congtooltip:hover::after {
+  bottom: -1em;
+  left: 3em;
+}
+
+#virtualclassCont.congrea.student #chatWidget #memlist .controleCont .congtooltip {
+  pointer-events: none;
+}
+
+/* select the only id which end with contrAssignAnch */
+
+#virtualclassCont.congrea.presenter #chatWidget #memlist [id$=contrAssignAnch].congtooltip {
+  pointer-events: visible;
+}
+
+#virtualclassCont.congrea #virtualclassOptionsCont .appOptions .congtooltip:hover::after {
+  padding: 0.3em 0.8em;
+  right: auto;
+  left: 52px;
+  bottom: -0.4em;
+}
+
+#virtualclassCont.congrea #virtualWindow {
+  border: #ed6b83 dashed 1px;
+  border-left: none;
+  position: absolute;
+}
+
+#virtualclassCont.congrea #packetContainer {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+#virtualclassCont.congrea #packetContainer #dataInformation,
+#virtualclassCont.congrea #packetContainer #sendPackCont,
+#virtualclassCont.congrea #packetContainer #receivePackCont {
+  float: left;
+  width: 32%;
+  border: #ccc solid 1px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#virtualclassCont.congrea #packetContainer #dataInformation,
+#virtualclassCont.congrea #packetContainer #sendPackCont {
+  border-right: none;
+}
+
+#virtualclassCont.congrea #sentPacketsLabel,
+#virtualclassCont.congrea #sendPackPsCont,
+#virtualclassCont.congrea #totSendPackCont,
+#virtualclassCont.congrea #receivedPacketsLabel,
+#virtualclassCont.congrea #receivePackPsCont,
+#virtualclassCont.congrea #totReceivedPackCont,
+#virtualclassCont.congrea #blankDiv,
+#virtualclassCont.congrea #perSecData,
+#virtualclassCont.congrea #totalDataLabel {
+  padding: 7px;
+}
+
+#virtualclassCont.congrea #receivedPacketsLabel,
+#virtualclassCont.congrea #receivePackPsCont,
+#virtualclassCont.congrea #sentPacketsLabel,
+#virtualclassCont.congrea #sentPacketsLabel,
+#virtualclassCont.congrea #sendPackPsCont,
+#virtualclassCont.congrea #blankDiv,
+#virtualclassCont.congrea #perSecData {
+  border-bottom: 1px solid #ccc;
+  color: #595a5d;
+}
+
+#virtualclassCont.congrea #errorWebSocket,
+#virtualclassCont.congrea #errorWebRtc,
+#virtualclassCont.congrea #errorCanvas,
+#virtualclassCont.congrea #errorPeerConnect {
+  background-color: #f2dede;
+  border-color: #fdb9c3;
+  color: #b94a48;
+  font-size: 14px;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+#virtualclassCont.congrea #errorWebSocketPara a,
+#virtualclassCont.congrea #errorWebRtcPara a,
+#virtualclassCont.congrea #errorCanvasPara a {
+  color: #b94a48;
+  font-weight: 600;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+#virtualclassCont.congrea #sentPacketsLabel span,
+#virtualclassCont.congrea #receivedPacketsLabel span {
+  margin-left: 15px;
+}
+
+#virtualclassCont.congrea #totalDataLabel,
+#sentPacket,
+#informationCont {
+  color: #595a5d;
+}
+
+#virtualclassCont.congrea #informationCont #sentMsgInfoContainer,
+#virtualclassCont.congrea #informationCont #receivedMsgInfoContainer {
+  text-align: center;
+}
+
+#virtualclassCont.congrea #dataInformation {
+  margin-left: 10px;
+}
+
+#virtualclassCont.congrea #topContainer {
+  height: 200px;
+}
+
+#virtualclassCont.congrea #leftContainer {
+  width: 200px;
+  float: left;
+}
+
+#virtualclassCont.congrea #packetContainer,
+#virtualclassCont.congrea #informationCont {
+  font-size: 13px;
+}
+
+#virtualclassCont.congrea #informationCont,
+#virtualclassCont.congrea #informationCont #sentMsgInfoContainer,
+#virtualclassCont.congrea #informationCont #receivedMsgInfoContainer {
+  float: left;
+  width: 50%;
+}
+
+#virtualclassCont.congrea #dataInfoHeading {
+  width: 915px;
+  text-align: center;
+}
+
+#virtualclassCont.congrea #informationCont {
+  margin-top: 11px;
+}
+
+#virtualclassCont.congrea #t_assign.controlCmd a {
+  padding-left: 12px;
+  padding-right: 14px;
+}
+
+#virtualclassCont.congrea .commandToolsWrapper,
+#virtualclassCont.congrea #dataInfoHeading {
+  padding-left: 0;
+  width: 100%;
+}
+
+#virtualclassCont.congrea #videos #localVideo {
+  height: auto;
+  margin: 0;
+  position: absolute;
+  right: 3px;
+  margin-top: 48%;
+  width: 35%;
+  z-index: 100;
+}
+
+#virtualclassCont.congrea #videos #remoteVideo {
+  margin-left: 0;
+  margin-top: 0;
+  right: -9px;
+  padding: 2px;
+  height: auto;
+  position: absolute;
+  min-height: auto;
+}
+
+#virtualclassCont.congrea #videos {
+  width: auto;
+  position: relative;
+  top: 0;
+}
+
+#virtualclassCont.congrea #remoteVideo {
+  width: 100%;
+}
+
+#virtualclassCont.congrea .dynDiv_resizeDiv_tl {
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+
+#virtualclassCont.congrea .dynDiv_resizeDiv_tl,
+#virtualclassCont.congrea .dynDiv_resizeDiv_tr,
+#virtualclassCont.congrea .dynDiv_resizeDiv_bl,
+#virtualclassCont.congrea .dynDiv_resizeDiv_br {
+  background-color: #fff !important;
+  background-image: url('/virtualclass/images/resize.png') !important;
+  background-position: left top;
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 10px;
+  background: #faa;
+  border: #000 solid 1px;
+  position: absolute;
+}
+
+#virtualclassCont.congrea .dynDiv_resizeDiv_tl {
+  border: none medium;
+  left: 6px;
+  top: 3px;
+  z-index: 100;
+}
+
+#virtualclassCont.congrea #videoContainer {
+  background: transparent;
+  width: 285px;
+  height: 220px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+#virtualclassCont.congrea.student #videoContainer {
+  top: -237px;
+}
+
+#virtualclassCont.congrea #videoMinMize,
+#virtualclassCont.congrea #videoMaxMize {
+  position: absolute;
+}
+
+#virtualclassCont.congrea.student #videos #videoMinMize,
+#virtualclassCont.congrea.student #videos #videoMaxMize {
+  height: 16px;
+  position: absolute;
+  top: 2px;
+  width: 16px;
+  right: -1px;
+}
+
+#virtualclassCont.congrea.student #videos #videoMinMize,
+#virtualclassCont.congrea #videoMinMize {
+  border-left: none;
+  border-bottom: none;
+  height: 16px;
+  position: absolute;
+  right: -1px;
+  width: 16px;
+}
+
+#virtualclassCont.congrea.student #videos #videoMaxMize,
+#virtualclassCont.congrea #videoMaxMize {
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-right: none;
+  height: 16px;
+  right: 0;
+  top: -33px;
+  width: 16px;
+}
+
+#virtualclassCont.congrea.teacher #videoMaxMize {
+  top: -17px;
+}
+
+#virtualclassCont.congrea .controlCmd,
+#virtualclassCont.congrea .con {
+  float: right;
+}
+
+#virtualclassCont.congrea #videoContainer {
+  bottom: 45px;
+}
+
+#virtualclassCont.congrea .controlCmd.coff,
+#virtualclassCont.congrea .con.controlCmd {
+  padding-left: 20px;
+}
+
+#virtualclassCont.congrea .con.controlCmd a {
+  border: #79aa26 solid 1px;
+  padding-left: 4px !important;
+  padding-right: 4px !important;
+  border-radius: 2px;
+}
+
+#virtualclassCont.congrea .con {
+  margin-right: 20px;
+}
+
+#virtualclassCont.congrea .controlCmd.coff {
+  margin-right: 10px;
+}
+
+#virtualclassCont.congrea #serverErrorCont {
+  border: #9e1333 solid 1px;
+  background: #f2dfe3;
+}
+
+#virtualclassCont.congrea #widgetRightSide {
+  float: left;
+  width: 260px;
+  border: #ccc solid 1px;
+  border-left: none;
+}
+
+#virtualclassCont.congrea .userVideo {
+  width: 75px;
+  height: 56px;
+}
+
+#virtualclassCont.congrea #virtualclassPreCheck.bootstrap video {
+  border-radius: 3px;
+  margin: 0 auto 10px;
+  float: none;
+  width: 100%;
+}
+
+#virtualclassCont.congrea .videoWrapper {
+  z-index: 50;
+  position: relative;
+  clear: both;
+}
+
+#virtualclassCont.congrea .videoSubWrapper {
+  z-index: 1000;
+}
+
+#virtualclassCont.congrea .videoSubWrapper[data-uname]:hover::after {
+  content: attr(data-uname);
+  padding: 2px 5px 2px 5px;
+  color: rgba(48, 39, 2, 1);
+  position: absolute;
+  margin-left: -40px;
+  top: 60%;
+  white-space: nowrap;
+  border-radius: 15px;
+  background: rgba(240, 245, 240, 0.6);
+  font-size: 80%;
+}
+
+#virtualclassCont.congrea #allVideosCont {
+  position: relative;
+}
+
+#virtualclassCont.congrea #commonChatBoard {
+  clear: both;
+  width: 100%;
+  height: 92%;
+}
+
+#virtualclassCont.congrea #textInputBox {
+  width: 100%;
+  height: 5%;
+  padding: 5px 3px 5px 3px;
+  resize: none;
+  border: #ccc solid 1px;
+  border-radius: 3px;
+}
+
+#virtualclassCont.congrea #chatBox {
+  font-size: 80%;
+  border-top: 1px solid #ccc;
+}
+
+#virtualclassCont.congrea #chatBox .userMsg {
+  letter-spacing: 0.03em;
+  word-break: break-all;
+  white-space: pre-wrap;
+  word-break: break-all;
+  overflow-wrap: break-word;
+}
+
+#virtualclassCont.congrea #chatBox {
+  padding: 5px;
+}
+
+#virtualclassCont.congrea #chatBox #commonChatBoard {
+  overflow-y: auto;
+}
+
+#virtualclassCont.congrea #chatContainer {
+  width: 100%;
+  clear: both;
+  margin-top: 5px;
+}
+
+#virtualclassWholeScreenShare {
+  float: left;
+  border: #ccc solid 1px;
+  height: 100%;
+}
+
+#virtualclassCont.congrea .vmApp {
+  border-right: none;
+}
+
+#virtualclassCont.congrea .Local {
+  margin: 4px 7px 0 7px;
+}
+
+#virtualclassCont.congrea #virtualclassScreenShareLocal {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  margin: 0;
+  position: relative;
+}
+
+#virtualclassCont.congrea #commonChatBoardLabel {
+  position: relative;
+  width: 140px;
+  color: #ccc;
+  font-size: 24px;
+  opacity: 0.800000011920928955078125;
+  left: 50px;
+  top: -55%;
+}
+
+#virtualclassCont.congrea #commonChatBoardLabel #firstWord {
+  margin-left: 8%;
+  font-size: 20px;
+}
+
+::-webkit-input-placeholder,
+:-moz-placeholder {
+  opacity: 0.800000011920928955078125 !important;
+}
+
+#virtualclassCont.congrea #textInputBox {
+  padding-top: 11px;
+  padding-left: 8px;
+}
+
+#virtualclassCont.congrea #toggleContainer {
+  font-weight: bold;
+  color: #686464;
+  width: 7px;
+  border: #ccc solid 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+  cursor: pointer;
+}
+
+#virtualclassCont.congrea #toggleContainer.display {
+  position: relative;
+  top: 25px;
+  left: 10px;
+}
+
+#virtualclassCont.congrea #toggleContainer.hide {
+  margin-left: 4px;
+  padding-right: 6px;
+}
+
+#virtualclassCont.congrea canvas {
+  border-radius: 3px;
+  padding: 0;
+
+  /* height: auto; */
+
+  /* max-height: calc(100vh - 120px); */
+}
+
+/* #virtualclassCont.congrea #virtualclassPreCheck.bootstrap canvas {margin: -44px 0 -40px 44%;} */
+
+@media (max-width: 620px) {
+  #virtualclassCont.congrea canvas {
+    margin-left: 38%;
+    max-width: 78px;
+  }
+}
+
+#virtualclassCont.congrea #commonChatBoard span {
+  line-height: 125%;
+}
+
+/* #virtualclassCont.congrea div.ui-memblist-usr video { */
+
+/* width : 52px; */
+
+/* height : 40px; */
+
+/* outline : 1px solid #5A5757; */
+
+/* margin-left : 2px; */
+
+/* } */
+
+#virtualclassCont.congrea div.ui-memblist-usr .userVideos {
+  width: 52px;
+  height: 40px;
+  margin: 3px 0 0 2px;
+  outline: 1px solid #5a5757;
+  border: solid 1px;
+  border-radius: 20%;
+  object-fit: cover;
+}
+
+#virtualclassCont.congrea #graphCanvas {
+  top: -5px !important;
+}
+
+#virtualclassCont.congrea div.ui-memblist-usr video,
+div.ui-memblist-usr .userVideos {
+  margin-top: 3px;
+}
+
+#virtualclassCont.congrea.student #vcanvas {
+  border-top-width: 5px;
+  border-top-color: #aaa;
+}
+
+#virtualclassCont.congrea.student.presenter #vcanvas {
+  border-top-width: 1px;
+}
+
+#virtualclassCont.congrea #speakerStudent #speakerPressing a:hover img {
+  opacity: 0.5;
+}
+
+#virtualclassCont.congrea #closebtn {
+  width: 35px;
+}
+
+#virtualclassCont.congrea #virtualclassOptionsCont {
+  top: 200px;
+}
+
+#virtualclassCont.congrea .ui-dialog-header span:first-child {
+  font-size: 0.875rem;
+  padding-left: 3px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 1rem;
+  max-height: 2rem;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  width: 11.5625rem;
+}
+
+/* #virtualclassCont.congrea div.ui-memblist-usr video, #virtualclassCont.congrea div.ui-memblist-usr .userVideos { */
+
+/* border : #3c4953 solid 1px; */
+
+/* border-radius: 20%; */
+
+/* outline : none; */
+
+/* margin-bottom : 3px; */
+
+/* } */
+
+/* #virtualclassCont.congrea #chat_div .ui-memblist-usr .controls span { */
+
+/* font-size: 13px; */
+
+/* font-weight : 200; */
+
+/* float: left; */
+
+/* margin-top: 4px; */
+
+/* margin-right: 4px; */
+
+/* } */
+
+/* #virtualclassCont.congrea #chat_div .controleCont .icon-stdscreenImg { */
+
+/* margin-top:3px !important; */
+
+/* } */
+
+/* #virtualclassCont.congrea.student #chat_div .ui-memblist-usr .controls span { */
+
+/* margin-right: 10px; */
+
+/* } */
+
+#virtualclassCont.congrea #chatroom_text .icon-arrow-down,
+#virtualclassCont.congrea #chatroom_text .icon-arrow-up {
+  padding-left: 7px;
+}
+
+#virtualclassCont.congrea .vmchat_room_bt .inner_bt #chatroom_text {
+  position: relative;
+  top: -2px;
+}
+
+#virtualclassCont.congrea .maximize {
+  height: 41px;
+}
+
+#virtualclassCont.congrea #stickybar.minimize {
+  width: 50px;
+}
+
+#virtualclassCont.congrea .ui-icon-closethick {
+  background-position: -96px -128px !important;
+}
+
+#virtualclassCont.congrea .ui-chatbox {
+  width: 231px !important;
+}
+
+#virtualclassCont.congrea .ui-corner-all.ui-chatbox-icon .ui-icon-close {
+  margin-top: 2px;
+  margin-right: 8px;
+}
+
+#virtualclassCont.congrea .ui-memblist-usr a img {
+  margin: 7px 5px 7px 2px;
+  padding: 0;
+  border-radius: 20%;
+  border: #bbb solid 1px;
+  width: 52px;
+  height: 40px;
+  cursor: pointer;
+}
+
+#virtualclassCont.congrea .ui-memblist-usr .controls .controleCont a.congtooltip span {
+  left: 0;
+}
+
+#virtualclassWholeScreenShare {
+  margin-left: 55px;
+}
+
+/* #virtualclassCont.congrea .ui-widget-content .controls { */
+
+/* width : auto; */
+
+/* float: right; */
+
+/* position : relative; */
+
+/* margin-right: 8px; */
+
+/* margin-top: 13px; */
+
+/* } */
+
+#virtualclassCont.congrea #speakerPressing {
+  width: 75px;
+  padding: 6px 12px 0;
+  margin-left: -1px;
+  margin-right: -1px;
+}
+
+#virtualclassCont.congrea.student #audioWidget #mainAudioPanel li {
+  text-align: center;
+  display: inline-block;
+}
+
+/* #virtualclassCont.congrea #chat_div .controleCont, #virtualclassCont.congrea #chat_div .controleCont { */
+
+/* float : left; */
+
+/* text-align: center; */
+
+/* } */
+
+#virtualclassCont.congrea .audEnableSign {
+  width: 12px;
+  height: 12px;
+  float: left;
+  margin-left: 4px;
+}
+
+#virtualclassCont.congrea .ui-memblist-usr.student .controls .controleCont img.assignImg.block,
+#virtualclassCont.congrea .ui-memblist-usr.student .controls .controleCont img.chatImg.block {
+  opacity: 0.4000000059604644775390625;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+#virtualclassCont.congrea.student .ui-widget-content .controls {
+  position: relative;
+  left: -2px;
+}
+
+#virtualclassCont.congrea {
+  width: auto;
+}
+
+#virtualclassCont.congrea.student #virtualclassWholeScreenShare {
+  margin-left: 5px;
+}
+
+#virtualclassCont.congrea .teacher .vmApp {
+  margin-left: 55px;
+}
+
+#virtualclassCont.congrea .student .vmApp {
+  margin-left: 3px;
+}
+
+#virtualclassCont.congrea .controls a.audEnableSign img {
+  margin-left: -2px;
+}
+
+#virtualclassCont.congrea #page-mod-virtualclass-view #page {
+  padding: 0;
+}
+
+#virtualclassCont.congrea #usertab_icon {
+  margin: 6px 6px 0 0;
+}
+
+#virtualclassCont.congrea .ui-widget.disable {
+  opacity: 0.4;
+}
+
+#virtualclassCont.congrea .ui-widget.enable {
+  opacity: 1;
+}
+
+#virtualclassCont.congrea #virtualclassOptionsCont,
+.congtooltip {
+  text-decoration: none;
+  outline-width: 0;
+  z-index: 1103 !important;
+  text-align: center;
+  line-height: 1.25rem;
+  display: block;
+}
+
+#playControllerCont #playController button.congtooltip {
+  line-height: 1 !important;
+}
+
+#virtualclassCont.congrea #virtualclassSessionEndTool.active a span {
+  color: #fff !important;
+}
+
+#virtualclassCont.congrea #virtualclassSessionEndTool a img {
+  border: none;
+}
+
+/** microsoft edge **/
+
+/* #virtualclassSessionEndTool, #virtualclassCont.congrea #virtualclassSessionEndTool { */
+
+/* padding : 10px 5px; */
+
+/* } */
+
+#virtualclassCont.congrea #speakerPressonceAnch span.attention:hover {
+  background: rgb(238, 159, 7);
+  background: -moz-linear-gradient(top, rgba(238, 159, 7, 1) 0%, rgba(240, 171, 8, 1) 45%, rgba(243, 182, 15, 1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(238, 159, 7, 1)), color-stop(45%, rgba(240, 171, 8, 1)), color-stop(100%, rgba(243, 182, 15, 1)));
+  background: -webkit-linear-gradient(top, rgba(238, 159, 7, 1) 0%, rgba(240, 171, 8, 1) 45%, rgba(243, 182, 15, 1) 100%);
+  background: -o-linear-gradient(top, rgba(238, 159, 7, 1) 0%, rgba(240, 171, 8, 1) 45%, rgba(243, 182, 15, 1) 100%);
+  background: -ms-linear-gradient(top, rgba(238, 159, 7, 1) 0%, rgba(240, 171, 8, 1) 45%, rgba(243, 182, 15, 1) 100%);
+  background: linear-gradient(to bottom, rgba(238, 159, 7, 1) 0%, rgba(240, 171, 8, 1) 45%, rgba(243, 182, 15, 1) 100%);
+}
+
+#virtualclassCont.congrea #speakerPressOnce #speakerPressonceAnch span#speakerPressonceLabel {
+  background: #ea1717; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #ea1717 0%, #b50303 99%); /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0, center center, 100%, color-stop(0%, #ea1717), color-stop(99%, #b50303)); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #ea1717 0%, #b50303 99%); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, #ea1717 0%, #b50303 99%); /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, #ea1717 0%, #b50303 99%); /* IE10+ */
+  background: radial-gradient(ellipse at center, #ea1717 0%, #b50303 99%); /* W3C */
+}
+
+#virtualclassCont.congrea #speakerPressOnce.active #speakerPressonceAnch span#speakerPressonceLabel {
+  background: rgb(141, 173, 51);
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(141, 173, 51, 1) 0%, rgba(146, 178, 55, 1) 24%, rgba(157, 187, 64, 1) 55%, rgba(166, 194, 78, 1) 100%);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(141, 173, 51, 1) 0%, rgba(146, 178, 55, 1) 24%, rgba(157, 187, 64, 1) 55%, rgba(166, 194, 78, 1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(141, 173, 51, 1) 0%, rgba(146, 178, 55, 1) 24%, rgba(157, 187, 64, 1) 55%, rgba(166, 194, 78, 1) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(141, 173, 51, 1) 0%, rgba(146, 178, 55, 1) 24%, rgba(157, 187, 64, 1) 55%, rgba(166, 194, 78, 1) 100%);
+  background: radial-gradient(center, ellipse cover, rgba(141, 173, 51, 1) 0%, rgba(146, 178, 55, 1) 24%, rgba(157, 187, 64, 1) 55%, rgba(166, 194, 78, 1) 100%);
+}
+
+#virtualclassCont.congrea #speakerPressOnce.active #speakerPressonceAnch span#speakerPressonceLabel i {
+  right: 0;
+  border: #aaa solid 1px;
+}
+
+#virtualclassCont.congrea #alwaysPress #speakerPressing a#speakerPressingAnch img {
+  border: none !important;
+}
+
+#virtualclassCont.congrea #speakerPressingAnch #speakerPressingtext {
+  position: relative;
+  top: -7px;
+}
+
+#virtualclassCont.congrea .vmchat_room_bt.congtooltip:hover::after,
+#virtualclassCont.congrea .vmchat_bar_button.congtooltip:hover::after{
+  bottom: 47px;
+  right: -11px;
+}
+
+#virtualclassCont #virtualclassAppFooterPanel #precheckBtn.congtooltip:hover::after {
+  bottom: 47px;
+  left: -44px;
+}
+
+#virtualclassCont.congrea #appSettingCtrl.congtooltip:hover::after {
+  bottom: -30px;
+  right: 0;
+}
+
+#virtualclass.congrea .handRaise.congtooltip:hover::after {
+  bottom: 4.5em;
+  left: auto;
+  right: 0.1em;
+  z-index: 10000;
+}
+
+#virtualclassCont.congrea .close.congtooltip:hover::after,
+#virtualclassCont.congrea #usertab_text.congtooltip.open:hover::after {
+  bottom: 2em;
+}
+
+#virtualclassCont.congrea #speakerPressing .congtooltip:hover::after {
+  bottom: -40px !important;
+}
+
+/* #virtualclassCont.congrea #chat_div .ui-memblist-usr a.congtooltip:hover:after { */
+
+/* bottom : 1.5em; */
+
+/* } */
+#contrAudioAllImg.congtooltip[data-title="Disable"]:hover::after,
+#contrAudioAllImg.congtooltip[data-title="Enable"]:hover::after {
+  left: 0;
+}
+
+/* #virtualclassCont.congrea #memlist .ui-memblist-content .ui-memblist-log .ui-memblist-usr .controls .controleCont a.congtooltip:hover:after { */
+
+/* bottom : -45px; */
+
+/* left : -8px; */
+
+/* } */
+
+/* #virtualclassCont.congrea.student #memlist .ui-memblist-content .ui-memblist-log .ui-memblist-usr .controls .controleCont a.congtooltip:hover:after, */
+
+/* #virtualclassCont.congrea.teacher #memlist .ui-memblist-content .ui-memblist-log .ui-memblist-usr .controls .controleCont a.congtooltip:hover:after { */
+
+/* bottom : -11px; */
+
+/* left : auto; */
+
+/* right: -8px; */
+
+/* } */
+
+/* #virtualclassCont.congrea .ui-memblist-usr a.congtooltip[data-title="Disable Writing"]:hover:after, #virtualclassCont.congrea .ui-memblist-usr a.congtooltip[data-title="Enable Writing"]:hover:after{ */
+
+/* bottom: -30px; */
+
+/* left: -40px !important; */
+
+/* } */
+
+/* #virtualclassCont.congrea #memlist .ui-memblist-content .ui-memblist-log .ui-memblist-usr .controls a.congtooltip:hover:after { */
+
+/* bottom: 10px; */
+
+/* left: -2px; */
+
+/* font-size: 11px; */
+
+/* padding-left: 4px; */
+
+/* padding-right: 4px; */
+
+/* } */
+
+#virtualclassCont.congrea #speakerPressOnce i.silenceDetect[data-silence-detect="sending"] {
+  background: rgb(141, 173, 51);
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(141, 173, 51, 1) 0%, rgba(146, 178, 55, 1) 24%, rgba(157, 187, 64, 1) 55%, rgba(166, 194, 78, 1) 100%);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(141, 173, 51, 1) 0%, rgba(146, 178, 55, 1) 24%, rgba(157, 187, 64, 1) 55%, rgba(166, 194, 78, 1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(141, 173, 51, 1) 0%, rgba(146, 178, 55, 1) 24%, rgba(157, 187, 64, 1) 55%, rgba(166, 194, 78, 1) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(141, 173, 51, 1) 0%, rgba(146, 178, 55, 1) 24%, rgba(157, 187, 64, 1) 55%, rgba(166, 194, 78, 1) 100%);
+  background: radial-gradient(center, ellipse cover, rgba(141, 173, 51, 1) 0%, rgba(146, 178, 55, 1) 24%, rgba(157, 187, 64, 1) 55%, rgba(166, 194, 78, 1) 100%);
+  border-radius: 3px;
+  border: rgb(119, 149, 35) 1px solid;
+}
+
+#virtualclassCont.congrea #containerWb .commandToolsWrapper .tool a {
+  text-decoration: none;
+  padding: 11px 18px 10px;
+  color: #535151;
+  font-size: 25px;
+}
+
+#virtualclassCont.congrea #virtualclassOptionsCont .appOptions {
+  border-left: none;
+  padding: 10px 5px;
+}
+
+#virtualclassCont.congrea #containerWb .commandToolsWrapper .tool a::before {
+  font-family: "icomoon";
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: normal;
+  color: #444;
+}
+
+#virtualclassCont.congrea #virtualclassOptionsCont .appOptions a span::before {
+  font-weight: 100;
+  font-variant: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+#virtualclassCont.congrea #virtualclassOptionsCont .appOptions.active a span::before {
+  color: #fff;
+}
+
+#virtualclassCont.congrea .tool.active a span::before {
+  text-shadow: 0 1px 11px #eee;
+  color: #fff !important;
+}
+
+#virtualclassCont.congrea .ui-memblist-usr .icon-assignImg.block.currTeacher::before,
+#virtualclassCont.congrea .icon-chatImg.enable::before {
+  color: #94b532;
+}
+
+#virtualclassCont.congrea .icon-chatImg.enable::before {
+  font-size: 14px;
+  position: relative;
+  top: -1px;
+}
+
+/*
+#virtualclassCont.congrea.orginalTeacher #chat_div .controls span.enable, #virtualclassCont.congrea.teacher #chat_div .controls .icon-assignImg.enable, #virtualclassCont.congrea.orginalTeacher #chat_div .controls span{
+	margin-left: 3px;
+}
+*/
+
+#virtualclassCont.congrea .appOptions.active a span::before {
+  text-shadow: #fff 0 0 5px;
+}
+
+#virtualclassCont.congrea .commandToolsWrapper a {
+  text-decoration: none;
+}
+
+/* #virtualclassCont.congrea.student #chat_div .controls span.enable, #virtualclassCont.congrea #speakerPressing.active , #virtualclassCont.congrea.orginalTeacher #chat_div .controls span.assignImg.block { */
+
+/* cursor : default; */
+
+/* } */
+
+#virtualclassCont.congrea #speakerPressing.active {
+  cursor: default;
+}
+
+/* #virtualclassCont.congrea.orginalTeacher #chat_div .controls span.enable, #virtualclassCont.congrea.orginalTeacher #chat_div .controls span.block, #virtualclassCont.congrea.teacher #chat_div .controls .icon-assignImg.enable, */
+
+/* #virtualclassCont.congrea.presenter #chat_div .controls span.assignImg.enable { */
+
+/* cursor : pointer; */
+
+/* } */
+
+#virtualclassCont.congrea #speakerPressingtext {
+  line-height: 3px;
+}
+
+#virtualclassCont.congrea .commandToolsWrapper .tool.active a:hover {
+  color: #000 !important;
+}
+
+#virtualclassCont.congrea .ui-widget-header.ui-corner-top.ui-chatbox-titlebar.ui-dialog-header a.ui-corner-all.ui-chatbox-icon {
+  padding-top: 1px !important;
+}
+
+#virtualclassCont.congrea .tabs-bottom a.ui-corner-all.ui-chatbox-icon {
+  padding-top: 28px !important;
+}
+
+#virtualclassCont.congrea .ui-icon.ui-icon-minusthick {
+  top: 1px !important;
+}
+
+#virtualclassCont.congrea.student .ui-memblist-usr .icon-chatImg::before {
+  left: -4px;
+}
+
+.ui-corner-top.ui-memblist .ui-dialog-header .ui-corner-all {
+  margin-right: 5px;
+}
+
+.ui-memblist-usr a span.chatImg {
+  margin-left: 0;
+}
+
+#virtualclassCont.congrea #errorContainer {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 10;
+}
+
+/* @media screen and (-webkit-min-device-pixel-ratio:0){ */
+
+/* #virtualclassCont.congrea #chat_div .ui-memblist-usr a.congtooltip:hover:after { */
+
+/* bottom:-34px; */
+
+/* left:0em; */
+
+/* } */
+
+/* #virtualclassCont.congrea #chat_div .ui-memblist-usr a.congtooltip[data-title="Enable Writing"]:hover:after{ */
+
+/* left:-3em; */
+
+/* } */
+
+/* #virtualclassCont.congrea #chat_div .ui-memblist-usr a.congtooltip[data-title="Disable Writing"]:hover:after{ */
+
+/* left:-3em; */
+
+/* } */
+
+/* #virtualclassCont.congrea #chat_div .ui-memblist-usr a.congtooltip[data-title="Click to chat"]:hover:after{ */
+
+/* bottom: 0px; */
+
+/* left: 12em; */
+
+/* } */
+
+/* #virtualclassCont.congrea #chat_div .ui-memblist-usr a.congtooltip[data-title="Enable Writing"]:hover:after{ */
+
+/* left:-20px; */
+
+/* } */
+
+/* } */
+
+#virtualclassCont.congrea #dummyPlay {
+  position: absolute;
+  top: 17px;
+  left: 150px;
+  z-index: 666666;
+}
+
+#virtualclassCont.congrea .recButton {
+  display: inline;
+  float: left;
+  text-align: center;
+}
+
+/* #virtualclassCont.congrea #playProgress {
+  background-color: #676666;
+	float: left;
+	margin-left: 18px;
+	margin-top: 21.5px;
+	text-align: center;
+	width: 350px;
+	height: 5px;
+} */
+
+#virtualclassCont.congrea #playProgress {
+  float: left;
+  text-align: center;
+  pointer-events: none;
+}
+
+#virtualclassCont.congrea #downloadProgress {
+  background-color: #efe9e9;
+  float: left;
+  text-align: center;
+  height: 7px;
+  width: 100vw;
+}
+
+#virtualclassCont.congrea #downloadProgressValue {
+  font-size: 10px;
+  margin-top: 6px;
+}
+
+/* #virtualclassCont.congrea #downloadProgress{ */
+
+/* background-color: #eee; */
+
+/* } */
+
+#virtualclassCont.congrea #downloadProgressBar {
+  background-color: #868383;
+  width: 0%;
+  height: 7px;
+  cursor: pointer;
+}
+
+#virtualclassCont.congrea #playProgressBar.progressBar {
+  height: 7px;
+  z-index: 1115;
+  position: relative;
+  top: -7px;
+}
+
+#virtualclassCont.congrea #playProgressBar .circle {
+  margin-left: calc(100% - 8px);
+  width: 13px;
+  height: 13px;
+  border-radius: 35px;
+  background: #56b349;
+  position: relative;
+  top: -3px;
+  pointer-events: none;
+  z-index: 1117;
+}
+
+#virtualclassCont.congrea.playMode .ui-memblist-usr {
+  pointer-events: none;
+}
+
+#virtualclassCont.congrea #player {
+  margin-top: 20px;
+}
+
+#virtualclassCont.congrea {
+  width: 100%;
+  overflow-y: hidden;
+}
+
+#virtualclassCont.congrea .other-client::before {
+  content: attr(data-clientname);
+  background: #137c01;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  position: absolute;
+  left: -6px;
+  top: 15px;
+  color: #fff;
+}
+
+/* New Css */
+#virtualclassCont.congrea #playControllerWrapper {
+  background: #f7f7f8; /* Old browsers */
+  background: -moz-linear-gradient(top, #f7f7f8 0%, #eeeef0 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7f7f8), color-stop(100%, #eeeef0)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #f7f7f8 0%, #eeeef0 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #f7f7f8 0%, #eeeef0 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #f7f7f8 0%, #eeeef0 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #f7f7f8 0%, #eeeef0 100%); /* W3C */
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#f7f7f8', endColorstr='#eeeef0', GradientType=0); /* IE6-9 */
+}
+
+#virtualclassCont.congrea #preCheckProgress .progressBar {
+  height: 0;
+  width: 100%;
+}
+
+#virtualclassCont.congrea #playControllerWrapper #playProgress,
+#virtualclassCont.congrea #virtualclassAppLeftPanel #playController #playProgress .progressBar {
+  height: 5px !important;
+}
+
+#virtualclassCont.congrea a.vceditor-btn {
+  border-bottom-width: 1px !important;
+}
+
+#virtualclassCont.congrea .vceditor-btn-group > .vceditor-btn:last-child,
+.vceditor-btn-group > .vceditor-btn:first-child {
+  border-radius: 3px !important;
+}
+
+#virtualclassCont.congrea #virtualclassApp .playControllerMainCont {
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  height: 2.75rem;
+}
+
+#virtualclassCont.congrea #playController #repTimeCont {
+  margin-right: 0;
+  float: left;
+  color: #fff;
+  font-size: 0.875rem;
+  margin-top: 0.9375rem;
+  margin-left: 1.25rem;
+}
+
+#virtualclassCont.congrea #playController #recPlayCont #recPlay,
+#virtualclassCont.congrea #playController #recPauseCont #recPause,
+#virtualclassCont.congrea #playController #ff2Cont #ff2,
+#virtualclassCont.congrea #playController #ff8Cont #ff8,
+#virtualclassCont.congrea #playController #replayFromStart .icon-Replayfromstart {
+  background-color: transparent;
+  border: medium none;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 0;
+}
+
+#virtualclassCont.congrea #playController #recPlayCont #recPlay.congtooltip:hover::after,
+#virtualclassCont.congrea #playController #recPauseCont #recPause.congtooltip:hover::after {
+  bottom: 53px !important;
+  right: 10px !important;
+  padding: 0.4em 0.8em;
+  letter-spacing: 1px;
+}
+
+#virtualclassCont.congrea #playController #replayFromStart .congtooltip:hover::after {
+  bottom: -1.9em !important;
+  right: -0.6em !important;
+  padding: 0.3em 0.4em;
+}
+
+#virtualclassCont.congrea #playController #replayFromStart .congtooltip:hover {
+  background-color: transparent !important;
+  border-radius: inherit !important;
+}
+
+#replayContainer #replayClose {
+  position: absolute;
+  top: -5px;
+  right: -12px;
+}
+
+#replayContainer #replayClose {
+  opacity: 1 !important;
+}
+
+#virtualclassCont.congrea .rv-vanilla-modal-body #recordFinishedMessageBox #recordingClose {
+  top: 10px;
+  right: 10px;
+  position: absolute;
+}
+
+#virtualclassCont.congrea #confirm.popupWindow #confirmOk #confirmOkButton,
+#virtualclassCont.congrea #confirm.popupWindow #confirmCancel #confirmCancelButton {
+  font-size: 12px;
+}
+
+#virtualclassCont.congrea .vceditor-toolbar-wrapper div:nth-child(3) {
+  margin-right: 8px;
+  padding-right: 14px;
+  border-right: #ccc 1px solid;
+}
+
+/* Image picker css */
+
+#virtualclassCont.congrea .vceditor-dialog-div {
+  border-radius: 5px;
+  border: #ccc 1px solid;
+}
+
+#virtualclassCont.congrea #recordingClose {
+  margin-left: 3%;
+  cursor: pointer;
+  float: left;
+}
+
+#virtualclassCont.congrea #progressContainer,
+#virtualclassCont.congrea.pt_enable #alwaysPress,
+#virtualclassCont.congrea #preCheckcontainer .browser,
+#virtualclassCont.congrea #usertab_text.congtooltip {
+  display: block;
+}
+
+#virtualclassCont.congrea #replayContainer {
+  width: 18.75rem;
+  background: #fff;
+}
+
+#virtualclassCont.congrea #popupContainer .close {
+  cursor: pointer;
+}
+
+#virtualclassCont.congrea #recordFinishedMessage {
+  font-weight: bold;
+  float: left;
+}
+
+#virtualclassCont.congrea #recordFinishedMessageBox,
+#virtualclassCont.congrea .playMode #recordPlay #askPlay,
+#virtualclassCont.congrea .recordingFinished #recordingHeaderContainer,
+#virtualclassCont.congrea .rv-vanilla-modal-header.group.removeHeader,
+#virtualclassCont.congrea.pt_disable #alwaysPress,
+#virtualclassCont.congrea #popupContainer,
+#virtualclassCont.congrea #preCheckcontainer .precheck,
+#virtualclassCont.congrea #preCheckcontainer,
+#virtualclassCont.congrea #webcamTempVideo.novideo,
+#virtualclassCont.congrea #stickybar.minimize .inner_bt,
+#virtualclassCont.congrea #videoHost,
+#virtualclassCont.congrea #videoHostSlice,
+#virtualclassCont.congrea.student #informationCont,
+  /*#virtualclassCont.congrea #tempVideo ,*/
+#virtualclassCont.congrea #virtualclasswholescreenShareLocalTempVideo,
+#virtualclassCont.congrea #mainContainer,
+#virtualclassCont.congrea #virtualclassVideo .controlCont.removeCtr {
+  display: none;
+}
+
+#virtualclassCont.congrea #confirm.popupWindow.simple-box {
+  max-width: 450px;
+  background-color: #fff;
+  text-align: center;
+}
+
+#virtualclassCont.congrea #confirmCancelButton {
+  padding: 8px 22px;
+}
+
+#virtualclassCont.congrea #popupContainer #about-modal {
+  border: #e2e2e2 solid 3px;
+}
+
+#virtualclassCont.congrea #popupContainer #about-modal #confirm #confirmMessage,
+#virtualclassCont.congrea #popupContainer #about-modal #infoMessage #infoMessageMsg {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+
+#virtualclassCont.congrea #popupContainer #about-modal #infoMessage #infoMessageOk {
+  display: block;
+  text-align: center;
+  margin: 12px auto -5px;
+  padding: 4px 17px 7px 17px;
+  width: fit-content;
+  width: -moz-fit-content;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+#virtualclassCont.congrea #popupContainer,
+#virtualclassCont.congrea #confirm.popupWindow.simple-box {
+  /* padding: 30px; */
+}
+
+#virtualclassCont.congrea #popupContainer {
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0%;
+
+  /* z-index:100001; */
+  width: 100%;
+}
+
+#virtualclassCont.congrea #confirm.popupWindow #confirmOk,
+#virtualclassCont.congrea #confirm.popupWindow #confirmCancel {
+  display: inline-block;
+  position: relative;
+  left: 5px;
+}
+
+#virtualclassCont.congrea #confirmCancelButton::after {
+  clear: both;
+}
+
+#virtualclassCont.congrea div.playControllerMainCont {
+  background: linear-gradient(to bottom, #112126 0%, #34404c 100%) !important;
+}
+
+#virtualclassCont.congrea #playController,
+#virtualclassCont.congrea #replayFromStart {
+  float: left;
+}
+
+#virtualclassCont.congrea #playControllerCont #replayFromStart .icon-Replayfromstart {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+#virtualclassCont.congrea #recordingContainer.popupWindow .rv-vanilla-modal-body .MessageBoxFinished,
+#virtualclassCont.congrea #recordingContainer .rv-vanilla-modal-body,
+#virtualclassCont.congrea #chromeExtMiss {
+  color: #6a8a13;
+  background-color: #fff;
+  border: #ddd 1px solid;
+  margin-top: 10px;
+  border-radius: 5px;
+  clear: both;
+  padding: 1.25rem;
+}
+
+#sessionEndMsgCont {
+  border: none;
+}
+
+#virtualclassCont.congrea #chromeExtMiss {
+  margin-top: 0;
+}
+
+#virtualclassCont.congrea #recordingContainer .rv-vanilla-modal-body {
+  margin: 10px;
+}
+
+#virtualclassCont.congrea #recordingContainer.popupWindow .rv-vanilla-modal-body .MessageBoxFinished::after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+#virtualclassCont.congrea #playControllerCont #replayFromStart .icon-Replayfromstart {
+  border: none;
+  font-size: 13px;
+  padding: 14px 24.5px;
+  border-right: 1px solid black !important;
+  border: #ddd 1px solid;
+  z-index: 0;
+}
+
+#virtualclassCont.congrea #popupContainer #replayContainer.popupWindow {
+  padding: 0.9375rem;
+  text-align: center;
+}
+
+#virtualclassCont.congrea.playMode #popupContainer #replayContainer.popupWindow #replayButton {
+  cursor: pointer;
+}
+
+#virtualclassCont.congrea #popupContainer #replayContainer.popupWindow #replayMessage,
+#virtualclassCont.congrea #recordPlay .rv-vanilla-modal-body #askPlay #playButton,
+#virtualclassCont.congrea #popupContainer #replayContainer.popupWindow {
+  font-size: 0.875rem;
+}
+
+/* player box congtooltip */
+
+#virtualclassCont.congrea .rv-vanilla-modal-body #progressContainer #totProgressCont #progress,
+#virtualclassCont.congrea .rv-vanilla-modal-body #progressContainer #indvProgressCont #indProgress {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#virtualclassCont.congrea #recordPlay .rv-vanilla-modal-body #askPlay #playButton::before {
+  position: relative;
+  color: #93b42f;
+}
+
+#virtualclassCont.congrea #playController .controlActive {
+  /*	pointer-events:  none; */
+
+  /*    background-image: radial-gradient(ellipse at center, #000000 0%,#000 100%) !important; */
+}
+
+#virtualclassCont.congrea.playMode #playController #replayFromStart.controlActive {
+  box-shadow: none;
+}
+
+#virtualclassCont.congrea #virtualclassCont.congrea.orginalTeacher #vcanvas {
+  border: #ccc solid 1px;
+}
+
+#virtualclassCont.congrea.playMode .ui-memblist-usr a {
+  pointer-events: none;
+}
+
+/* Chat box css */
+
+#virtualclassCont.congrea .ui-memblist-usr.mySelf.student[data-role="s"] {
+  background-color: #e8e8e8;
+  border-top: #8f8f8f 1px solid;
+}
+
+#virtualclassCont.congrea .ui-memblist-usr[data-role="e"],
+#virtualclassCont.congrea .ui-memblist-usr[data-role="t"] {
+  background-color: #f8f7dc;
+  border-bottom: 1px solid #8f8f8f;
+  border-top: 1px solid #ddda86;
+}
+
+#virtualclassCont.congrea .ui-memblist-usr.student,
+#virtualclassCont.congrea .ui-memblist-usr.mySelf.teacher[data-role="p"],
+#virtualclassCont.congrea .ui-memblist-usr.mySelf.student[data-role="s"] {
+  /*	border-bottom:#ddd 1px solid; */
+}
+
+#virtualclassCont.congrea .ui-memblist-usr[data-role="p"] {
+  background-color: #f3fbe8;
+  border-top: #b7d094 1px solid;
+  border-bottom: #eee 1px solid;
+}
+
+#virtualclassCont.congrea .ui-memblist-usr[data-role="p"] .icon-assignImg.block::before {
+  color: #94b532;
+}
+
+#virtualclassCont.congrea #sessionEndMsgCont.popupWindow {
+  color: #525252;
+  font-size: 0.875rem;
+  padding-bottom: 0.5rem;
+  padding-top: 2.25rem;
+}
+
+#virtualclassCont.congrea #sessionEndMsgCont .endHeader {
+  width: 100%;
+  border-radius: 12px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  position: absolute;
+  padding-right: 6px;
+  top: -2px;
+  left: -3px;
+}
+
+#virtualclassCont.congrea #sessionEndMsgCont .endHeader h3 {
+  font-size: 16px;
+  color: #fff;
+  font-family: inherit;
+  padding: 8px 17px;
+  letter-spacing: 1px;
+
+  /* font-weight: 600; */
+  margin: 0;
+}
+
+#virtualclassCont.congrea #chromeExtClose.icon-close {
+  top: 9px;
+  right: 10px;
+  position: absolute;
+  cursor: pointer;
+}
+
+#virtualclassCont.congrea #sessionEndMsgCont #sessionEndClose.icon-close {
+  top: 7px;
+  right: 14px;
+  position: absolute;
+  cursor: pointer;
+}
+
+#virtualclassCont.congrea #chromeExtClose.icon-close {
+  right: 2px;
+  top: 5px;
+}
+
+#virtualclassCont.congrea .ui-memblist-usr {
+  margin-top: -1px;
+}
+
+/* #virtualclassCont.congrea div.ui-memblist-usr video, #virtualclassCont.congrea div.ui-memblist-usr .userVideos { */
+
+/* margin-top: 5px; */
+
+/* margin-bottom: 5px; */
+
+/* margin-right: 5px; */
+
+/* } */
+
+#virtualclassCont.congrea .userImg.ui-memblist-usr.mySelf.student a img {
+  background-color: #f2f2f2;
+
+  /* border: #8f8f8f 1px solid; */
+}
+
+#virtualclassOptionsCont .appOptions a.congtooltip:hover::after {
+  bottom: 2px !important;
+}
+
+#virtualclassCont.congrea.playMode.student .writeModeBox {
+  top: -60px;
+}
+
+#virtualclassCont.congrea #messageLayout,
+#virtualclassCont.congrea #pptMessageLayout {
+  background-color: #f9f9f9;
+  border: 1px solid #c8ddb8;
+  border-radius: 5px;
+  color: #3a773c;
+  margin: 0 auto;
+  padding: 30px 20px;
+  position: absolute;
+  top: 50%;
+  width: 26%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  text-align: center;
+  box-shadow: 0 0 8px #ddd;
+}
+
+#virtualclassCont.congrea #docMsgStudent {
+  background-color: #f9f9f9;
+  border: 1px solid #c8ddb8;
+  border-radius: 5px;
+  color: #3a773c;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px 20px;
+  width: fit-content;
+  text-align: center;
+  box-shadow: 0 0 8px #ddd;
+}
+
+#virtualclassCont.congrea [placeholder="I want youTube video URL."],
+#virtualclassCont.congrea [placeholder="Insert image url"] {
+  font-weight: lighter;
+  font-style: normal;
+  font-family: sans-serif;
+  font-size: 18px !important;
+  color: #535151;
+  font-weight: lighter !important;
+}
+
+#virtualclassContuserImg.ui-memblist-usr {
+  left: 5px;
+  top: 2px;
+}
+
+#virtualclassCont.congrea.teacher.orginalTeacher .ui-memblist-usr.student[data-role="s"] a[data-title="Click to chat"] span {
+  left: 4px !important;
+}
+
+#downloadFileCont #downloadButton:hover {
+  background-color: #a6c24e;
+}
+
+#downloadFileCont #downloadButton {
+  margin-top: 10px;
+  padding: 10px 16px;
+  border-radius: 17px;
+  cursor: pointer;
+}
+
+#downloadFileCont #errormsessage {
+  font-weight: 400;
+  font-size: 15px;
+  color: #555;
+}
+
+#downloadFileCont {
+  padding: 10px 20px 25px 20px;
+  text-align: center;
+}
+
+#virtualclassCont.congrea .commandToolsWrapper,
+#virtualclassCont.congrea .rv-vanilla-modal-header,
+#recordPlay .rv-vanilla-modal-body #downloadPcCont #downloadSessionText {
+  padding-bottom: 0;
+  padding-left: 0;
+  box-shadow: none;
+  border-radius: 0 0 0 5px;
+}
+
+.canvasCont {
+  clear: both;
+}
+
+#virtualclassCont.congrea.educator .commandToolsWrapper {
+  border: 1px solid #515e69;
+}
+
+#virtualclassCont.congrea #virtualclassAppLeftPanel #containerWb .commandToolsWrapper .tool a {
+  padding: 18px 18px 16px;
+}
+
+#virtualclassCont.congrea #errorContainer,
+#virtualclassCont.congrea #errorContainer {
+  background-color: #f0f0f0;
+  box-shadow: #ddd 0 0 5px;
+  border: #ddd 1px solid;
+  padding: 22px;
+  border-radius: 5px;
+  text-align: center;
+  z-index: 1103;
+  width: fit-content;
+  width: -moz-fit-content;
+  line-height: 1.5em;
+  color: rgba(131, 14, 14, 0.93);
+}
+
+#virtualclassCont.congrea #confirm.popupWindow #confirmOk #confirmOkButton,
+#virtualclassCont.congrea #confirmCancelButton,
+#virtualclassCont.congrea #popupContainer #replayContainer #replayButton,
+#downloadFileCont #downloadButton {
+  padding: 8px 25px;
+  border: none;
+  border-radius: 50px;
+  border: #ddd 1px solid;
+  margin-right: 10px;
+}
+
+#virtualclassCont.congrea.student.presenter #speakerPressing {
+  padding-left: 11px;
+  padding-right: 11px;
+  width: 33px;
+}
+
+@-moz-document url-prefix() {
+  #virtualclassCont.congrea .CodeMirror span span {
+    padding-right: 0.1px;
+  }
+}
+
+#waitMsgCont.popupWindow {
+  padding: 30px 20px;
+}
+
+#waitMsgCont.popupWindow span {
+  margin-left: 0;
+}
+
+/* gray color */
+
+.icon-minus::before {
+  content: "\e60f";
+  color: #d5dee7;
+  font-size: 12px;
+}
+
+.ui-chatroom-titlebar.ui-dialog-header.ui-state-highlight .icon-minus::before {
+  color: #333;
+}
+
+.icon-close::before {
+  content: "\f00d";
+  color: #d5dee7;
+  font-size: 15px;
+}
+
+#virtualclassCont.congrea #virtualclassOptionsCont:first-child,
+#virtualclassOptionsCont {
+  background: #34404c; /* Old browsers */
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#34404c', endColorstr='#515e69', GradientType=1); /* IE6-9 */
+}
+
+#virtualclassCont.congrea .commandToolsWrapper,
+#virtualclassCont.congrea .rv-vanilla-modal-header,
+#recordPlay .rv-vanilla-modal-body #downloadPcCont #downloadSessionText,
+#virtualclassCont.congrea .commandToolsWrapper .tool.active a,
+#virtualclassCont.congrea .commandToolsWrapper .tool.active a:hover {
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#515e69', endColorstr='#34404c', GradientType=1); /* IE6-9 */
+}
+
+#virtualclassCont.congrea #containerWb .commandToolsWrapper .tool a {
+  border-right: 1px solid #5d6b76;
+  color: #c5cfd8;
+}
+
+#virtualclassCont.congrea #speakerPressing .icon-speakerPressing::before,
+#virtualclassCont.congrea #virtualclassOptionsCont .appOptions a span::before {
+  color: #fff;
+}
+
+#virtualclassCont.congrea .ui-dialog-header.ui-state-highlight span:first-child {
+  color: #333;
+}
+
+#virtualclassCont.congrea #virtualclassOptionsCont .appOptions {
+  /* border: 1px solid #5d6b76; */
+}
+
+#virtualclassCont.congrea #containerWb .commandToolsWrapper .tool.active a {
+  background: #28323c; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #323e49 0%, #28323c 100%); /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0, center center, 100%, color-stop(0%, #323e49), color-stop(100%, #28323c)); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #323e49 0%, #28323c 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, #323e49 0%, #28323c 100%); /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, #323e49 0%, #28323c 100%); /* IE10+ */
+  background: radial-gradient(ellipse at center, #323e49 0%, #28323c 100%); /* W3C */
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#323e49', endColorstr='#28323c', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+}
+
+#virtualclassCont.congrea #containerWb .commandToolsWrapper .tool.active a {
+  color: #fff;
+  text-shadow: #fff 0 0 11px;
+}
+
+#virtualclassCont.congrea #virtualclassOptionsCont #virtualclassSessionEndTool:hover,
+#virtualclassCont.congrea #virtualclassOptionsCont #virtualclassEditorRichTool:hover,
+#virtualclassEditorCodeTool:hover,
+#virtualclassWhiteboardTool:hover,
+#virtualclassCont.congrea #containerWb .commandToolsWrapper .tool a:hover,
+#virtualclassCont.congrea #audioTest-box:hover,
+#virtualclassCont.congrea #audioWidget #speakerPressOnce:hover,
+#virtualclassCont.congrea #virtualclassOptionsCont .appOptions a:hover span::before,
+#virtualclassCont.congrea #virtualclassOptionsCont .appOptions.active a span::before,
+#virtualclassCont.congrea #alwaysPress:hover,
+#virtualclassCont.congrea #recordPlay .rv-vanilla-modal-body #askPlay #playButton::before,
+#virtualclassCont.congrea .ui-widget-header .icon-user::before {
+  color: #fff;
+}
+
+/* #virtualclassCont.congrea .containerWb .commandToolsWrapper .tool:first-child a:hover, #virtualclassCont.congrea .containerWb .commandToolsWrapper .tool.active:first-child a { */
+
+/* border-bottom-left-radius: 6px; */
+
+/* } */
+
+#virtualclassCont.congrea #popupContainer #about-modal {
+  border: #e2e2e2 solid 3px;
+}
+
+#virtualclassCont.congrea #popupContainer #about-modal #confirm #confirmMessage {
+  color: #666;
+}
+
+:focus {
+  outline: none;
+}
+
+#virtualclassCont.congrea .close {
+  text-shadow: none !important;
+}
+
+#virtualclassCont.congrea .pollResultNotify .close {
+  position: relative;
+  top: -2px;
+
+  /* font-size: 14px !important; */
+  float: right;
+  right: -21px;
+  line-height: 20px;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  opacity: 0.2;
+}
+
+#virtualclassCont.congrea .close:hover {
+  color: #fff !important;
+}
+
+#virtualclassCont.congrea #congdashboard .close {
+  margin: -3px 5px;
+  display: inline-block;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 5px;
+  font-size: 13px;
+  border-radius: 4px;
+  font-weight: normal;
+  letter-spacing: 1.3px;
+}
+
+#virtualclassCont.congrea #congdashboard #docsUploadMsz .close,
+#virtualclassCont.congrea #congdashboard #VideoDashboard .close {
+  margin-top: -2px;
+}
+
+#virtualclassCont.congrea #congdashboard #docsUploadMsz .close:hover {
+  background-color: #2f6f2794;
+  border-color: green;
+}
+
+#virtualclassCont.congrea #beTeacher {
+  background: #7bb876 none repeat scroll 0 0;
+  border-radius: 4px;
+  box-shadow: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 13px;
+  padding: 10px 25px;
+  position: absolute;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: #70ab6b 1px solid;
+  display: none;
+}
+
+#virtualclassCont.congrea #beTeacher:hover {
+  background: #84bd7f;
+  border: #67a462 1px solid;
+}
+
+#virtualclassCont.congrea #beTeacher {
+  z-index: 10;
+}
+
+#virtualclassCont.congrea.student[data-currapp="ScreenShare"] #beTeacher {
+  right: 1%;
+  top: 3%;
+}
+
+#virtualclassCont.congrea.student[data-currapp="Yts"] #beTeacher {
+  right: 1%;
+  top: 4%;
+}
+
+/* Play mode */
+#virtualclassCont.congrea #recordFinishedMessage {
+  color: #6a8a13 !important;
+  text-align: center;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+#virtualclassCont.congrea #popupContainer #recordingContainer .rv-vanilla-modal-body #progressContainer #totProgressCont #totalProgressLabel,
+#virtualclassCont.congrea #popupContainer #recordingContainer .rv-vanilla-modal-body #progressContainer #indvProgressCont #indvProgressLabel {
+  color: #333;
+}
+
+#virtualclassCont.congrea #preCheckcontainer #joinSession {
+  text-align: right;
+  color: blue;
+}
+
+/** flip the teacher video */
+#virtualclassCont.congrea #videoHostSource,
+#virtualclassCont.congrea #webcamTempVideo {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg); /* Safari and Chrome */
+}
+
+#virtualclassCont.congrea #mycanvas {
+  border: 2px solid #ddd;
+}
+
+#virtualclassCont.congrea #fromServer {
+  width: auto;
+}
+
+#virtualclassCont.congrea.student #videoParticipate {
+  padding: 5px;
+  border: 2px solid #ddd;
+}
+
+/* #youtubeUrlContainer */
+#virtualclassCont.congrea #urlcontainer {
+  z-index: 40;
+}
+
+#virtualclassCont.congrea #preCheckcontainer #joinSession {
+  text-align: right;
+  color: blue;
+}
+
+#virtualclassCont.congrea #preCheckcontainer .modal {
+  background-color: #555558;
+}
+
+#virtualclassCont.congrea #vcBandWidthCheck .result {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#virtualclassCont.congrea #vcBandWidthCheck .result img {
+  /* margin-left: 38.5%; */
+  border-radius: 5px;
+}
+
+#virtualclassCont.congrea #virtualclassApp {
+  overflow: hidden;
+  height: calc(100% - 2.75rem);
+}
+
+#virtualclassCont.congrea.playMode #virtualclassApp {
+  height: calc(100% - 3.25rem);
+}
+
+#virtualclassCont.congrea.focusInput #virtualclassApp {
+  height: 100%;
+}
+
+#virtualclassCont.congrea.focusInput #virtualclassAppFooterPanel {
+  display: none;
+}
+
+#virtualclassCont.congrea #virtualclassAppLeftPanel #canvasWrapper {
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  height: 92vh;
+  float: none;
+}
+
+#virtualclassCont.congrea #virtualclassAppLeftPanel #vcanvas {
+  float: none;
+  border-width: 0;
+}
+
+#virtualclassCont.congrea #virtualclassAppLeftPanel {
+  position: relative;
+  float: none;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#virtualclassCont.congrea #virtualclassAppLeftPanel #virtualclassAppOptionsCont {
+  flex-basis: 55px;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel {
+  /* flex: 1 0 auto; */
+  width: 35%;
+  max-width: 320px;
+  min-width: 190px;
+  height: 100%;
+  height: 100%;
+  border-left: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+  position: relative;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel .ui-widget-header.ui-corner-top.ui-memblist-titlebar.ui-dialog-header {
+  border-radius: 0;
+  padding: 7px 0 18px;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel #mainAudioPanel #videSpeedNumber[data-suggestion='high']::before,
+#virtualclassCont.congrea #virtualclassAppRightPanel #videoPacketInfo #videLatency[data-latency='fast']::before,
+#virtualclassCont.congrea #virtualclassAppRightPanel #videoPacketInfo #videoFrameRate[data-quality='high']::before {
+  color: #37da52;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel #mainAudioPanel #videSpeedNumber[data-suggestion='medium']::before,
+#virtualclassCont.congrea #virtualclassAppRightPanel #videoPacketInfo #videoFrameRate[data-quality='medium']::before,
+#virtualclassCont.congrea #virtualclassAppRightPanel #videoPacketInfo #videLatency[data-latency='medium']::before {
+  color: #ef9c55;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel #mainAudioPanel #videSpeedNumber[data-suggestion='low']::before,
+#virtualclassCont.congrea #virtualclassAppRightPanel #videoPacketInfo #videLatency[data-latency='slow']::before,
+#virtualclassCont.congrea #virtualclassAppRightPanel #videoPacketInfo #videoFrameRate[data-quality='low']::before {
+  color: #d02323;
+}
+
+#virtualclassCont .icon-create-new::before,
+#virtualclassCont .icon-back::before,
+#virtualclassCont .icon-plus::before,
+#virtualclassCont .icon-reset::before,
+#virtualclassCont .icon-save::before {
+  font-size: 28px;
+  margin-left: 5px;
+}
+
+#virtualclassCont .icon-publish-cancel::before {
+  content: "\f00d";
+  font-size: 28px;
+  margin-left: 5px;
+}
+
+#virtualclassCont .icon-setting::before {
+  font-size: 28px;
+}
+
+#virtualclassCont.congrea #qnPopupCont .modal {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+#virtualclassCont.congrea #navigator,
+#layoutQuiz .navbar {
+  /* background: rgb(81, 94, 105); Old browsers */
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#515e69', endColorstr='#34404c', GradientType=0); /* IE6-9 */
+  border-radius: 0;
+  -webkit-border-bottom-left-radius: 6px;
+
+  /*	-webkit-border-top-right-radius: 6px; */
+  -moz-border-radius-topleft: 6px;
+  -moz-border-radius-topright: 6px;
+
+  /*	border-top-left-radius: 6px; */
+
+  /*	border-bottom-right-radius: 6px; */
+  margin-bottom: 0;
+}
+
+#virtualclassCont.congrea #layoutPoll #navigator,
+#virtualclassCont.congrea #layoutQuiz .navbar {
+  border-top: none !important;
+  width: 100%;
+  border-bottom-left-radius: 5px;
+  min-height: 2.75rem !important;
+}
+
+#virtualclassCont.congrea.student #layoutPoll #navigator,
+#virtualclassCont.congrea.student #layoutQuiz .navbar {
+  border-top: none !important;
+  width: 100%;
+}
+
+#virtualclassCont.congrea .bootstrap .nav-tabs > li > a {
+  border-radius: 6px 6px 0 0;
+  padding: 6px 12px;
+  border: none !important;
+}
+
+#virtualclassCont.congrea .headerContainer {
+  font-size: 13px;
+  font-weight: bold;
+
+  /* color: #717171; */
+  text-transform: uppercase;
+  margin: 0 auto 20px auto !important;
+}
+
+#virtualclassCont.congrea .bootstrap .modal-dialog {
+  width: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 !important;
+}
+
+#virtualclassCont.congrea .modal {
+  width: 100%;
+  background-color: #555558;
+  margin-left: 0;
+  z-index: 99;
+}
+
+#virtualclassCont.congrea #virtualclassPoll #bootstrapCont #editPollModal {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#virtualclassCont.congrea #virtualclassQuiz #bootstrapQzCont #editQuizModal {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#virtualclassCont.congrea #virtualclassPoll #createPollCont #editPollModal {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#virtualclassCont.congrea #editPollModal.modal {
+  z-index: 1104;
+}
+
+#virtualclassCont.congrea #virtualclassApp[data-currapp='DocumentShare'] .modal,
+#virtualclassCont.congrea #virtualclassApp[data-currapp='Video'] .modal,
+#virtualclassCont.congrea #virtualclassApp[data-currapp='SharePresentation'] .modal {
+  width: calc(100% - 53px);
+  height: 100%;
+  margin-left: 0;
+  position: absolute;
+
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  border-width: 0;
+  border-radius: 0;
+  margin-left: 53px;
+  background: none;
+}
+
+#virtualclassCont.congrea .modal.fade.in {
+  top: 0;
+}
+
+#virtualclassCont.congrea .modal .modal-content {
+  padding: 15px;
+
+  /*	padding-bottom: 5px;u */
+}
+
+#virtualclassCont.congrea .modal .modal-header {
+  padding: 0;
+}
+
+#page-mod-congrea-classroom #virtualclassCont.student {
+  width: 100% !important;
+}
+
+/* #virtualclassCont.congrea .modal-body {max-height: inherit;} */
+#page-mod-congrea-classroom .close {
+  float: right !important;
+}
+
+/*
+#virtualclassCont.congrea .close:hover,
+#virtualclassCont.congrea .close:active,
+#virtualclassCont.congrea .close:focus{
+	color: #ccc !important;
+	outline: none;
+	background: none;
+}
+*/
+#virtualclassCont.congrea .close:hover,
+#virtualclassCont.congrea .close:active,
+#virtualclassCont.congrea .close:focus {
+  color: #000 !important;
+}
+
+#virtualclassCont.congrea .modal-backdrop {
+  z-index: 0;
+}
+
+#virtualclassCont.congrea .modal-body textarea {
+  margin: 10px 0 !important;
+  min-width: 100% !important;
+  max-width: 100% !important;
+
+  /* min-height: 50px; */
+}
+
+#virtualclassCont.congrea .modal-body #qnTxCont {
+  margin-bottom: 10px;
+}
+
+#virtualclassCont.congrea .inputWrapper {
+  /* background-color: #eee; */
+
+  /* padding: 5px 10px; */
+
+  /* margin-bottom: 10px; */
+}
+
+#virtualclassCont.congrea .modal-body #qnTxCont .inputWrapper {
+  /* background-color: #d2d2d2; */
+}
+
+#virtualclassCont.congrea .modal a.close {
+  position: absolute;
+  top: 13px;
+  right: 5px;
+}
+
+/* #virtualclassCont.congrea .modal label{ */
+
+/* font-weight: normal; */
+
+/* } */
+#virtualclassCont.congrea .modal-header .modalHeaderTx {
+  font-weight: bold;
+  font-size: 16px;
+  color: #3c3c3c;
+}
+
+#virtualclassCont.congrea .bootstrap .btn,
+#virtualclassCont.congrea .inputWrapper {
+  /* -webkit-border-radius: 6px; */
+
+  /* -moz-border-radius: 6px; */
+
+  /* border-radius: 4px; */
+  position: relative;
+}
+
+#virtualclassCont.congrea #newPollBtncourse,
+#virtualclassCont.congrea #newPollBtnsite {
+  margin-bottom: 20px;
+}
+
+#virtualclassCont.congrea .modal-content .modal-footer {
+  margin-top: 0;
+}
+
+#virtualclassCont.congrea .addMoreCont a {
+  color: #333;
+  margin-left: -3px;
+  margin-top: 10px;
+}
+
+#virtualclassCont.congrea .addMoreCont a:hover {
+  /* color: #727272 !important; */
+  text-decoration: none !important;
+}
+
+#virtualclassCont.congrea .appOptions.active a span::before {
+  text-shadow: #fff 0 0 5px;
+}
+
+#virtualclassCont.congrea .modal-backdrop {
+  position: relative !important;
+}
+
+#virtualclassCont.congrea #dispVideo {
+  /* margin:60px; */
+}
+
+#virtualclassCont.congrea.student .vjs-volume-menu-button {
+  visibility: visible !important;
+}
+
+#virtualclassCont.congrea #virtualclassVideo {
+  /* margin:40px 20px!important; */
+  position: relative;
+}
+
+#virtualclassCont.congrea #virtualclassSharePresentation {
+  position: relative;
+}
+
+#virtualclassCont.congrea .upload {
+  margin: 10px;
+}
+
+#virtualclassCont.congrea #videoList {
+  width: auto;
+  max-width: 150px;
+  float: right;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 0 10px;
+  overflow-x: scroll;
+  max-height: 857px;
+}
+
+#virtualclassCont.congrea #videoList #newVideoBtnCont {
+  padding-bottom: 8px;
+  padding-top: 10px;
+  margin: 0 -10px 10px;
+  border-radius: 3px 3px 0 0;
+}
+
+#virtualclassCont.congrea #videoList .linkvideo.links {
+  border: 1px solid #ddd;
+  margin: 3px 0 10px;
+  border-radius: 2px;
+}
+
+#virtualclassCont.congrea #videoList .linkvideo.links .videoTitle {
+  padding: 6px 8px 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 400;
+  max-width: 120px;
+}
+
+#virtualclassCont.congrea #videoList .linkvideo .mainpreview {
+  font-size: 0;
+  border-radius: 2px;
+  float: left;
+  margin: 0 10px;
+}
+
+#virtualclassCont.congrea #videoList .linkvideo .controlCont {
+  width: 100%;
+  padding: 5px;
+  margin: 4px auto 0;
+  border-top: 1px solid #ddd;
+  height: 30px;
+}
+
+#virtualclassCont.congrea #videoList .linkvideo .controlCont div[data-status="1"],
+#virtualclassCont.congrea #videoList .linkvideo .controlCont div[data-status="0"] {
+  float: left;
+  font-size: 0;
+  margin: 0 14px;
+}
+
+#virtualclassCont.congrea #videoList .linkvideo .controls.delete {
+  float: left;
+  font-size: 0;
+}
+
+.vjs-autoPlay-button.vjs-control.on,
+.vjs-autoPlay-button.vjs-control.on:hover {
+  color: #c7c7c7 !important;
+  background-color: #c7c7c7 !important;
+  border: 1px solid #272727;
+  border-radius: 0;
+}
+
+.vjs-autoPlay-button.vjs-control.off,
+.vjs-autoPlay-button.vjs-control.off:hover {
+  color: #c7c7c7 !important;
+  background-color: #c7c7c7 !important;
+  border: 1px solid #272727;
+  border-radius: 0;
+}
+
+/* #dispVideo{ */
+
+/* height:82vh; */
+
+/* width:85%; */
+
+/* } */
+
+#virtualclassCont.congrea #virtualclassOptionsCont #virtualclassWhiteboardTool.appOptions {
+  border-top-right-radius: 8px;
+  margin-bottom: -1px;
+}
+
+#virtualclassCont.congrea #virtualclassOptionsCont #virtualclassPollTool.appOptions,
+#virtualclassCont.congrea #virtualclassOptionsCont #virtualclassQuizTool.appOptions,
+#virtualclassCont.congrea #virtualclassOptionsCont #virtualclassEditorRichTool.appOptions,
+#virtualclassCont.congrea #virtualclassOptionsCont #virtualclassWhiteboardTool.appOptions,
+#virtualclassCont.congrea #virtualclassOptionsCont #virtualclassWhiteboardTool.appOptions,
+#virtualclassCont.congrea #virtualclassOptionsCont #virtualclassScreenShareTool.appOptions,
+#virtualclassCont.congrea #virtualclassOptionsCont #virtualclassEditorCodeTool.appOptions,
+#virtualclassCont.congrea #virtualclassOptionsCont #virtualclassDocumentShareTool.appOptions,
+#virtualclassCont.congrea #virtualclassOptionsCont #virtualclassSharePresentationTool.appOptions,
+#virtualclassCont.congrea #virtualclassOptionsCont .appOptions {
+  margin-bottom: -1px;
+}
+
+/* New CSS */
+
+#virtualclassCont.congrea #virtualclassAppLeftPanel .containerWb .commandToolsWrapper .tool a {
+  padding: 0.5625rem 1.125rem 0.625rem;
+}
+
+#virtualclassCont.congrea .containerWb .commandToolsWrapper .tool a {
+  text-decoration: none;
+  padding: 11px 18px 10px;
+  font-size: 25px;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel #chatWidget {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+#virtualclassCont.congrea #virtualclassVideo .linkvideo.playing {
+  border: solid green 1px;
+}
+
+#virtualclassCont.congrea #virtualclassVideo .mainpreview.playDisable {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+#virtualclassCont.congrea #messageLayoutVideo,
+#virtualclassCont.congrea.student #virtualclassPoll #stdPollMszLayout,
+#virtualclassCont.congrea.student #layoutQuizBody #stdQuizMszLayout {
+  background-color: #f9f9f9;
+  border: 1px solid #c8ddb8;
+  border-radius: 5px;
+  color: #3a773c;
+  padding: 30px 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  text-align: center;
+  box-shadow: 0 0 8px #ddd;
+}
+
+#virtualclassCont.congrea.student #virtualclassVideo.virtualclass .vjs-control-bar .vjs-progress-control,
+#virtualclassCont.congrea.student #virtualclassVideo.virtualclass .vjs-control-bar .vjs-remaining-time,
+#virtualclassCont.congrea.student #virtualclassVideo.virtualclass .vjs-control-bar .vjs-autoPlay-button {
+  display: none;
+}
+
+#virtualclassCont.congrea.student #virtualclassVideo.virtualclass .vjs-control-bar button.vjs-fullscreen-control {
+  position: absolute;
+  right: 0;
+  box-shadow: none;
+}
+
+#virtualclassCont.congrea.student #virtualclassVideo.virtualclass .vjs-tech {
+  pointer-events: none;
+}
+
+#virtualclassCont.congrea.student #virtualclassVideo.virtualclass .vjs-control-bar {
+  pointer-events: visible;
+}
+
+/* #virtualclassCont.congrea .modal .modal-content, #virtualclassCont.congrea #contQzBody { */
+#virtualclassCont.congrea .modal .modal-content {
+  max-height: calc(100vh - 88px);
+}
+
+@media (min-width: 1024px) and (max-width: 1150px) {
+  #virtualclassCont.congrea #virtualclassPoll #editPollModal .modal-dialog .modal-content {
+    max-height: calc(100vh - 20px);
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+
+  #virtualclassCont.congrea #virtualclassPoll #editPollModal .modal-dialog {
+    margin: 10px auto;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1366px) {
+  #virtualclassCont.congrea #virtualclassPoll #editPollModal .modal-dialog .modal-content {
+    max-height: calc(100vh - 20px);
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  #virtualclassCont.congrea #virtualclassPoll #editPollModal .modal-dialog {
+    margin: 10px auto;
+  }
+}
+
+@media (max-width: 1300px) {
+  .qq-gallery .qq-file-info .qq-file-name {
+    position: relative;
+    display: inline-block;
+    text-overflow: ellipsis !important;
+    width: 200px !important;
+  }
+}
+
+#virtualclassCont.congrea .modal-body .qscolor {
+  background-color: #e8f4f5;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#virtualclassCont.congrea .vchead {
+  padding: 0.8125rem 0.5rem 0.8125rem 0.6875rem;
+  font-size: 1.125rem;
+  text-shadow: none;
+  text-align: center;
+}
+
+#virtualclassCont.congrea #layoutQuiz .navbar .vchead {
+  padding: 0.6875rem 0.5rem 0.6875rem 0.6875rem;
+  font-size: 1.125rem;
+  text-shadow: none;
+  text-align: center;
+}
+
+/* congrea quiz end */
+#virtualclassCont.congrea .modal-footer {
+  background-color: transparent;
+}
+
+#virtualclassCont.congrea #stickybar .footerCtr .prechk span.precheck {
+  font-size: 0;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel #precheckTest #precheckSettting::before {
+  content: "precheck";
+  font-family: 'icomoon';
+  font-size: 18px;
+  padding-top: 0;
+  color: green;
+}
+
+#virtualclassCont.congrea #tech_support_save {
+  position: absolute;
+  top: 20px;
+  right: 505px;
+  background: gray;
+  padding: 13px;
+  border-radius: 11px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#virtualclassCont.congrea #congreaSupport.notavailable {
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+#virtualclassCont.congrea #congreaSupport.available {
+  pointer-events: visible;
+  opacity: 1;
+}
+
+.q-area .q-no {
+  position: absolute;
+  background: #c3e5ea;
+  left: 8px;
+  padding: 3px 9px;
+  border-radius: 3px;
+}
+
+#virtualclassCont.congrea #memlist .congtooltip:hover::after {
+  bottom: -3em;
+  left: -13em;
+  top: -15px;
+  height: 21px;
+  padding: 0;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel #mainAudioPanel #videSpeedNumber {
+  height: 50px;
+
+  /* width: 20%; */
+  border-right: 1px solid rgba(254, 254, 254, 0.2);
+  padding-top: 15px;
+}
+
+#virtualclassCont.congrea.student #virtualclassAppRightPanel #mainAudioPanel #videSpeedNumber {
+  height: 50px;
+  border-right: 1px solid rgba(254, 254, 254, 0.2);
+  padding-top: 15px;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel #mainAudioPanel .prechk,
+#virtualclassCont.congrea #virtualclassAppRightPanel #mainAudioPanel #vedioPacket {
+  border-left: 1px solid rgba(254, 254, 254, 0.2) !important;
+}
+
+#virtualclassCont.congrea.student #virtualclassAppRightPanel #mainAudioPanel .prechk,
+#virtualclassCont.congrea.student #virtualclassAppRightPanel #mainAudioPanel #vedioPacket {
+  height: 50px;
+
+  /* width: 25%; */
+
+  /*	border-left:1px solid rgba(254, 254, 254, 0.2)!important; */
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel #mainAudioPanel #ntkstatus {
+  padding-top: 5px;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+/* #virtualclassCont.congrea #chat_div .usern.media-heading { */
+
+/* margin-bottom :0; */
+
+/* } */
+
+#virtualclassCont.congrea input#congreaUserSearch::-webkit-input-placeholder,
+#virtualclassCont.congrea input#ta_chrm2::-webkit-input-placeholder {
+  text-align: center;
+  opacity: 0.9;
+  letter-spacing: 0.02em;
+  font-size: 15px;
+}
+
+@media (min-width: 368px) {
+  #virtualclassCont.congrea #virtualclassAppFooterPanel #audioWidget #mainAudioPanel {
+    float: none !important;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+/* } */
+#virtualclassCont.congrea #VideoDashboard #congreaShareVideoUrlCont #uploadBtnCont,
+#virtualclassCont.congrea #VideoDashboard #congreaShareVideoUrlCont #videoUrlContainer {
+  padding: 0;
+}
+
+/** For handling the overlap of audio and video in firefox **/
+#virtualclassCont.congrea #audioWidget {
+  border-bottom: 1px solid #ccc;
+}
+
+/* By Vishram */
+
+#virtualclassCont.congrea #audioWidget {
+  border-bottom: 0 solid #ccc;
+}
+
+#virtualclassCont.congrea #videoHostSource {
+  margin-top: 0;
+  width: 100%;
+}
+
+#virtualclassCont.congrea #VideoDashboard #congreaShareVideoUrlCont #uploadBtnCont {
+  width: 200px;
+  float: left;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#virtualclassCont.congrea #VideoDashboard #congreaShareVideoUrlCont #videoUrlContainer {
+  width: calc(100% - 200px);
+  float: right;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#virtualclassCont.congrea #VideoDashboard #congreaShareVideoUrlCont #videoUrlContainer #videourl {
+  width: calc(100% - 10px);
+  border-left: 1px solid #dcd6d6 !important;
+  border-top: 1px solid #dcd6d6 !important;
+  border-bottom: 1px solid #dcd6d6 !important;
+  border-radius: 4px 0 4px 0;
+  border-width: 0;
+}
+
+#virtualclassCont.congrea .modal-header h4 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 1rem;
+  line-height: unset;
+}
+
+#virtualclassCont.congrea #audioWidget .nav > li#speakerPressOnce > a {
+  padding: 0.4375rem 0.5rem 0.25rem 0.4375rem;
+
+  /* padding: 0.5rem 0.5rem 0.5rem 0.4375rem; */
+}
+
+#virtualclassCont.congrea #audioWidget .nav > li.videoSwitchCont > a {
+  padding: 0.4375rem 0.5rem 0.25rem 0.4375rem;
+
+  /* padding: 0.4375rem; */
+
+  /* line-height: 1.25rem; */
+}
+
+#virtualclassCont.congrea li#appSettingCtrl > a {
+  padding: 11px 12px 11px 14px;
+  display: block;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel .active #speakerPressingbtn {
+  width: 30px;
+  height: 24px;
+  background: #019b1b;
+  border-radius: 3px 0 0 3px;
+  float: left;
+  padding: 1px 6px;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel .deactive #speakerPressingbtn {
+  width: 30px;
+  height: 24px;
+  background: #ca0101;
+  border-radius: 3px 0 0 3px;
+  float: left;
+  padding: 2px 5px 0 5px;
+}
+
+#dashboardnav .btn-primary {
+  background: linear-gradient(to bottom, #51a0ef 0%, #51a0ef 100%) !important;
+}
+
+#dashboardnav i.dashboard-icon {
+  font-style: normal;
+}
+
+@media (min-width: 768px) {
+  #preCheckcontainer .modal-body {
+    /*		max-height:513px; */
+  }
+}
+
+@media (min-width: 368px) {
+  #preCheckcontainer .modal-content {
+    max-height: 555px !important;
+  }
+}
+
+#virtualclassCont.congrea .appOptions.active {
+  /* pointer-events : none; */
+}
+
+#virtualclassCont.congrea.student #speakerPressonceLabel {
+  margin-left: 8px;
+}
+
+#virtualclassCont.congrea.student #videLatency {
+  margin-left: 5px;
+}
+
+#virtualclassCont.congrea.student.meetingmode #videLatency {
+  margin-left: 24px;
+}
+
+#virtualclassCont.congrea.student #videoPacketInfo:hover {
+  height: 50px;
+}
+
+#virtualclassCont.congrea #dashboardnav {
+  position: absolute;
+}
+
+@media (min-height: 768px) {
+  #dashboardnav {
+    top: 670px !important;
+    left: -4px;
+    height: 45px;
+    border: 0;
+  }
+}
+
+#virtualclassCont.congrea #recordingContainer {
+  width: 469px;
+}
+
+#virtualclassCont.congrea #audioWidget #mainAudioPanel li {
+  text-align: center !important;
+  display: inline-block;
+  width: 2.125rem;
+  border: 0.125rem solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  height: 2.125rem;
+  overflow: hidden;
+
+  /* background-image: linear-gradient(to bottom, #ffffff 0%,#e6e6e6 100%) !important; */
+}
+
+#virtualclassCont.congrea #audioWidget #mainAudioPanel li#speakerPressOnce {
+  margin: 0.4375rem 0.625rem 0.4375rem 0.9375rem;
+}
+
+#virtualclassCont.congrea #audioWidget #mainAudioPanel li.videoSwitchCont {
+  margin: 0.4375rem 0.8125rem 0.4375rem 0.75rem;
+}
+
+#virtualclassCont.congrea li#appSettingCtrl,
+#virtualclassCont.congrea li#virtualclassnote {
+  width: 25%;
+  text-align: center !important;
+  cursor: pointer;
+}
+
+#virtualclassCont.congrea.playMode li#appSettingCtrl {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+#virtualclassCont.congrea.student li#appSettingCtrl {
+  width: 25%;
+}
+
+#virtualclassCont.congrea.student #virtualclassAppRightPanel #mainAudioPanel li {
+  width: 33.3%;
+}
+
+#virtualclassCont.congrea.meetingmode #audioWidget #mainAudioPanel li {
+  width: 20%;
+}
+
+#virtualclassCont.congrea #closeMsg {
+  background: #717070;
+  padding: 5px;
+  border-radius: 20px;
+  color: #fff;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-family: sans-serif;
+  cursor: pointer;
+  float: right;
+}
+
+#virtualclassCont.congrea #errorContainer #closeMsg {
+  padding: 0 4px;
+}
+
+#virtualclassCont.congrea #popupContainer .popupWindow.urlValidation {
+  width: 248px;
+
+  /*	height: 60px; */
+  text-align: center;
+
+  /* margin-top: 13px; */
+  padding: 18px;
+  margin: 6px;
+
+  /* margin-bottom: -28px; */
+  color: #721c24;
+  border: 1px solid #ce1313;
+  border-radius: 5px;
+  background-color: #f8d7da;
+  border-color: #a01120;
+}
+
+#virtualclassCont.congrea #popupContainer .urlValidation .urlMszClose {
+  top: -10px;
+  right: -10px;
+  position: absolute;
+  cursor: pointer;
+
+  /* color: black; */
+}
+
+#virtualclassCont.congrea #popupContainer .urlValidation #endSessionMsg {
+  line-height: 57px;
+}
+
+#virtualclassCont.congrea #virtualclassSessionEndTool.congtooltip {
+  z-index: 1100;
+}
+
+#virtualclassCont.congrea #VideoDashboard #congreaShareVideoUrlCont #uploadBtnCont #uploadVideo:hover,
+#virtualclassCont.congrea #videoUrlContainer .btn-default:hover,
+#virtualclassCont.congrea #newDocBtn.btn-default:hover,
+#virtualclassCont.congrea #urlcontainer #submitpurl.btn-default:hover {
+  opacity: 0.8;
+}
+
+#virtualclassCont.congrea #generalMessage {
+  display: block;
+  width: 300px;
+  height: 45px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+#virtualclassCont.congrea #popupContainer #generalMessageClose::before {
+  content: "X";
+  color: #965757;
+  font-size: 16px;
+  position: relative;
+  top: -52px;
+  right: -191px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#virtualclassCont.congrea #zoomControler {
+  position: absolute;
+  top: 0;
+  right: 338px;
+  padding: 6px;
+  display: none;
+}
+
+#virtualclassCont.congrea #zoomControler button {
+  margin: 5px;
+}
+
+#virtualclassCont.congrea .scrollX {
+  overflow: scroll;
+}
+
+#virtualclassCont.congrea .canvasWrapper.cscrollX {
+  overflow-x: scroll;
+}
+
+#virtualclassCont.congrea .canvasWrapper.cscrollY {
+  overflow-y: scroll;
+}
+
+#virtualclassCont.congrea .canvasWrapper .scrollDivY {
+  width: 5px;
+  border: 2px solid red;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#virtualclassCont.congrea .canvasWrapper .scrollDivX {
+  height: 5px;
+  border: 2px solid red;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  bottom: 60px;
+}
+
+#virtualclassCont.congrea .canvasWrapper {
+  position: relative;
+}
+
+#virtualclassCont.congrea .canvasWrapper .mousepointer {
+  width: 5px;
+  height: 10px;
+  background-color: green;
+  position: absolute;
+}
+
+#virtualclassCont.congrea .zoomControler {
+  position: absolute;
+  bottom: 65px;
+  z-index: 11;
+  right: 27px;
+}
+
+#virtualclassCont.congrea.playMode.student .zoomControler {
+  /* right:370px; */
+}
+
+#virtualclassCont.congrea #virtualclassWhiteboard .whiteboardContainer .canvasContainer {
+  display: none;
+}
+
+#virtualclassCont.congrea #virtualclassWhiteboard .whiteboardContainer .canvasContainer.current {
+  display: block;
+}
+
+#virtualclassCont.congrea.student #virtualclassScreenShareLocalVideoNew {
+  position: absolute;
+  top: -1333px;
+  left: -13333px;
+}
+
+#virtualclassCont.congrea.student #virtualclassScreenShare {
+  margin-top: 0;
+}
+
+#virtualclassCont.congrea #virtualclassWhiteboard.whiteboard .nvgt {
+  display: none;
+}
+
+#virtualclassCont.congrea[data-currapp='Whiteboard'] #virtualclassWhiteboard.whiteboard .nvgt {
+  display: block;
+  text-align: center;
+}
+
+#virtualclassCont.congrea #tech_support_save {
+  display: none;
+}
+
+#virtualclassCont.congrea .zoomControler {
+  display: none;
+}
+
+#virtualclassCont.congrea[data-currapp='Whiteboard'] .zoomControler,
+#virtualclassCont.congrea[data-currapp='DocumentShare'] .zoomControler {
+  display: block;
+  background-image: none !important;
+}
+
+#virtualclassCont.congrea.playMode #virtualclassSharePresentation {
+  padding-top: 0;
+}
+
+#virtualclassCont.congrea.playMode #virtualclassEditorRich,
+#virtualclassCont.congrea.playMode #virtualclassEditorCode {
+  height: 93vh;
+}
+
+#virtualclassCont.congrea.playMode #virtualclassVideo {
+  margin-top: 0;
+}
+
+#virtualclassCont.congrea.playMode #virtualclassAppRightPanel {
+  height: 100%;
+}
+
+#virtualclassCont.congrea #playControllerCont {
+  display: block;
+}
+
+/* #virtualclassCont.congrea.playMode #virtualclassApp {
+  height: 100vh;
+} */
+
+#virtualclassCont.congrea .zoomControler div {
+  /* font-size: 1.375rem; */
+  padding: 0.5rem 0.625rem;
+  margin-top: 0.625rem;
+  border: 0.5px solid #e6e6e673;
+  background-color: #f7f7f7;
+  box-shadow: 0 3px 3px -3px #585858;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#virtualclassCont.congrea .zoomControler div:hover {
+  background-color: #efefef;
+  border: 0.5px solid #e6e6e6;
+}
+
+.zoomControler .zoomctrtool {
+  line-height: 0.9375rem;
+  position: relative;
+  top: 1px;
+}
+
+.zoomControler .zoomctrtool .icon-fitScreen {
+  position: relative;
+  top: 0.0625rem;
+  left: 0.03125rem;
+  line-height: 0.8125rem;
+}
+
+#virtualclassCont.congrea .zoomControler div.reloadNote {
+  padding: 12.5px 18px;
+  border-right: none;
+}
+
+#virtualclassCont.congrea .zoomControler div:nth-child(3) {
+  /* border-right:none; */
+  margin-bottom: 5px;
+}
+
+#virtualclassCont.congrea .ui-memblist-usr .controleCont.roleassign {
+  display: none;
+}
+
+#virtualclassCont.congrea #DocumentShareDashboard.uploading,
+#virtualclassCont.congrea #VideoDashboard.uploading {
+  pointer-events: none;
+}
+
+#virtualclassCont.congrea #stickycontainer .uiMuteAll {
+  width: calc(20% - 3px);
+}
+
+#virtualclassCont.congrea[data-currapp='DocumentShare'] .zoomControler {
+  /* z-index: 1000; */
+}
+
+#virtualclassCont.congrea #layoutQuizBody .table > tr > th,
+#virtualclassCont.congrea #layoutQuizBody .table > tr > td {
+  border-left: 1px solid #ddd;
+}
+
+#virtualclassCont.congrea #virtualclassPoll #layoutPoll .table > thead > tr > th {
+  border-bottom-width: 1px;
+  border-top: 1px;
+}
+
+#virtualclassCont.congrea.teacher .ui-widget-content,
+#virtualclassCont.congrea.student .ui-widget-content {
+  background-color: #fff;
+}
+
+#virtualclassCont.congrea.teacher .ui-widget-content textarea,
+#virtualclassCont.congrea.student .ui-widget-content textarea {
+  margin-left: 3px;
+  resize: none;
+}
+
+#virtualclassCont.congrea.teacher .ui-corner-all.ui-chatbox-icon,
+#virtualclassCont.congrea.student .ui-corner-all.ui-chatbox-icon {
+  max-height: 42px !important;
+}
+
+#virtualclassCont.congrea #listvideo .linkvideo .mainpreview,
+#virtualclassCont.congrea #listppt .linkppt .mainpreview {
+  margin: -3px 2px 3px !important;
+}
+
+#virtualclassCont.congrea #virtualclassPreCheck #myModal {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 10000;
+}
+
+#virtualclassCont.congrea #alleditorRichContainer [data-action="disable"] {
+  /* background: linear-gradient(to bottom, #83c2b2 0%, #6cad9d 100%); */
+
+  /* color:#fff !important; */
+}
+
+/*
+#virtualclassCont.congrea.playMode .zoomControler{
+	display: none;
+}
+*/
+
+#virtualclassCont.congrea #chat_room {
+  padding: 0;
+}
+
+#virtualclassCont.congrea .user-details.media-body.congtooltip {
+  z-index: 1104 !important;
+}
+
+#alleditorCodeContainer [data-action="disable"] {
+  padding: 0 !important;
+  background: linear-gradient(to bottom, #83c2b2 0%, #6cad9d 100%);
+  color: #fff !important;
+}
+
+@media (max-width: 1175px) {
+  #virtualclassCont.congrea #newDocBtn .glyphicon-upload::before {
+    content: "\e027";
+    font-size: 2em;
+  }
+
+  #virtualclassCont.congrea #newDocBtn .uploadBtnTxt {
+    display: none;
+  }
+}
+
+#virtualclassCont.congrea #resultLayoutBody .alert-info {
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #3a87ad;
+  padding: 8px 35px 8px 14px;
+  margin-bottom: 20px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+#virtualclassCont.congrea.student #resultLayoutBody label,
+#virtualclassCont.congrea.student #resultLayoutBody #optnNonVotd span #virtualclassCont.congrea.student #layoutPollBody span {
+  font-size: 14px;
+  color: #3e3434;
+}
+
+#virtualclassCont.congrea.student #resultLayoutBody {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*
+#virtualclassCont.congrea.student #resultLayoutBody #chart svg {
+  width: 100%;
+} */
+
+#virtualclassCont.congrea #resultLayoutBody .alert-error {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+  padding: 8px 35px 8px 14px;
+  margin-bottom: 20px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+#virtualclassCont.congrea #pollModalBody #optsTxCont {
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+  padding-left: 20px;
+}
+
+#virtualclassCont.congrea #editQuizModal.modal {
+  z-index: 1104;
+}
+
+#virtualclassCont.congrea.teacher #resultLayoutBody #nonVotTqn .opt,
+#virtualclassCont.congrea.student #stdPollContainer #stdOptionCont .opt {
+  float: left;
+  margin-top: 3px;
+  margin-right: 5px;
+}
+
+#virtualclassCont.congrea.student #resultLayout #optnNonVotd span {
+  font-size: 13px;
+}
+
+#virtualclassCont.congrea.teacher #editPollModal #qnTxCont {
+  margin-left: 7px;
+}
+
+#virtualclassCont.congrea .vmchat_room_bt.congtooltip {
+  width: 25%;
+}
+
+#virtualclassCont.congrea #layoutQuizBody .table-responsive {
+  overflow-y: auto;
+  height: 100%;
+}
+
+#virtualclassCont.congrea .whiteboardContainer .commandToolsWrapper .tool .congtooltip:hover::after {
+  bottom: -30px !important;
+  left: 0;
+}
+
+#virtualclassCont.congrea #audioWidget .congtooltip:hover::after {
+  position: fixed;
+  bottom: 63px;
+  left: 58px;
+  width: fit-content;
+}
+
+#virtualclassCont.congrea #audioWidget .latency.congtooltip:hover::after {
+  bottom: -43px;
+  left: -72px;
+}
+
+/* #congreaChatCont .ui-memblist-usr  .controllerRaiseH.disabled span{ */
+
+/* color: rgb(61, 74, 85); */
+
+/* } */
+
+/* #congreaChatCont .ui-memblist-usr  .controllerRaiseH.enabled span{ */
+
+/* color:green !important; */
+
+/* opacity:1; */
+
+/* } */
+
+#virtualclassCont.congrea #congAskQuestion.enable {
+  width: 25%;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+#virtualclassCont.congrea #congAskQuestion.disable {
+  width: 25%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/*#virtualclassCont.congrea.playMode #congAskQuestion {*/
+  /*pointer-events: none !important;*/
+  /*opacity: 0.5;*/
+/*}*/
+
+/* #virtualclassCont.congrea .controllerRaiseH .icon-RaiseHandImg:before { */
+
+/* content: "\e962"; */
+
+/* } */
+
+#virtualclassCont.congrea #iconAskQuestion::before {
+  content: "\e9b1";
+  font-size: 1rem;
+  color: #fdfafa;
+}
+
+#virtualclassCont.congrea .handRaise.disable #iconAskQuestion::before {
+  color: #fd2812;
+}
+
+#virtualclassCont.congrea #iconAskQuestion::after {
+  position: absolute !important;
+  bottom: 35px !important;
+}
+
+#virtualclassCont.congrea li#congAskQuestion a.stdAskQuestion, #virtualclassCont.congrea li#virtualclassnote a {
+  font-size: 0.875rem;
+  display: block;
+  padding: 0.7812rem 0.875rem 0.7187rem 0.875rem;
+}
+
+#virtualclassCont.congrea #recordPlay .rv-vanilla-modal-body #downloadPcCont #downloadSessionText {
+  border-bottom: 0 solid rgba(254, 254, 254, 0.2) !important;
+}
+
+#virtualclassCont.congrea .containerWb .commandToolsWrapper .tool a {
+  border-right: 1px solid rgba(254, 254, 254, 0.2) !important;
+  color: #fff;
+}
+
+#virtualclassCont.congrea a.vceditor-btn:active {
+  background-color: #28323c;
+
+  /* border: 1px solid rgba(254, 254, 254, 0.2) !important; */
+  color: #fff;
+}
+
+#virtualclassCont.congrea .vceditor-dropdown-menu a:hover {
+  background-color: rgba(254, 254, 254, 0.2);
+  border-color: #555;
+}
+
+#virtualclassCont.congrea #videoList #newVideoBtnCont {
+  border-bottom: 1px solid rgba(254, 254, 254, 0.2) !important;
+  background: #fff;
+}
+
+#virtualclassCont.congrea #playController #recPlayCont #recPlay,
+#virtualclassCont.congrea #playController #recPauseCont #recPause,
+#virtualclassCont.congrea #playController #ff2Cont #ff2,
+#virtualclassCont.congrea #playController #ff8Cont #ff8,
+#virtualclassCont.congrea #playController #replayFromStart .icon-Replayfromstart {
+  margin: 0;
+}
+
+#virtualclassCont.congrea .user-details.media-body {
+  display: inline;
+  position: relative;
+  font-size: 14px;
+}
+
+#virtualclassCont.congrea .ui-chatbox-msg {
+  word-break: break-all;
+}
+
+#virtualclassCont.congrea #stickybar .ui-tabs-anchor {
+  width: 89%;
+  height: 100%;
+  padding-top: 9px;
+  padding-bottom: 9px;
+
+  /*	margin-top: 7px; */
+}
+
+/* #virtualclassCont.congrea .ui-memblist-usr.teacher { */
+
+/* background-color: #28353914; */
+
+/* } */
+
+#virtualclassCont.congrea.teacher .chatBarTab .hand_bt {
+  position: relative;
+  float: right;
+  padding: 3px 7px;
+}
+
+#virtualclassCont.congrea.teacher .chatBarTab .hand_bt {
+  color: #fdfdff !important;
+}
+
+#virtualclassCont.congrea.teacher .chatBarTab .hand_bt.highlight {
+  display: block;
+  border-radius: 7px;
+  color: #00ff10 !important;
+}
+
+#virtualclassCont.congrea .chatBarTab .hand_bt.highlight .icon-raisehand::before {
+  color: #cd1e22 !important;
+}
+
+#virtualclassCont.congrea.teacher .chatBarTab .hand_bt,
+#virtualclassCont.congrea.teacher .chatBarTab .hand_bt:hover,
+#virtualclassCont.congrea.teacher .chatBarTab .hand_bt:focus {
+  background: none !important;
+
+  /* //border:none !important; */
+}
+
+#virtualclassCont.congrea a.inner_bt.congtooltip:hover::after {
+  bottom: 47px !important;
+  left: 2px;
+}
+
+#virtualclassCont.congrea .hand_bt.congtooltip:hover::after {
+  bottom: 2.7em !important;
+  left: -1.7em !important;
+}
+
+span#usertab_text {
+  float: left;
+}
+
+#virtualclassCont.congrea.teacher .chatBarTab .hand_bt {
+  position: relative;
+  bottom: 33px;
+}
+
+/* Handle edge browser issue start **/
+#virtualclassCont.congrea #virtualclassOptionsCont .appOptions {
+  height: 30px;
+}
+
+#virtualclassCont.congrea .vmchat_room_bt .inner_bt {
+  padding: 0.84375rem 0.875rem .65625rem 0.875rem;
+  display: block;
+}
+
+#virtualclassCont.congrea li.vmchat_room_bt.ui-state-highlight {
+  background: none !important;
+}
+
+#virtualclassCont.congrea.playMode .vceditor-toolbar-wrapper {
+  display: inline-block;
+  position: relative;
+  line-height: 14px;
+
+  /*	bottom: 12px; */
+}
+
+#virtualclassCont.congrea .vjs-volume-control.vjs-control.vjs-volume-horizontal {
+  position: relative;
+  bottom: 0;
+}
+
+#virtualclassCont.congrea .video-js .vjs-control::before {
+  line-height: 1;
+}
+
+/* #virtualclassCont.congrea #chat_div .controleCont{ */
+
+/* float : left; */
+
+/* text-align: center; */
+
+/* } */
+
+#virtualclassCont.congrea.student #chat_div .controleCont {
+  /*	margin-right: 5px; */
+}
+
+#virtualclassCont.congrea[data-currapp="ScreenShare"] #virtualclassScreenShare .zoomControler {
+  display: none;
+}
+
+#virtualclassCont.congrea[data-currapp="ScreenShare"] .zoomCtrAdd #virtualclassScreenShare .zoomControler {
+  display: block;
+  background-image: none !important;
+}
+
+#virtualclassCont.congrea div.select {
+  display: inline-block;
+  margin: 0 0 1em 0;
+}
+
+#virtualclassCont.congrea #container p.small {
+  font-size: 0.7em;
+}
+
+#virtualclassCont.congrea #container label {
+  width: 12em;
+  display: inline-block;
+}
+
+#virtualclassCont.congrea #webRtcIoContainer.disable {
+  display: none;
+}
+
+#virtualclassCont.congrea #audioVisualaizer {
+  width: 60px;
+  height: 200px;
+}
+
+#virtualclassCont.congrea #webRtcIoContainer video {
+  width: 230px;
+  height: 200px;
+  margin: 5px 20px;
+}
+
+#virtualclassCont.congrea.tr_available .handRaise {
+  pointer-events: visible !important;
+  opacity: 1;
+}
+
+#virtualclassPreCheck #preCheckcontainer .modal-dialog .modal-content {
+  padding: 0 !important;
+}
+
+/** suman start **/
+#virtualclassCont.congrea #virtualclassAppRightPanel.chat_disabled #ta_chrm2 {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+#virtualclassCont.resizeWindow #virtualclassWhiteboard .nvgt,
+#virtualclassCont.resizeWindow #screen-docs .nvgt {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/** suman end **/
+.bootstrap .navbar {
+  border: none !important;
+  min-height: 48px !important;
+}
+
+.bootstrap .modal-content {
+  border-top: none !important;
+  border-bottom: none !important;
+  border-left: none !important;
+  border-color: #bbb;
+}
+
+/* #virtualclassCont.congrea #videoHostContainer.show{ */
+
+/* display:block; */
+
+/* } */
+
+/* #virtualclassCont.congrea #videoHostContainer.hide{ */
+
+/* display:none; */
+
+/* } */
+#virtualclassCont.congrea #virtualclassAppRightPanel.noWebcam #videoHostContainer {
+  display: none;
+}
+
+#virtualclassCont.congrea #screen-docs .pageContainer .congtooltip:hover::after {
+  bottom: -30px !important;
+  left: 4px;
+}
+
+#virtualclassCont.congrea #docMsgStudent {
+  display: block;
+}
+
+#virtualclassCont.congrea .noteDisplay #docMsgStudent {
+  display: none;
+}
+
+#virtualclassCont.congrea.nocms #virtualclassPollTool,
+#virtualclassCont.congrea.nocms #virtualclassQuizTool {
+  display: none;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+#virtualclassCont.congrea #dashboardContainer .modal-header button {
+  display: none;
+}
+
+#virtualclassCont.congrea #dashboardContainer .modal-header button.enable {
+  display: block;
+  position: absolute;
+  right: 10px;
+}
+
+#virtualclassCont.congrea #dashboardContainer .modal-header button.enable:hover {
+  background-image: linear-gradient(to bottom, #e6e6e6 0%, #e6e6e6 100%) !important;
+}
+
+/* #virtualclassCont.congrea  #dashboardContainer .in .modal-header button{
+	 display: none;
+}
+
+#virtualclassCont.congrea  #dashboardContainer .fade .modal-header button {
+
+	display: block;
+	position: absolute;
+    right: 10px;
+} */
+#virtualclassCont.congrea.pdfRendering .zoomControler {
+  pointer-events: none;
+}
+
+#virtualclassCont.congrea.student .bootstrap #stdPollContainer .alert-dismissable .close,
+.bootstrap .alert-dismissible .close {
+  position: relative;
+  top: -2px;
+  right: 3px;
+  color: inherit;
+}
+
+#virtualclassCont.congrea #dashboardContainer .dashboardContainer .dbContainer #docsUploadMsz .alert-dismissable {
+  width: 80%;
+  margin: 10px auto;
+  box-shadow: 0 0 8px #ddd;
+}
+
+#virtualclassCont.congrea #dashboardContainer .dashboardContainer .dbContainer #docsUploadMsz .alert-dismissable button.close {
+  color: green !important;
+  background-color: transparent;
+  border: 1px solid green;
+  padding: 2px 5px 3px 5px;
+}
+
+#virtualclassCont.congrea #dashboardContainer .dashboardContainer .dbContainer #docsUploadMsz .alert-dismissable button.close:hover {
+  background-color: transparent !important;
+}
+
+#virtualclassCont.congrea #preCheckcontainer #precheckSkip .skip:hover::before {
+  color: red !important;
+}
+
+#VideoDashboard #videoPopup #uploadMsz .alert-dismissable.alert-success {
+  width: 80% !important;
+  margin: -3px auto !important;
+}
+
+#virtualclassCont.congrea[data-currapp="ScreenShare"] .zoomControler .reloadNote {
+  display: none !important;
+}
+
+#virtualclassCont.congrea .reloadNote .congtooltip[data-title="Reload Whiteboard"]:hover::after {
+  width: 120px !important;
+}
+
+#virtualclassCont.congrea.nowebcam .videoSwitchCont {
+  pointer-events: none !important;
+  opacity: 0.5 !important;
+}
+
+#VideoDashboard #videoPopup #uploadMsz .alert-dismissable.alert-success button.close {
+  border: 1px solid green !important;
+  color: green !important;
+}
+
+#virtualclassCont.congrea #chat_room li .chat-user-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 1.875rem;
+  text-align: center;
+  padding-top: 0.6875rem;
+  margin-top: 0.375rem;
+  font-size: 0.875rem;
+  opacity: 0.8;
+}
+
+#virtualclassCont.congrea.playMode #networkStatusContainer {
+  display: none;
+}
+
+#virtualclassCont.congrea .recordingError {
+  color: #ff1934;
+  font-weight: bold;
+}
+
+#virtualclassCont.congrea #videoHostContainer.show #chat_div {
+  max-height: calc(100vh - 383px) !important;
+}
+
+#virtualclassCont.congrea .user-details .usern .media-heading:hover {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: #d9dbdc;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #d6d6d6;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #b2b4b5;
+}
+
+::-webkit-scrollbar-track-piece {
+  width: 11px;
+}
+
+#virtualclassCont.student #virtualclassQuiz .quizArea::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+#virtualclassCont.student #virtualclassQuiz .quizArea::-webkit-scrollbar,
+#virtualclassCont.congrea #listdocs::-webkit-scrollbar,
+#virtualclassCont.congrea #rightSubContainer #appSettingDetail::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+}
+
+/* #virtualclassCont.congrea div.ui-memblist-usr .user-details  span.media-object { */
+
+/* text-align: center; */
+
+/* padding-top: 11px; */
+
+/* margin-top: 6px; */
+
+/* font-size: 14px; */
+
+/* opacity: .8; */
+
+/* border: solid 1px transparent; */
+
+/* border-radius: 20%; */
+
+/* width: 52px; */
+
+/* height: 40px; */
+
+/* margin: 5px 5px 5px 2px; */
+
+/* object-fit: cover; */
+
+/* } */
+
+.pollList .miniTB a {
+  text-decoration: none !important;
+}
+
+#virtualclassCont.congrea #confirm.popupWindow #confirmOk #confirmOkButton,
+#virtualclassCont.congrea #confirm.popupWindow #confirmCancel #confirmCancelButton {
+  cursor: pointer;
+}
+
+#virtualclassCont.congrea.student #virtualclassVideo.virtualclass .vjs-control-bar button.vjs-play-control.vjs-playing {
+  display: none !important;
+}
+
+.qq-gallery .qq-upload-list li {
+  margin: 0 10% !important;
+}
+
+#virtualclassCont.congrea[data-currapp="ScreenShare"] #dashboardnav {
+  display: none;
+}
+
+@media only screen and (min-device-width: 701px) and (max-device-width: 950px) {
+  /* Scrollbar For Tablets */
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 4px;
+    background-color: #d9dbdc;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #d6d6d6;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #b2b4b5;
+  }
+
+  #virtualclassCont.student #virtualclassQuiz .quizArea::-webkit-scrollbar {
+    width: 5px;
+    height: 4px;
+    background-color: #d9dbdc;
+  }
+
+  #virtualclassCont.congrea.student .path-mod-congrea-quiz .navblock::-webkit-scrollbar {
+    width: 5px !important;
+    height: 8px;
+    background-color: #d9dbdc;
+  }
+
+  #virtualclassCont.congrea .congtooltip:hover::after {
+    display: none !important;
+  }
+
+  #virtualclassCont.congrea.student .icon-audioImg.enable::before {
+    font-size: 110% !important;
+  }
+
+  #virtualclassCont.congrea .ui-memblist-usr .icon-audioEnaGreen::before {
+    font-size: 110%;
+  }
+}
+
+#virtualclassCont.congrea #joinClass #joinClassModal .modal-dialog {
+  margin: 20% auto;
+  width: 400px;
+}
+
+#virtualclassCont.congrea .bootstrap #joinClassModal .modal-dialog .textCont {
+  font-size: 1.25rem;
+  margin-bottom: 0.9375rem;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+}
+
+#virtualclassCont.congrea .bootstrap #joinClassModal .modal-dialog button {
+  line-height: 1.784;
+  padding: 0.3125rem 1.125rem;
+  letter-spacing: 1px;
+  border-color: #c2c2c2;
+  cursor: pointer;
+  z-index: 10002;
+  font-size: 0.9rem;
+}
+
+/* For Safari Browser */
+@media not all and (min-resolution: 0.001dpcm) {
+  #virtualclassCont.congrea #videoHostSource,
+  #virtualclassCont.congrea #webcamTempVideo {
+    transform: inherit !important;
+  }
+
+  #virtualclassScreenShareTool {
+    pointer-events: none;
+    opacity: 0.5;
+    display: none;
+  }
+}
+
+#videoPlayerCont .vjs-youtube-mobile .vjs-big-play-button {
+  display: block !important;
+}
+
+#videoPlayerCont .vjs-youtube-mobile.vjs-playing .vjs-big-play-button {
+  display: none !important;
+}
+
+#virtualclassCont.congrea #joinClass #joinClassModal {
+  z-index: 10001;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #virtualclassCont.congrea.student .congtooltip:hover::after {
+    display: none !important;
+  }
+}
+
+#virtualclassCont.congrea #joinClass #joinClassModal .joinClasscontainer button.btn:focus {
+  outline: none;
+}
+
+.congrea.teacher #virtualclassPoll .modal.in {
+  display: block !important;
+}
+
+.congrea #preCheckcontainer .container .modal.in {
+  display: block !important;
+}
+
+.congrea.teacher #congdashboard.modal.in {
+  display: block !important;
+}
+
+/* The actual popup */
+.congrea.teacher .pollList .popover-content {
+  /* visibility: hidden; */
+  width: 80%;
+  background-color: #eee;
+  text-align: left;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: -50%;
+  left: 40%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: none;
+  letter-spacing: normal;
+  word-break: normal;
+  word-spacing: normal;
+  word-wrap: normal;
+  white-space: normal;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  line-break: auto;
+}
+
+#virtualclassCont.congrea .popover-content .viewOpt .opt {
+  display: block;
+}
+
+/* Popup arrow */
+.congrea .pollList .popover-content::after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+#virtualclassCont.congrea .commandToolsWrapper .tool[data-tool="freeDrawing"] a {
+  border-bottom-left-radius: 5px;
+}
+
+#virtualclassCont.congrea #DocumentShareDashboard #docsListContainer #listdocs .controls.delete {
+  margin-top: 0;
+}
+
+#virtualclassCont.congrea #waveForm {
+  width: 100%;
+}
+
+#virtualclassCont.congrea #audioVisualaizerCont {
+  width: 50%;
+  margin: 0.625rem auto;
+}
+
+#virtualclassCont.congrea #loadingWindowCont {
+  width: 350px;
+  height: 100px;
+  padding: 0.625rem;
+}
+
+#virtualclassCont.congrea #popupContainer.playPopup #loadingWindowCont {
+  width: auto;
+  height: auto;
+}
+
+#virtualclassCont.congrea #loadingWindowCont p {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+#virtualclassCont.congrea #loadingWindowCont img {
+  width: 80px;
+  margin-top: 0;
+}
+
+#virtualclassCont.congrea #loadingWindowCont .askToPlay {
+  display: none;
+}
+
+.loader-icon {
+  border: 4px solid #f3f3f3;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+  border-top: 4px solid #555;
+  border-radius: 50%;
+  width: 3.125rem;
+  height: 3.125rem;
+  margin: 1.375rem auto;
+}
+
+#virtualclassCont.congrea.playMode #popupContainer.playPopup #loadingWindowCont,
+#virtualclassCont.congrea.playMode #popupContainer.loading #loadingWindowCont {
+  display: block;
+
+  /* position: fixed;
+    left: 45%;
+    bottom: 55%; */
+}
+
+#virtualclassCont.congrea.playMode #popupContainer #loadingWindowCont .loading {
+  position: relative;
+  bottom: 1.5625rem;
+}
+
+#virtualclassCont.congrea.playMode #popupContainer.playPopup #loadingWindowCont .askToPlay {
+  box-sizing: border-box;
+  display: block;
+  width: 80px;
+  height: 80px;
+  padding-top: 0.875rem;
+  padding-left: 0.5rem;
+  line-height: 1.25rem;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  color: #f5f5f5;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 1.25rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  position: relative;
+  bottom: 1.5625rem;
+  cursor: pointer;
+}
+
+#virtualclassCont.congrea.playMode #popupContainer.loading.playPopup #loadingWindowCont .askToPlay,
+#virtualclassCont.congrea.playMode #popupContainer.loading #loadingWindowCont .loading {
+  display: block;
+}
+
+#virtualclassCont.congrea.playMode #popupContainer.playPopup #loadingWindowCont .loading,
+#virtualclassCont.congrea.playMode #popupContainer #loadingWindowCont .askToPlay,
+#virtualclassCont.congrea.playMode #popupContainer #loadingWindowCont .loading {
+  display: none;
+}
+
+#virtualclassCont.congrea.playMode #popupContainer.playPopup #loadingWindowCont .askToPlay span {
+  position: absolute;
+  top: 23px;
+  left: 28px;
+}
+
+#virtualclassCont.congrea.playMode #popupContainer.playPopup #loadingWindowCont .askToPlay:hover {
+  /*
+    transform: scale(1.20);
+    background-color: rgba(0,0,0,.4);
+    transition: all .2s ease-in-out;
+*/
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 10px rgb(232, 232, 220);
+  text-shadow: 0 0 10px rgb(232, 232, 225);
+}
+
+#virtualclassCont.congrea #loadingWindowCont.askToPlayCont {
+  cursor: pointer;
+}
+
+#virtualclassCont.congrea #timeInHover {
+  display: none;
+  background: #011701;
+  height: 18px;
+  line-height: 19px;
+  font-size: 13px;
+  padding: 6px 8px 6px 8px;
+  float: left;
+  margin: 0;
+  margin-top: -52px;
+  border-radius: 5px;
+  pointer-events: none;
+  z-index: 5000;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+  overflow-y: hidden;
+}
+
+#virtualclassCont.recordSeeking #playControllerCont,
+#virtualclassCont.congrea.startSeek #docShareNav,
+#virtualclassCont.recordSeeking .zoomControler,
+#virtualclassCont.recordSeeking #congrealogo,
+#virtualclassCont.recordSeeking .footerCtr,
+#virtualclassCont.recordSeeking #virtualclassAppRightPanel,
+#virtualclassCont.recordSeeking #stickycontainer,
+#virtualclassCont.recordSeeking #docShareNav {
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+#virtualclassCont .mouseMoveCtr {
+  width: 20%;
+  height: 46%;
+  position: fixed;
+  z-index: 0;
+  right: 330px;
+  bottom: 58px;
+  background-color: #5050501c;
+}
+
+#virtualclassCont.congrea.recordSeeking .footerCtr {
+  z-index: 0;
+}
+
+/* #virtualclassCont.playMode .ui-memblist-usr.online { */
+
+/* pointer-events:  none; */
+
+/* } */
+
+.rv-vanilla-modal-overlay.is-shown.askToPlayCont,
+#popupContainer.playPopup #loadingWindowCont {
+  cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+  #virtualclassCont.congrea #errorContainer {
+    bottom: 50px;
+  }
+
+  #virtualclassCont.congrea.playMode #popupContainer.playPopup #loadingWindowCont .askToPlay {
+    width: 4.375rem;
+    height: 4.375rem;
+  }
+
+  #virtualclassCont.congrea.playMode #popupContainer.playPopup #loadingWindowCont .askToPlay span {
+    position: absolute;
+    top: 1.125rem;
+    left: 1.5rem;
+  }
+}
+
+#virtualclassCont.recordSeeking .whiteboardContainer .canvasWrapper {
+  z-index: 0;
+}
+
+#virtualclassCont.congrea.playMode.student #virtualclassVideo.virtualclass .vjs-control-bar button.vjs-fullscreen-control {
+  pointer-events: none;
+}
+
+#virtualclassCont.congrea.playMode.student #virtualclassVideo.virtualclass .vjs-control-bar button.vjs-fullscreen-control,
+#virtualclassCont.congrea.playMode .vjs-play-control {
+  pointer-events: none;
+}
+
+#virtualclassCont.congrea #fullScreenButton,
+#virtualclassCont.congrea #fullScreenExitButton,
+#virtualclassCont.congrea #bookmark {
+  position: absolute;
+  bottom: 0;
+  right: -1px;
+  color: #fff;
+  z-index: 1000;
+  font-size: 1.375rem;
+  margin: 0;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+#virtualclassCont.congrea #bookmark {
+  position: absolute;
+  right: 3.25rem;
+}
+
+
+#virtualclassCont.congrea #fullScreenButton .fullScreen,
+#virtualclassCont.congrea #fullScreenExitButton [data-title="Exit Full Screen"] {
+  padding: 0.6875rem 1.125rem 0.6875rem 1.125rem;
+  line-height: 1.25rem;
+  font-size: 1.25rem;
+}
+
+
+
+#virtualclassCont.congrea.playMode #fullScreenButton,
+#virtualclassCont.congrea.playMode #fullScreenExitButton {
+  right: 0;
+}
+
+#virtualclassCont.congrea #fullScreenExitButton {
+  display: none;
+}
+
+#virtualclassCont.congrea #fullScreenButton span.congtooltip:hover::after,
+#virtualclassCont.congrea #fullScreenExitButton span.congtooltip:hover::after {
+  bottom: 47px !important;
+  left: -14px;
+}
+
+
+#virtualclassCont.congrea.playMode #fullScreenButton span.congtooltip:hover::after,
+#virtualclassCont.congrea.playMode #fullScreenExitButton span.congtooltip:hover::after {
+  left: -36px;
+}
+
+#virtualclassCont.loading {
+  display: none;
+}
+
+#virtualclassCont #recording.hide {
+  display: none;
+}
+
+#virtualclassCont #virtualclassAppFooterPanel #recording {
+  color: #fff;
+  order: 1;
+  z-index: 1000;
+  padding: 0.71875rem 0.9375rem 0.78125rem 0.9375rem;
+  cursor: pointer;
+}
+
+#virtualclassCont #virtualclassAppFooterPanel #precheckBtn {
+  color: #fff;
+  order: 3;
+  z-index: 1000;
+  padding: 0.6875rem 0.9375rem;
+  cursor: pointer;
+}
+
+#virtualclassCont.congrea.playMode #virtualclassAppFooterPanel #precheckBtn {
+  display: none;
+}
+
+#virtualclassCont #virtualclassAppFooterPanel #precheckBtn #settingPrecheck .prechk::before {
+  content: "\ea18";
+  font-weight: normal;
+  font-family: 'icomoon';
+  font-size: 1.0625rem;
+}
+
+#virtualclassCont #virtualclassAppFooterPanel #precheckBtn #settingPrecheck .prechk span.precheck {
+  font-weight: normal;
+  font-size: 0.8125rem;
+  margin-left: 0.5rem;
+  /* margin-top: 0.125rem; */
+  float: right;
+}
+
+#virtualclassCont.congrea #virtualclassAppFooterPanel #recording.congtooltip:hover::after {
+  bottom: 47px;
+  left: 10px;
+}
+
+#virtualclassCont #virtualclassAppFooterPanel #recording.statusonly {
+  cursor: default;
+}
+
+#virtualclassCont #virtualclassAppFooterPanel #recording.statusonly:hover {
+  background-image: none;
+}
+
+#virtualclassCont[data-recording="on"] #virtualclassAppFooterPanel #recording span.showStatus,
+#virtualclassCont #virtualclassApp #virtualclassAppFooterPanel #recording[data-recording="on"] span.showStatus {
+  float: left;
+  margin-top: 0.1875rem;
+  width: 0.875rem;
+  height: 0.875rem;
+  font-size: 0;
+  background-color: red;
+  border: 0;
+  border-radius: 2.1875rem;
+  outline: none;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#virtualclassCont[data-recording="off"] #virtualclassAppFooterPanel #recording span.showStatus,
+#virtualclassCont #virtualclassApp #virtualclassAppFooterPanel #recording[data-recording="off"] span.showStatus {
+  float: left;
+  margin-top: 0.1875rem;
+  width: 0.875rem;
+  height: 0.875rem;
+  font-size: 0;
+  background-color: orange;
+  border: 0;
+  border-radius: 2.1875rem;
+  outline: none;
+  animation-name: pulse-off;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+/* #virtualclassCont #virtualclassAppLeftPanel #recording[data-recording="off"].trimRecording span.showStatus {
+	float:left;
+	margin-top:1px;
+	width: 16px;
+    height: 16px;
+    font-size: 0;
+    background-color: #fff;
+    border: 0;
+    border-radius: 35px;
+	outline: none;
+	animation-name:none;
+} */
+
+#virtualclassCont #virtualclassAppFooterPanel #recording span.recordingText {
+  margin-left: 0.875rem;
+  line-height: 1.125rem;
+  font-size: 0.9375rem;
+  font-weight: 400;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 5px 0 rgba(196, 2, 2, 0.4);
+  }
+
+  65% {
+    box-shadow: 0 0 5px 10px rgba(173, 0, 0, 0.4);
+  }
+
+  70% {
+    box-shadow: 0 0 5px 10px rgba(173, 0, 0, 0.3);
+  }
+
+  100% {
+    box-shadow: 0 0 5px 10px rgba(173, 0, 0, 0);
+  }
+}
+
+@keyframes pulse-off {
+  0% {
+    box-shadow: 0 0 5px 0 rgba(122, 80, 1, 0.4);
+  }
+
+  65% {
+    box-shadow: 0 0 5px 10px rgba(136, 88, 0, 0.4);
+  }
+
+  70% {
+    box-shadow: 0 0 5px 10px rgba(136, 88, 0, 0.3);
+  }
+
+  100% {
+    box-shadow: 0 0 5px 10px rgba(150, 98, 1, 0);
+  }
+}
+
+@keyframes notify {
+  0% {
+    box-shadow: 0 0 5px 0 rgba(55, 146, 2, 0.4);
+  }
+
+  65% {
+    box-shadow: 0 0 3px 5px rgba(57, 151, 2, 0.4);
+  }
+
+  70% {
+    box-shadow: 0 0 3px 5px rgba(56, 150, 2, 0.3);
+  }
+
+  100% {
+    box-shadow: 0 0 3px 5px rgba(55, 150, 0, 0);
+  }
+}
+
+
+#virtualclassCont #virtualclassAppFooterPanel.recordingStatus {
+  width: 35px;
+  height: 35px;
+  font-size: 0;
+  background-color: red;
+  border: 0;
+  border-radius: 35px;
+  margin: 18px;
+  outline: none;
+}
+
+#virtualclassCont.playMode #virtualclassAppFooterPanel #recording {
+  display: none;
+}
+
+#virtualclassCont #recording.statusonly {
+  pointerl-events: none;
+}
+
+#virtualclassCont.playMode #recording {
+  display: none;
+}
+
+/* ======== MEDIA FOR MOBILE ========== */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+  #virtualclassCont.congrea #preCheckcontainer.bootstrap .modal-dialog {
+    width: 870px !important;
+  }
+}
+
+#virtualclassCont.congrea #sessionEndMsgCont .endHeader {
+  background-image: linear-gradient(to bottom, #021317 0%, #2c393d 100%) !important;
+}
+
+#virtualclassCont.congrea .canvasWrapper::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* ======== Firefox ========== */
+
+@-moz-document url-prefix() {
+  #virtualclassCont.congrea #virtualclassAppRightPanel #mainAudioPanel #videSpeedNumber,
+  #virtualclassCont.congrea #virtualclassAppRightPanel #videoPacketInfo #videLatency,
+  #virtualclassCont.congrea #virtualclassAppRightPanel #videoPacketInfo #videoFrameRate {
+    padding-bottom: 18px;
+  }
+
+  #virtualclassCont.congrea #fullScreenButton .fullScreen,
+  #virtualclassCont.congrea #fullScreenExitButton [data-title="Exit Full Screen"] {
+    padding: 11px 18px 10px 18px;
+  }
+}
+
+#playProgress #downloadProgress {
+  position: relative;
+  top: -14px;
+}
+
+#virtualclassCont.congrea #virtualclassAppLeftPanel #sidebarButton {
+  display: inline-block;
+}
+
+#virtualclassCont #virtualclassApp #virtualclassAppLeftPanel #sidebarButton {
+  position: absolute;
+  top: calc(50% - 25px);
+  right: 0;
+  cursor: pointer;
+
+  /* background-color: #fffff7; */
+
+  /* background-image: linear-gradient(to bottom, rgba(1,7,9,.8) 0%,rgba(1,7,9,.8) 100%) !important; */
+  box-shadow: 0 0 4px rgb(132, 130, 130);
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  z-index: 1000;
+}
+
+#virtualclassCont.congrea.student #virtualclassApp #virtualclassAppLeftPanel #sidebarButton {
+  right: 0;
+}
+
+#virtualclassCont.congrea #virtualclassApp #virtualclassAppLeftPanel .sidebarButton:hover::after {
+  right: 30px;
+  bottom: 10px;
+}
+
+#virtualclassCont #virtualclassAppLeftPanel #sidebarButton .sidebarButton {
+  padding: 15px 2px 13px 7px;
+}
+
+#virtualclassCont.congrea #virtualclassApp .collapsedRightbar #sidebarButton .congtooltip:hover::after {
+  bottom: 90px;
+  transform: rotate(90deg);
+  right: -40px;
+}
+
+#virtualclassCont.congrea #virtualclassApp .openRightbar #sidebarButton .congtooltip:hover::after {
+  bottom: 90px;
+  transform: rotate(90deg);
+  right: -40px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#virtualclassCont.congrea #chatWidget #congreaChatMainCont #congreaChatCont .ui-memblist,
+#virtualclassCont.congrea #chatWidget #congreaChatMainCont #congreaChatCont .ui-memblist .ui-memblist-content,
+#virtualclassCont.congrea #chatWidget #congreaChatMainCont #congreaChatCont .ui-chatroom,
+#virtualclassCont.congrea #chatWidget #congreaChatMainCont #congreaChatCont .ui-chatroom .ui-chatbox-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel li:hover .cgText {
+  color: #fff;
+}
+
+#virtualclassCont .mobileLandscapeWarn {
+  display: none;
+}
+
+#virtualclassCont.congrea[device="mobile"] .mobileLandscapeWarn .warningWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 70%;
+}
+
+#virtualclassCont.congrea[device="mobile"] .mobileLandscapeWarn .warningWrapper p {
+  font-size: 20px;
+
+  /* font-weight: 300; */
+  margin-top: 28px;
+  color: #c0c0c0;
+}
+
+#virtualclassCont.congrea[device="mobile"] .mobileLandscapeWarn .warningWrapper span.icon-mobileRotate::before {
+  content: "\e9c0";
+  font-weight: normal;
+  font-size: 100px;
+  font-family: 'icomoon';
+  color: white;
+  font-weight: normal;
+}
+
+/* #virtualclassCont.mobileWarning .ui-widget-content .ui-corner-all,
+  #virtualclassCont.mobileWarning #chatWidget .chatBarTab {
+    display: none;
+  } */
+
+@media only screen and (orientation: portrait) {
+  #virtualclassCont.congrea[device="mobile"] .mobileLandscapeWarn {
+    display: block;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    z-index: 100002;
+    position: relative;
+  }
+
+  #joinClass {
+    display: none;
+  }
+
+  #virtualclassCont.congrea.playMode[device="mobile"] #virtualclassApp {
+    position: relative;
+  }
+}
+
+#stickycontainer {
+  height: 100%;
+  width: 35%;
+  max-width: 320px;
+  min-width: 190px;
+}
+
+/* #virtualclassCont.congrea .commandToolsWrapper .tool.active:hover .cgIcon:before {
+    color: #000;
+  } */
+
+#virtualclassCont.congrea .containerWb .commandToolsWrapper .tool a:hover {
+  background-color: #e6e6e6;
+}
+
+/* #virtualclassCont.congrea .containerWb .commandToolsWrapper .tool a:hover{
+    background-color: #e0e0e0 !important;
+  } */
+
+#virtualclassCont.congrea #userListHeader.active,
+#virtualclassCont.congrea #commonChatHeader.active,
+#virtualclassCont.congrea #techVideoHeader.active,
+#virtualclassCont.congrea #rightBarHeader.active {
+  display: block;
+}
+
+#virtualclassCont.congrea #userListHeader.deactive,
+#virtualclassCont.congrea #commonChatHeader.deactive,
+#virtualclassCont.congrea #techVideoHeader.deactive,
+#virtualclassCont.congrea #rightBarHeader.deactive {
+  display: none;
+}
+
+#virtualclassCont.congrea #virtualclassApp .playControllerMainCont {
+  z-index: 10000 !important;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel #rightBarHeader {
+  display: flex;
+}
+
+#virtualclassCont.congrea #virtualclassAppFooterPanel #allMarksinformation {
+  position: fixed;
+  bottom: 2.75rem;
+  z-index: 1116;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 7px;
+  left: -2px;
+}
+
+#virtualclassCont.congrea #virtualclassAppFooterPanel .markContainer {
+  position: absolute;
+  width: auto;
+  height: 7px;
+}
+
+#virtualclassCont.congrea #virtualclassAppFooterPanel #allMarksinformation .markContainer.context {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+}
+
+#virtualclassCont.congrea #virtualclassAppFooterPanel #allMarksinformation .markContainer.context .context {
+  width: 2px;
+  height: 7px;
+  background: #0e0c0ced;
+}
+
+#virtualclassCont.congrea .markContainer[data-question='true'] .question,
+#virtualclassCont.congrea .markContainer[data-note='true'] .note,
+#virtualclassCont.congrea .markContainer[data-bookmark='true'] .note {
+  width: 8px;
+  height: 7px;
+}
+
+#virtualclassCont.congrea .markContainer[data-question='true'] .question {
+  background: #e8002b;
+}
+
+#virtualclassCont.congrea .markContainer[data-note='true'] .note,
+#virtualclassCont.congrea .markContainer[data-bookmark='true'] .note {
+  background: #e8c623;
+}
+
+#virtualclassCont.congrea #virtualclassAppFooterPanel #stickybar {
+  display: flex;
+}

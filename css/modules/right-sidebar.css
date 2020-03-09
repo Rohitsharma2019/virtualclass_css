@@ -1,0 +1,1096 @@
+/* New Id's & Classes */
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+}
+
+#audioWidget ul li a {
+  /* padding-top: 0.6875rem !important;
+  padding-bottom: 0.6875rem !important; */
+  text-align: center;
+}
+
+#virtualclassCont.congrea #audioWidget .settingActive {
+  background: #2d3741 none;
+}
+
+#virtualclassCont.congrea #appSettingCtrl span a {
+  font-size: 22px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#virtualclassCont.congrea #audioWidget ul li#appSettingCtrl span {
+  color: #fff !important;
+}
+
+#virtualclassCont.congrea #rightSubContainer #appSettingDetail {
+  display: none;
+  overflow: auto;
+  height: 100%;
+  font-family: Helvetica;
+}
+
+#virtualclassCont.congrea.student #rightSubContainer #appSettingDetail {
+  height: 100%;
+}
+
+#virtualclassCont.congrea .chatBarTab {
+  margin: 0;
+  padding: 0;
+  z-index: 1000;
+  display: flex;
+  flex-direction: row;
+}
+
+#virtualclassCont.congrea.playMode #rightSubContainer #chatWidget .chatBarTab {
+  z-index: 0;
+}
+
+#virtualclassCont.congrea #rightSubContainer #congreaChatMainCont {
+  height: 100%;
+}
+
+#virtualclassCont.congrea .bottomright.active,
+#virtualclassCont.congrea[data-currapp="EditorRich"] .vmchat_bar_button.active {
+  background: #2d3741 none;
+  height: auto;
+}
+
+#virtualclassCont.congrea #rightSubContainer .prechk {
+  border-right-width: 0 !important;
+}
+
+#virtualclassCont.congrea #rightSubContainer {
+  clear: both;
+  flex: 1;
+  min-height: 1px;
+  border-left: 1px solid #dfdfdf;
+}
+
+/* #virtualclassCont.congrea #rightSubContainer a.inner_bt, #virtualclassCont.congrea #rightSubContainer a.inner_bt:hover {
+  height: auto;
+}
+
+#virtualclassCont.congrea.student #rightSubContainer a.inner_bt, #virtualclassCont.congrea.student #rightSubContainer a.inner_bt:hover {
+  height: auto;
+} */
+
+#virtualclassCont.congrea.student #rightSubContainer a.inner_bt #chatroom_icon,
+#virtualclassCont.congrea.student #rightSubContainer a.inner_bt #chatroom_icon:hover {
+  float: left;
+}
+
+/*#virtualclassCont.congrea.student #rightSubContainer #stickycontainer #icHr::before {*/
+#virtualclassCont.congrea.student #rightSubContainer #stickycontainer #iconAskQuestion::before {
+  margin-left: -0.5rem;
+  float: left;
+  margin-top: -0.25rem;
+}
+
+#virtualclassCont.congrea.teacher.nowebcam #virtualclassAppRightPanel #videoHostSource {
+  display: none !important;
+}
+
+#virtualclassCont.congrea.student[device="mobile"] #virtualclassAppRightPanel.vidShow #videoHostContainer {
+  display: none !important;
+}
+
+#virtualclassCont.congrea[device="mobile"] #virtualclassApp #virtualclassAppRightPanel[data-currwindow="techVideoHeader"] #rightSubContainer .ui-widget-content.ui-memblist-content,
+#virtualclassCont.congrea[device="mobile"] #virtualclassApp #virtualclassAppRightPanel[data-currwindow="techVideoHeader"] #rightSubContainer .ui-widget.ui-memblist::before,
+#virtualclassCont.congrea[device="mobile"] #virtualclassApp #virtualclassAppRightPanel[data-currwindow="techVideoHeader"] #rightSubContainer .ui-widget-content.ui-chatbox-content,
+#virtualclassCont.congrea[device="mobile"] #virtualclassApp #virtualclassAppRightPanel[data-currwindow="techVideoHeader"] #rightSubContainer .ui-widget.ui-chatroom::before,
+#virtualclassCont.congrea[device="mobile"] #virtualclassApp #virtualclassAppRightPanel[data-currwindow="techVideoHeader"] #rightSubContainer .footerCtr {
+  display: none;
+}
+
+#virtualclassCont.congrea.student[device="mobile"] #virtualclassApp #virtualclassAppRightPanel[data-currwindow="userListHeader"] #videoHostContainer,
+#virtualclassCont.congrea.student[device="mobile"] #virtualclassApp #virtualclassAppRightPanel[data-currwindow="commonChatHeader"] #videoHostContainer {
+  display: none;
+}
+
+#virtualclassCont.congrea #chatWidget {
+  height: 100%;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel {
+  border-left-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel {
+  display: none;
+}
+
+#virtualclassCont .footerCtr {
+  width: 100%;
+  text-align: right;
+  background: #fff;
+  margin: 0;
+  padding: 0.4375rem 0 0.4375rem;
+  z-index: 1000;
+}
+
+#virtualclassCont.playMode.student .footerCtr {
+  bottom: 55px;
+}
+
+#virtualclassCont .footerCtr input {
+  padding: 7px;
+  width: 90%;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+#virtualclassCont .footerCtr input[type=text],
+#virtualclassCont .footerCtr input#ta_chrm2 {
+  width: 95%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  box-sizing: border-box;
+  border: 1px solid #4b5863b3;
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: white;
+  padding: 0.375rem;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  line-height: 1.25rem;
+}
+
+#virtualclassCont .footerCtr input {
+  font-weight: normal;
+  font-size: 11px;
+  font-family: 'icomoon';
+}
+
+.user_search {
+  content: "\f0c0";
+  font-size: 18px;
+  font-family: 'icomoon';
+  color: grey;
+}
+
+/* #congreaChatCont .ui-widget-content #chat_div .ui-memblist-usr { */
+
+/* height:50px; */
+
+/* } */
+
+#virtualclassCont #appSettingDetail .switch {
+  position: relative;
+  display: inline-block;
+  width: 43px;
+  height: 22px;
+  float: right;
+  margin: 0;
+}
+
+#virtualclassCont #appSettingDetail .switch input {
+  display: none;
+}
+
+#virtualclassCont #appSettingDetail .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #5d6b76;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#virtualclassCont #appSettingDetail .slider.congtooltip:hover::after {
+  right: 0;
+}
+
+#virtualclassCont #appSettingDetail .slider::before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 3px;
+  top: 3px;
+  bottom: 1px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#virtualclassCont #appSettingDetail .bulkUserActions li.disable .slider {
+  background-color: #05b688;
+}
+
+#virtualclassCont.congrea #virtualclassAppFooterPanel span#videoSwitch.video.on::before {
+  color: #09b208;
+}
+
+#virtualclassCont #appSettingDetail input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+#virtualclassCont #appSettingDetail li.disable .slider::before {
+  -webkit-transform: translateX(21px);
+  -ms-transform: translateX(21px);
+  transform: translateX(21px);
+}
+
+#virtualclassCont #appSettingDetail .slider.round {
+  border-radius: 3px;
+}
+
+#virtualclassCont #appSettingDetail .slider.round::before {
+  border-radius: 3px;
+}
+
+#virtualclassCont #appSettingDetail .pre-check-btn {
+  display: inline-block;
+  min-width: 1.125rem;
+  padding: 0.375rem 0.625rem;
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  background-color: #4b5762;
+  border-radius: 3px;
+  float: right;
+  cursor: pointer;
+}
+
+#virtualclassCont #appSettingDetail .pre-check-btn:hover {
+  background-color: #395265;
+  border-radius: 4px;
+}
+
+#virtualclassCont #appSettingDetail .disable #usersMuteSwitch::before {
+  content: "\e973";
+  font-weight: normal;
+  font-size: 17px;
+  font-family: 'icomoon';
+  float: left;
+  color: #464646;
+}
+
+#virtualclassCont #appSettingDetail .enable #usersMuteSwitch::before {
+  content: "\e972";
+  font-weight: normal;
+  font-size: 17px;
+  float: left;
+  font-family: 'icomoon';
+  color: #464646;
+}
+
+#virtualclassCont #appSettingDetail .disable #usersVideoSwitch::before {
+  content: "\e96c";
+  font-weight: normal;
+  font-size: 17px;
+  float: left;
+  font-family: 'icomoon';
+  color: #464646;
+}
+
+#virtualclassCont #appSettingDetail .enable #usersVideoSwitch::before {
+  content: "\e96d";
+  font-weight: normal;
+  font-size: 17px;
+  float: left;
+  font-family: 'icomoon';
+  color: #464646;
+}
+
+#virtualclassCont #appSettingDetail .disable #usersChatSwitch::before {
+  content: "\e9aa";
+  font-weight: normal;
+  font-size: 15px;
+  float: left;
+  font-family: 'icomoon';
+  color: #464646;
+}
+
+#virtualclassCont #appSettingDetail .enable #usersChatSwitch::before {
+  content: "\e9bb";
+  font-weight: normal;
+  font-size: 15px;
+  float: left;
+  font-family: 'icomoon';
+  color: #464646;
+}
+
+#virtualclassCont #appSettingDetail .disable #usersGroupChatSwitch::before {
+  content: "\f0e6";
+  font-weight: normal;
+  font-size: 17px;
+  float: left;
+  font-family: 'icomoon';
+  color: #464646;
+}
+
+#virtualclassCont #appSettingDetail .enable #usersGroupChatSwitch::before {
+  content: "\e9b9";
+  font-weight: normal;
+  font-size: 17px;
+  float: left;
+  font-family: 'icomoon';
+  color: #464646;
+}
+
+#virtualclassCont #appSettingDetail .disable #usersAskQuestionSwitch::before {
+  content: "\ea08";
+  font-weight: normal;
+  font-size: 17px;
+  float: left;
+  font-family: 'icomoon';
+  color: #6c6c6c;
+}
+
+#virtualclassCont #appSettingDetail .enable #usersAskQuestionSwitch::before {
+  content: "\ea07";
+  font-weight: normal;
+  font-size: 18.5px;
+  float: left;
+  font-family: 'icomoon';
+  color: #6c6c6c;
+  border: white;
+  margin-left: -1px;
+}
+
+#virtualclassCont #appSettingDetail .disable #usersUserlistSwitch::before {
+  content: "\e971";
+  font-weight: normal;
+  font-size: 17px;
+  float: left;
+  font-family: 'icomoon';
+  color: #464646;
+}
+
+#virtualclassCont #appSettingDetail .enable #usersUserlistSwitch::before {
+  content: "\e9b8";
+  font-weight: normal;
+  font-size: 18px;
+  float: left;
+  font-family: 'icomoon';
+  color: #464646;
+}
+
+#virtualclassCont #appSettingDetail .disable #usersQaMarkNotesSwitch::before {
+  content: "\ea10";
+  font-weight: 400;
+  font-size: 18px;
+  float: left;
+  font-family: 'icomoon';
+  color: #333;
+}
+
+#virtualclassCont #appSettingDetail .enable #usersQaMarkNotesSwitch::before {
+  content: "\ea0e";
+  font-weight: 400;
+  font-size: 18px;
+  float: left;
+  font-family: 'icomoon';
+  color: #333;
+}
+
+#virtualclassCont.congrea #congAskQuestion.askQuestionEnable,
+#virtualclassCont.congrea #virtualclassnote.notesEnable,
+#virtualclassCont.congrea #bookmark.bookmarkEnable {
+  opacity: 1;
+  pointer-events: visible;
+}
+
+#virtualclassCont.congrea #congAskQuestion.askQuestionDisable,
+#virtualclassCont.congrea #virtualclassnote.notesDisable,
+#virtualclassCont.congrea #bookmark.bookmarkDisable {
+  opacity: 0.5;
+  pointer-events: none !important;
+}
+
+#virtualclassCont.congrea.student #congreaChatMainCont #memlist.hideList {
+  display: none;
+}
+
+#virtualclassCont.congrea.student #congreaChatMainCont #memlist.showList {
+  display: block;
+}
+
+#virtualclassCont.congrea.student #congreaChatMainCont #congFooterCtr #congchatBarInput #congreaUserSearch.showInput {
+  display: block !important;
+}
+
+/* #virtualclassCont.congrea.student #congreaChatMainCont #congFooterCtr #congchatBarInput #congreaUserSearch.hideInput {
+  display: none !important;
+} */
+
+#virtualclassCont.congrea.student #rightSubContainer #user_list.disable {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+#virtualclassCont.congrea.student .ui-widget.enable.chat_disable {
+  opacity: 0.5;
+}
+
+#virtualclassCont #appSettingDetail #validate-precheck::before {
+  content: "\e974";
+  font-size: 15px;
+  font-family: 'icomoon';
+  color: #464646;
+  float: left;
+  margin-top: 3px;
+  font-weight: 600;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+#virtualclassCont #appSettingDetail .audio-options {
+  display: inline-block;
+  float: right;
+  margin-top: -3px;
+  width: 115px;
+  height: 21px;
+  position: relative;
+}
+
+#virtualclassCont #appSettingDetail #congreaVideoSettingCont[data-setting-type="audio"] {
+  display: none;
+}
+
+#virtualclassCont #appSettingDetail #congreaVideoSettingCont[data-setting-type="video"] {
+  display: block;
+}
+
+/*   n */
+#virtualclassCont.congrea #rightSubContainer #appSettingDetail.active {
+  display: block;
+  background-color: #fff;
+
+  /* border-left: 1px solid #dfdfdf; */
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel[data-currwindow="techVideoHeader"] #rightSubContainer #appSettingDetail.active {
+  display: none;
+}
+
+/*#virtualclassCont.congrea #rightSubContainer #appSettingDetail.deactive {*/
+  /*display: none;*/
+/*}*/
+
+/*#virtualclassCont.congrea #chatWidget.deactive #congreaChatMainCont {*/
+  /*display: none;*/
+/*}*/
+
+#virtualclassCont.congrea #chatWidget #congreaChatMainCont {
+  display: flex;
+  flex-direction: column;
+}
+
+#virtualclassCont.congrea #chatWidget #congreaChatMainCont #congreaChatCont {
+  flex: 1;
+  height: 1px;
+}
+
+#virtualclassCont.congrea #WebRtcIoContainer {
+  height: 100px;
+  width: 200px;
+}
+
+#virtualclassCont.congrea #WebRtcIoContainer video {
+  width: 200px;
+  height: 200px;
+}
+
+#virtualclassCont.congrea .audio-options select {
+  text-overflow: ellipsis;
+  width: 96px;
+  font-size: 13px;
+  border-width: 0;
+  background: #fff none;
+}
+
+#virtualclassCont.congrea .closeSetting::before {
+  content: "\f00c";
+  font-weight: normal;
+  font-size: 15px;
+  font-family: 'icomoon';
+  color: grey;
+}
+
+#virtualclassCont.congrea .settingActive .setting-btn::before {
+  content: "\e606";
+  font-weight: normal;
+  font-size: 1.5rem;
+  font-family: 'icomoon';
+  color: white;
+}
+
+#virtualclassCont.congrea #stickycontainer a.inner_bt span#tech_video::before {
+  font-weight: normal;
+  content: "\e966";
+  font-size: 1.25rem;
+  font-family: 'icomoon';
+  color: #fff;
+}
+
+/* #virtualclassCont.congrea .vidShow #stickycontainer #techVideo a.inner_bt {
+  background: linear-gradient(to bottom, #53a93f 0%, #53a93f 100%) !important;
+}
+
+#virtualclassCont.congrea.playMode .vidShow #stickycontainer #techVideo a.inner_bt {
+  background: linear-gradient(to bottom, #22880b 0%, #22880b 100%) !important;
+} */
+
+#virtualclassCont.congrea .vidShow #stickycontainer #techVideo.active a.inner_bt {
+  background-color: unset;
+}
+
+/* #virtualclassCont.congrea #stickycontainer .active a.inner_bt span#tech_video::before {
+  content: "\e966";
+} */
+
+#virtualclassCont.congrea #stickycontainer #techVideo {
+  display: none;
+}
+
+#virtualclassCont.congrea #stickycontainer a.inner_bt span#tech_video {
+  line-height: 10px;
+}
+
+#appSettingCtrl #appSettingCtrlAnchor .setting-btn::before {
+  content: "\ea13";
+  font-weight: normal;
+  font-size: 1rem;
+  font-family: 'icomoon';
+  color: white;
+  cursor: pointer;
+}
+
+#appSettingDetail .list-group {
+  font-size: 15px !important;
+  margin-bottom: 0;
+}
+
+#appSettingDetail .list-group .lists-cont {
+  padding: 5px 14px !important;
+  letter-spacing: 0.02em;
+  margin-top: 4px;
+  color: #464646;
+  font-size: 0.8125rem;
+  margin-bottom: 4px;
+  background-color: white;
+}
+
+#virtualclassCont #appSettingDetail .slider:hover {
+  background-color: #395265;
+}
+
+#virtualclassCont #appSettingDetail .audio-options::after {
+  content: '\e975';
+  font-family: 'icomoon';
+  color: #464646;
+  right: 0;
+  top: 5px;
+  font-size: 12px;
+  height: 16px;
+  position: absolute;
+  pointer-events: none;
+}
+
+#virtualclassCont.congrea #webRtcIoContainer video {
+  width: 290px;
+  height: auto;
+  margin: 20px 0 15px;
+  border-radius: 4px;
+}
+
+#rightSubContainer #appSettingDetail #settingMedia .list-group .lists-cont.ainput::before,
+#rightSubContainer #appSettingDetail #settingMedia .list-group .lists-cont.aoutput::before,
+#rightSubContainer #appSettingDetail #settingMedia .list-group .lists-cont.vinput::before {
+  font-weight: normal;
+  font-size: 17px;
+  font-family: 'icomoon';
+  color: #464646;
+  margin-right: 7px;
+  margin-top: -2px;
+  float: left;
+}
+
+#rightSubContainer #appSettingDetail #settingMedia .list-group .lists-cont.ainput::before {
+  content: "\e970";
+  font-size: 16px;
+}
+
+#rightSubContainer #appSettingDetail #settingMedia .list-group .lists-cont.aoutput::before {
+  content: "\e973";
+}
+
+#rightSubContainer #appSettingDetail #settingMedia .list-group .lists-cont.vinput::before {
+  content: "\e96c";
+}
+
+#appSettingDetail #settingMedia .list-group .lists-cont {
+  margin-bottom: 6px;
+}
+
+#virtualclassCont #appSettingDetail select::-ms-expand {
+  display: none;
+}
+
+#virtualclassCont.congrea a.inner_bt span#usertab_text #onlineusertext {
+  position: relative;
+}
+
+#virtualclassCont.congrea a.inner_bt #userlist_icon::before {
+  font-weight: normal;
+  content: "\e9b3";
+  font-size: 1.125rem;
+  font-family: 'icomoon';
+  color: #fff;
+}
+
+#virtualclassCont.congrea.student #rightSubContainer a.inner_bt {
+  padding: 11.5px 8px 12.5px 14px;
+}
+
+#virtualclassCont.congrea.student #rightSubContainer #user_list a.inner_bt {
+  padding: 0.7187rem 0.5rem 0.7812rem 0.875rem;
+}
+
+#virtualclassCont.congrea.student #rightSubContainer #chatroom_bt2 a.inner_bt {
+  padding: 0.78125rem 0.5rem 0.7187rem 0.5rem;
+}
+
+#virtualclassCont.congrea a.inner_bt {
+  padding: 0.71875rem 0.875rem 0.59375rem 0.875rem;
+  display: block;
+}
+
+/* #virtualclassCont.congrea #virtualclassAppFooterPanel li#techVideo a.inner_bt {
+  padding: 0.75rem 0.8571rem 0.75rem 0.9285rem;
+  display: block;
+} */
+
+#virtualclassCont.congrea a.inner_bt span#usertab_text {
+  float: none;
+}
+
+#virtualclassCont.congrea.teacher .chatBarTab .hand_bt.highlight {
+  display: block;
+  border-radius: 7px;
+  color: #00ff10 !important;
+}
+
+#virtualclassCont.congrea.teacher .chatBarTab .hand_bt {
+  display: none;
+  padding: 2px 4px;
+  position: relative;
+  border-radius: 3px !important;
+  bottom: 41px;
+  font-size: 11px;
+}
+
+#virtualclassCont.congrea.teacher .chatBarTab .hand_bt.highlight {
+  padding: 2px 4px;
+  position: absolute;
+  border-radius: 3px !important;
+  bottom: 24px;
+  left: 64px;
+  background-color: #eb0000 !important;
+  font-size: 11px;
+  line-height: inherit;
+}
+
+#virtualclassCont.congrea #rightSubContainer .hand_bt.congtooltip:hover::after {
+  bottom: 4.32em !important;
+  left: auto !important;
+  position: fixed;
+  right: 9em !important;
+  z-index: 1001;
+}
+
+#virtualclassCont.congrea.student #rightSubContainer a.inner_bt span#usertab_text {
+  float: none;
+  text-align: center;
+}
+
+#virtualclassCont.congrea #rightSubContainer .vmchat_room_bt .inner_bt {
+  width: 100%;
+}
+
+#virtualclassCont #appSettingDetail .audio-options select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  height: 21px;
+  float: right;
+  padding: 0 14px 0 2px;
+  color: #464646;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#virtualclassCont #appSettingDetail .appSettingIcons {
+  display: inline-block;
+  width: 1.375rem;
+  height: 1rem;
+  padding-top: 2px;
+}
+
+#virtualclassCont #appSettingDetail .app-settings-rbs {
+  /* margin-top: 0.9375rem; */
+  margin-bottom: 0.9375rem;
+  display: none;
+}
+
+#virtualclassCont #appSettingDetail .bulkUserActions {
+  margin-bottom: 15px;
+}
+
+#virtualclassCont.congrea.teacher #appSettingDetail .setting-heading {
+  border-bottom: 1px solid #e8e8e8;
+  border-top: 1px solid #e8e8e8;
+  padding: 6px 13px;
+  margin-bottom: 10px;
+}
+
+#virtualclassCont.congrea.student #appSettingDetail .setting-heading {
+  padding: 0.5rem 0.9375rem;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+#virtualclassCont.congrea #appSettingDetail .bulkUserActions .setting-heading .bulk,
+#appSettingDetail label {
+  color: #070707;
+  margin-top: 0.375rem;
+  margin-bottom: 0.375rem;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+/* Tool Tip */
+
+#virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget .congtooltip:hover::after {
+  top: 207px;
+  left: auto;
+  right: 24px;
+  position: fixed;
+  bottom: auto;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget .videoSwitchCont.congtooltip:hover::after {
+  top: 209px;
+  right: 126px;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget #appSettingCtrl.congtooltip:hover::after {
+  top: 210px;
+}
+
+#virtualclassCont.congrea.student.videoff #virtualclassAppRightPanel #audioWidget .congtooltip:hover::after {
+  top: 51px !important;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel.vidHide #audioWidget .congtooltip:hover::after {
+  top: 51px !important;
+}
+
+/* #virtualclassCont.congrea.nowebcam #virtualclassAppRightPanel #audioWidget .congtooltip:hover:after , */
+#virtualclassCont.congrea.teacher.nowebcam #virtualclassAppRightPanel #audioWidget #appSettingCtrl.congtooltip:hover::after {
+  top: 51px;
+}
+
+#virtualclassCont.congrea.nowebcam #virtualclassAppRightPanel #audioWidget .congtooltip:hover::after {
+  top: 51px;
+}
+
+#virtualclassCont.congrea.meetingmode.nowebcam #virtualclassAppRightPanel #audioWidget .congtooltip:hover::after {
+  top: 51px !important;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget .audioTool a.congtooltip:hover::after {
+  right: 233px;
+  top: 209px;
+}
+
+#virtualclassCont.congrea.nowebcam #virtualclassAppRightPanel #audioWidget .audioTool a.congtooltip:hover::after {
+  top: 51px;
+}
+
+#virtualclassCont.congrea .congtooltip:hover::after {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel #stickycontainer a.inner_bt.congtooltip:hover::after {
+  bottom: 3.8em !important;
+  right: 2.2em !important;
+  left: auto !important;
+  padding: 0.3em 0.8em;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel #stickycontainer .vmchat_bar_button.congtooltip:hover::after {
+  bottom: 4.72em;
+  left: auto;
+  right: 2.4em;
+}
+
+#virtualclassCont.congrea.student #virtualclassAppRightPanel #stickycontainer .vmchat_bar_button.congtooltip:hover::after {
+  bottom: 3.8em;
+  left: auto;
+  right: 2.4em;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel #stickycontainer .vmchat_room_bt.congtooltip:hover::after {
+  bottom: 4.1em;
+  left: auto;
+  right: 2.4em;
+}
+
+#virtualclassCont.congrea.student #virtualclassAppRightPanel #stickycontainer .vmchat_room_bt.congtooltip:hover::after {
+  bottom: 3.8em;
+  left: auto;
+  right: 2.4em;
+}
+
+#virtualclassCont.congrea.student #virtualclassAppRightPanel #stickycontainer .vmchat_room_bt.congtooltip:hover::after,
+#virtualclassCont.congrea.student #virtualclassAppRightPanel #stickycontainer .vmchat_bar_button.congtooltip:hover::after {
+  right: 2em;
+}
+
+#virtualclassCont.congrea.student.playMode #virtualclassAppRightPanel #stickycontainer .vmchat_room_bt.congtooltip:hover::after,
+#virtualclassCont.congrea.student.playMode #virtualclassAppRightPanel #stickycontainer .vmchat_bar_button.congtooltip:hover::after {
+  display: none;
+}
+
+#virtualclassCont.congrea .askQuestion_btn.congtooltip:hover::after {
+  border-radius: 0.25em;
+  bottom: 47px;
+  right: -9px;
+  padding: 0.2em 0.42em;
+}
+
+#virtualclassCont.congrea #virtualclassnote.congtooltip:hover::after {
+  border-radius: 0.25em;
+  bottom: 47px;
+  right: 20px;
+  left: auto;
+  padding: 0.2em 0.42em;
+}
+
+#virtualclassCont.congrea .nowebcam #videoSwitchCont {
+  pointer-events: none !important;
+}
+
+#virtualclassCont.congrea.nowebcam.teacher #videoSwitchCont {
+  pointer-events: none !important;
+}
+
+/* to verify */
+#virtualclassCont.congrea #chatWidget.deactive {
+  height: 0;
+}
+
+@-moz-document url-prefix() {
+  #virtualclassCont .footerCtr input::placeholder {
+    text-align: center;
+  }
+
+  #virtualclassCont.congrea #chatWidget #congreaChatMainCont #congreaChatCont {
+    min-height: 1px;
+  }
+
+  #virtualclassCont.congrea #rightSubContainer {
+    min-height: 1px;
+  }
+}
+
+#virtualclassCont.congrea #appSettingDetail #webRtcIoContainer .list-group .disable.audio-options::after {
+  display: none;
+}
+
+#virtualclassCont.congrea #appSettingDetail #webRtcIoContainer .list-group .disable select {
+  display: none;
+}
+
+#virtualclassCont.congrea #appSettingDetail #webRtcIoContainer .list-group .disable span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 96px;
+  float: right;
+}
+
+#virtualclassCont.congrea.orginalTeacher #virtualclassAppContainer .virtualclass.whiteboard .commandToolsWrapper {
+  z-index: 100;
+}
+
+#virtualclassCont.congrea .commandToolsWrapper {
+  border-top: none;
+}
+
+/** CSS for chat div container start for EDGE browser  **/
+#virtualclassCont.edge.student .controleCont {
+  pointer-events: none;
+  margin-left: -7px;
+}
+
+#virtualclassCont.edge.student .ui-memblist-usr .controls span {
+  margin-right: 10px;
+}
+
+#virtualclassCont.edge.orginalTeacher .controls span.enable,
+#virtualclassCont.edge.orginalTeacher .controls span.block,
+#virtualclassCont.edge.orginalTeacher .controls a,
+#virtualclassCont.edge.teacher .controls .icon-assignImg.enable {
+  cursor: pointer;
+}
+
+.icon-chatImg.enable::before {
+  color: #94b532;
+  font-size: 14px;
+  top: -1px;
+}
+
+#virtualclassCont.edge.teacher .ui-memblist-usr .icon-audioEnaGreen::before {
+  margin-right: 3px;
+}
+
+#virtualclassCont.edge.student .ui-memblist-usr .icon-audioEnaOrange::before {
+  margin-right: 7px;
+}
+
+#virtualclassCont.edge.teacher .ui-memblist-usr .icon-audioDisImg::before {
+  font-family: 'icomoon';
+  content: "\ea2a";
+  color: #7d7a7a;
+  font-size: 118%;
+  font-weight: normal;
+  margin-right: 1px;
+}
+
+.studentScreenSharing[data-currapp='ScreenShare'] #congreaChatCont span.icon-stdscreenImg {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+#virtualclassCont.edge.congrea.teacher[data-currapp="EditorRich"] .controllereditorRich {
+  display: block;
+}
+
+#virtualclassCont.edge[data-currapp="EditorRich"] .ui-memblist-usr .user-details .usern {
+  width: 38%;
+}
+
+#virtualclassCont.playMode #ta_chrm2 {
+  pointer-events: none;
+}
+
+#virtualclassCont.edge[data-currapp="Yts"] {
+  right: -1px !important;
+}
+
+#virtualclassCont.edge .chat_disabled .ui-memblist-usr.online {
+  pointer-events: none;
+}
+
+#bootstrapQzCont {
+  line-height: 140%;
+}
+
+#virtualclassCont.playMode .footerCtr {
+  z-index: 0;
+}
+
+#virtualclassCont.congrea #askQuestionHeader.active,
+#virtualclassCont.congrea #rightSubContainer #chatWidget.active{
+  display: block;
+}
+
+/*#virtualclassCont.congrea #askQuestionHeader.deactive,*/
+/*#virtualclassCont.congrea #rightSubContainer #askQuestion.deactive,*/
+/*#virtualclassCont.congrea #rightSubContainer #chatWidget.deactive {*/
+  /*display: none;*/
+/*}*/
+
+#virtualclassCont.congrea .bottomright.active {
+  background-image: radial-gradient(ellipse at center, #000000 0%, #000000 100%) !important;
+}
+
+#virtualclassCont.congrea #noteContainer .loading {
+  display: none;
+}
+
+
+
+#virtualclassCont.congrea .rightBarHeader {
+  display: none;
+}
+
+#virtualclassCont.congrea #chatWidget #appSettingCtrl {
+  display: none;
+}
+
+#virtualclassCont.congrea .rightBarHeader.active {
+  display: block;
+}
+
+#virtualclassCont.congrea #rightSubContainer .rightContainer {
+  display: none;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel[data-currwindow="virtualclassnoteHeader"] #rightSubContainer .rightContainer.active {
+  display: block;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel #appSettingCtrl {
+  display: none;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel[data-currwindow='userListHeader'] #userListHeader,
+#virtualclassCont.congrea #virtualclassAppRightPanel[data-currwindow='userListHeader'] #appSettingCtrl {
+  display: inline-block;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel[data-currwindow='userListHeader'] #appSettingCtrl {
+  float: right;
+  padding: 0.6875rem 0.9375rem;
+  cursor: pointer;
+}
+
+#virtualclassCont.congrea.student #virtualclassAppRightPanel #appSettingCtrl {
+  display: none;
+}
+
+#virtualclassCont.congrea .rightContainer.deactive,
+#virtualclassCont.congrea #askQuestionHeader.deactive {
+  display: none;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel #rightBarHeader span#askFullscreen,
+#virtualclassCont.congrea #virtualclassAppRightPanel #rightBarHeader span#askExitFullscreen {
+  padding: 0.75rem;
+  display: none;
+}
+
+#virtualclassCont.congrea[device="mobile"] #virtualclassAppRightPanel #rightBarHeader span#askFullscreen,
+#virtualclassCont.congrea[device="mobile"] #virtualclassAppRightPanel.fullScreenMode #rightBarHeader span#askExitFullscreen {
+  display: block;
+}
+
+#virtualclassCont.congrea[device="mobile"] #virtualclassAppRightPanel.fullScreenMode #rightBarHeader span#askFullscreen {
+  display: none;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel[data-currwindow="userListHeader"] #rightBarHeader span#askFullscreen,
+#virtualclassCont.congrea #virtualclassAppRightPanel[data-currwindow="techVideoHeader"] #rightBarHeader span#askFullscreen,
+#virtualclassCont.congrea #virtualclassAppRightPanel[data-currwindow="userListHeader"] #rightBarHeader span#askExitFullscreen,
+#virtualclassCont.congrea #virtualclassAppRightPanel[data-currwindow="techVideo"] #rightBarHeader span#askExitFullscreen {
+  display: none;
+}

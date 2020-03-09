@@ -1,0 +1,445 @@
+#virtualclassCont.congrea #virtualclassOptionsCont #virtualclassEditorRichTool.appOptions {
+  border-top-right-radius: 0;
+  margin-bottom: -1px;
+  margin-top: -1px;
+}
+
+/* #virtualclassCont.congrea #virtualclassEditorRich, #virtualclassCont.congrea #virtualclassEditorCode { */
+
+/* margin-left: 60px; */
+
+/* } */
+
+#virtualclassCont.congrea.student #virtualclassCont.congrea #virtualclassEditorRich {
+  margin-left: 35px;
+}
+
+#virtualclassCont.congrea .icon-editorCodeImg::before {
+  content: "\e608";
+  font-size: 14px;
+  color: #535151;
+}
+
+/* #virtualclassEditorRich #synchMessageBox, .writeModeBox { */
+
+/* background: #EBECC6; */
+
+/* font-size: 13px; */
+
+/* padding: 2px 8px 2px 8px; */
+
+/* dispaly:none; */
+
+/* } */
+
+#virtualclassEditorRich #synchMessageBox p {
+  margin: 0;
+}
+
+#virtualclassEditorRich #synchMessageBox {
+  position: absolute;
+  top: 24px;
+  right: 268px;
+  z-index: 5;
+}
+
+#virtualclassCont.congrea #EditorRichwriteModeBox .writeModeBox {
+  /* bottom: 15px; */
+
+  /* right: 372px; */
+
+  /* position: fixed; */
+
+  /* text-align: center; */
+
+  /* text-transform: uppercase; */
+
+  /* width: 85px; */
+
+  /* border-top-left-radius: 5px; */
+
+  /* z-index:2000; */
+  dispaly: none;
+}
+
+#virtualclassEditorRich,
+#virtualclassEditorCode {
+  margin-top: 0;
+}
+
+#virtualclassEditorRich,
+#virtualclassEditorBody {
+  height: 100%;
+}
+
+#virtualclassCont.congrea div.CodeMirror-cursors {
+  visibility: visible !important;
+}
+
+#virtualclassCont.congrea .block.editorRichImg {
+  opacity: 0.5;
+}
+
+#virtualclassCont.congrea .block.editorCodeImg {
+  opacity: 0.5;
+}
+
+#virtualclassCont.congrea #alleditorRichContainer,
+#virtualclassCont.congrea #alleditorCodeContainer {
+  position: fixed;
+  top: 53px;
+  right: 350px;
+  width: auto;
+  max-height: 44px;
+  font-size: 13px;
+  font-weight: 200;
+  z-index: 2000;
+  padding: 8px 9px 5px 9px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px 1px #c3c3c3;
+}
+
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #alleditorRichContainer,
+#virtualclassCont.congrea #alleditorCodeContainer {
+  right: 30px;
+}
+
+#virtualclassCont.congrea #alleditorRichContainer #alleditorRichContainerAnch {
+  /* padding: 16px 14px 14px 14px !important; */
+  font-size: 14px;
+  border-radius: 0 !important;
+}
+
+/* #virtualclassCont.congrea #alleditorRichContainer #alleditorRichContainerAnch:hover {
+  background-image: radial-gradient(ellipse at center, #2c393d 0%, #4c5a5f 100%) !important;
+} */
+
+#virtualclassCont.congrea #alleditorRichContainer.congtooltip:hover::after {
+  bottom: 45px !important;
+  right: -29px;
+}
+
+@-moz-document url-prefix() {
+  #virtualclassCont.congrea #audioWidget .latency.congtooltip:hover::after {
+    bottom: -22px;
+  }
+}
+
+#virtualclassCont.congrea #virtualclassYtsTool,
+#virtualclassCont.congrea #virtualclassEditorCodeTool {
+  border-bottom: none !important;
+}
+
+#virtualclassCont.congrea #alleditorRichContainerAnch {
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+#virtualclassCont.congrea #virtualclassEditorRichBody {
+  position: relative;
+
+  /* height: 100%; */
+}
+
+#virtualclassCont.congrea #alleditorRichContainer {
+  background: #6f9b90; /* Old browsers */
+  background: -moz-linear-gradient(top, #92b0ab 0%, #6f9b90 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #92b0ab), color-stop(100%, #6f9b90)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #92b0ab 0%, #6f9b90 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #92b0ab 0%, #6f9b90 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #92b0ab 0%, #6f9b90 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #fff 0%, #fff 100%); /* W3C */
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#92b0ab', endColorstr='#6f9b90', GradientType=0); /* IE6-9 */
+}
+
+#virtualclassCont.congrea #alleditorRichContainer:hover,
+#virtualclassCont.congrea #alleditorCodeContainer:hover {
+  /* background-image: none; */
+  opacity: 0.9;
+}
+
+#virtualclassCont.congrea #alleditorRichContainer a,
+#virtualclassCont.congrea #alleditorCodeContainer a {
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+#virtualclassCont.congrea #virtualclassEditorCodeBody {
+  position: relative;
+}
+
+/* #virtualclassCont.congrea.orginalTeacher #virtualclassEditorRichBody, */
+
+/* #virtualclassCont.congrea.orginalTeacher #virtualclassEditorCodeBody, */
+
+/* #virtualclassCont.congrea.teacher #virtualclassEditorRichBody, */
+
+/* #virtualclassCont.congrea.teacher #virtualclassEditorCodeBody { */
+
+/* width: 100%; */
+
+/* } */
+
+#virtualclassCont.congrea.removedAssign #virtualclassEditorRichBody,
+#virtualclassCont.congrea.removedAssign #virtualclassEditorCodeBody {
+  margin-right: 0;
+}
+
+#virtualclassCont.congrea.educator #virtualclassEditorRich,
+#virtualclassCont.congrea.educator #virtualclassEditorCode {
+  margin-left: 9px;
+}
+
+#virtualclassCont.congrea div#virtualclassOptionsCont div#virtualclassEditorRichTool {
+  border-bottom: none;
+}
+
+#virtualclassCont.congrea.teacher.orginalTeacher.educator[data-currapp="EditorRich"] #audioWidget {
+  right: 0;
+}
+
+#virtualclassCont.congrea.student.presenter[data-currapp="EditorRich"] #audioWidget,
+#virtualclassCont.congrea.student.presenter[data-currapp="EditorCode"] #audioWidget {
+  right: 10px;
+}
+
+#virtualclassCont.congrea.student[data-currapp="EditorRich"] {
+  right: 0;
+}
+
+#virtualclassCont.congrea.studentplayMode[data-currapp="EditorRich"] #audioWidget {
+  top: 170px;
+  right: 10px;
+}
+
+#virtualclassEditorCode.studentplayMode[data-currapp="EditorCode"] #virtualclassEditorCode {
+  margin-left: 0;
+}
+
+#virtualclassEditorCode.studentplayMode[data-currapp="EditorCode"] .CodeMirror-scroll {
+  margin-right: 0;
+}
+
+#virtualclassCont.congrea.playMode.student #virtualclassEditorRich {
+  margin-top: 0;
+}
+
+#virtualclassCont.congrea.student[data-currapp="EditorCode"] #beTeacher {
+  right: 13%;
+  top: 5%;
+}
+
+#virtualclassCont.congrea[data-currapp="EditorRich"] #beTeacher {
+  right: 13%;
+  top: 3%;
+}
+
+/* #virtualclassCont.congrea #virtualclassEditorRich { */
+
+/* margin-right: 6px; */
+
+/* } */
+
+#virtualclassCont.congrea.student.pt_enable #virtualclassAppLeftPanel #virtualclassEditorRich {
+  float: none;
+  margin: 0 6px 0;
+}
+
+#virtualclassCont.congrea.student.pt_enable.presenter #virtualclassAppLeftPanel #virtualclassEditorRich {
+  margin-left: 60px;
+}
+
+/* #virtualclassCont.congrea #virtualclassEditorRich, #virtualclassCont.congrea #virtualclassEditorCode { */
+
+/* height: 95vh; */
+
+/* } */
+
+/* #virtualclassCont.congrea.educator #virtualclassEditorCode, #virtualclassCont.congrea.educator #virtualclassEditorRich { */
+
+/* height: 93vh; */
+
+/* } */
+
+#virtualclassCont.congrea #chat_div .controllereditorCode {
+  float: left;
+
+  /* width: 25px; */
+  text-align: center;
+}
+
+#virtualclassCont.congrea.playMode.student #virtualclassEditorCode,
+#virtualclassCont.congrea.playMode.student[data-currapp="Yts"] #virtualclassEditorCode {
+  margin-top: 70px;
+}
+
+#virtualclassCont.congrea #alleditorCodeContainer {
+  border-radius: 5px !important;
+  top: 6px;
+  right: 6px;
+}
+
+#virtualclassCont.congrea.student[data-currapp="EditorCode"] #EditorCodewriteModeBox {
+  top: 6px;
+  right: 6px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  width: 85px;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 2px 8px 2px 8px;
+}
+
+#virtualclassCont.congrea.teacher[data-currapp="ScreenShare"] .zoomControler {
+  display: none;
+}
+
+/* #virtualclassCont.congrea.teacher[data-currapp="EditorRich"] .controllereditorRich, */
+
+/* #virtualclassCont.congrea.teacher[data-currapp="EditorCode"] .controllereditorCode */
+
+/* { */
+
+/* display:block !important; */
+
+/* } */
+
+/* #virtualclassCont.congrea.teacher .controllereditorRich, */
+
+/* #virtualclassCont.congrea.teacher .controllereditorCode { */
+
+/* display:none !important; */
+
+/* } */
+
+/** TODO, the code editor should be removed in proper way **/
+#virtualclassCont.congrea #virtualclassEditorCodeTool {
+  display: none;
+}
+
+#virtualclassCont.congrea #alleditorRichContainer.icon-collaborate::before {
+  content: "\e97e";
+  font-size: 18px;
+  font-family: icomoon;
+}
+
+#virtualclassEditorRichBody .vceditor img {
+  max-width: 100%;
+}
+
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-style-group,
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-list-group,
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-undo-group,
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-indent-group,
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-paragraph-group {
+  display: inline-block;
+  border-radius: 3px;
+  background-color: #28323c;
+  border: 0.5px solid #555;
+  cursor: pointer;
+  margin-left: 7px;
+}
+
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-style-group,
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-list-group,
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-undo-group {
+  padding: 1px 8px 6px 3px;
+}
+
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-indent-group {
+  padding: 2px 8px 6px 3px;
+}
+
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-paragraph-group {
+  padding: 2px 8px 6px 4px;
+  margin-right: 8px;
+}
+
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-style-group::before {
+  font-family: 'icomoon';
+  content: "\e23c";
+  font-size: 1.125rem;
+  color: #fff;
+  position: relative;
+  top: 2px;
+  left: 4px;
+}
+
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-list-group::before {
+  font-family: 'icomoon';
+  content: "\e9bd";
+  font-size: 1.125rem;
+  color: #fff;
+  position: relative;
+  top: 4px;
+  left: 4px;
+}
+
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-indent-group::before {
+  font-family: 'icomoon';
+  content: "\e9bf";
+  font-size: 1.0625rem;
+  color: #fff;
+  position: relative;
+  top: 4px;
+  left: 4px;
+}
+
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-paragraph-group::before {
+  font-family: 'icomoon';
+  content: "\e9ca";
+  font-size: 1rem;
+  color: #fff;
+  position: relative;
+  top: 4px;
+  left: 4px;
+}
+
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-style-group::after,
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-list-group::after,
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-indent-group::after,
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-paragraph-group::after {
+  font-family: 'icomoon';
+  content: "\e967";
+  font-size: 1.0625rem;
+  color: #fff;
+  float: right;
+  position: relative;
+  top: 4px;
+  left: 6px;
+}
+
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-style-group.close .vceditor-btn-group.style-group,
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-list-group.close .vceditor-btn-group.list-group,
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-indent-group.close .vceditor-btn-group.indent-group,
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-paragraph-group.close .vceditor-btn-group.paragraph-group,
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-undo-group.close .vceditor-btn-group.undo-group {
+  display: none;
+}
+
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-style-group.open .vceditor-btn-group.style-group,
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-list-group.open .vceditor-btn-group.list-group,
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-indent-group.open .vceditor-btn-group.indent-group,
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-paragraph-group.open .vceditor-btn-group.paragraph-group,
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-undo-group.open .vceditor-btn-group.undo-group {
+  display: block;
+  position: absolute;
+  top: 32px;
+  margin-left: -2px;
+  z-index: 1000;
+}
+
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-dropdown-menu::-webkit-scrollbar {
+  width: 4px;
+}
+
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-group.close a ul {
+  display: none;
+}
+
+#virtualclassCont.congrea #virtualclassEditorRich .vceditor-toolbar-wrapper .vceditor-btn-group.open a ul {
+  display: block;
+}

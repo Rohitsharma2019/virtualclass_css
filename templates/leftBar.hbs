@@ -1,0 +1,31 @@
+
+<div id="virtualclassAppLeftPanel" class="leftbar hideZoom" data-surname="{{meetingMode}}">
+
+  {{#if hasControls}}
+    {{#if meetingMode}}
+      {{> appToolsMeeting }}
+    {{else}}
+      {{> appTools }}
+    {{/if}}
+
+  {{/if}}
+  <div id="virtualclassAppContainer">
+    <div id="virtualclassWhiteboard" class="virtualclass whiteboard" style="display:none;">
+      <div class="whiteboardContainer"> </div>
+
+    {{#if hasControls}}
+      <span class="nvgt prev"></span>
+      <span class="nvgt next"></span>
+    {{/if}}
+
+    </div>
+  </div>
+  <a id="congrealogo" href="https://www.congrea.com" target="_blank">
+  <img src="https://cdn.congrea.net/resources/images/congrea_logo.svg">
+  </a>
+  <div id="docShareNav"></div>
+  <div id="sidebarButton">
+    <span class="congtooltip sidebarButton" data-title="Move Sidebar"><i class="icon-sidebarButton"></i></span>
+  </div>
+  {{> dashboardCont}}
+</div>
