@@ -1,0 +1,390 @@
+#virtualclassCont #dashboardContainer .modal-dialog {
+  width: 100% !important;
+  height: 100%;
+  margin-top: 0;
+}
+
+#virtualclassCont #dashboardContainer .modal .modal-content {
+  padding: 0;
+}
+
+#virtualclassCont #dashboardContainer .modal-body {
+  height: auto;
+  padding: 0;
+}
+
+#virtualclassCont #listdocs {
+  height: calc(100% - 20px);
+  overflow-y: auto;
+  margin-bottom: 0;
+}
+
+#virtualclassCont.congrea .dashboardview {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#virtualclassCont.congrea #docsuploadContainer {
+  margin: 0;
+  padding: 0;
+}
+
+#virtualclassCont.congrea #docsListContainer {
+  margin: 0;
+  padding: 0;
+}
+
+#virtualclassCont.congrea #listdocs .linkdocs .controlCont {
+  float: right;
+  width: 18px;
+
+  /* background: #820729; */
+
+  /* border-top-right-radius: 6px; */
+  border-bottom-right-radius: 6px;
+  height: auto;
+  margin-top: -1px;
+  border-radius: 5px;
+  padding-left: 2px;
+
+  /* border-top-right-radius: 0; */
+
+  /* border-bottom-right-radius: 0; */
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+
+  /* margin-right: 6px; */
+}
+
+#virtualclassCont.congrea #listdocs .linkdocs .controlCont,
+#virtualclassCont.congrea #listdocs .linkdocs .controlCont:hover {
+  margin-top: 6px;
+
+  /* margin-right: 3px; */
+}
+
+#virtualclassCont.congrea #listdocs .list-group-item {
+  padding: 6px 0;
+  margin-bottom: 2px;
+}
+
+#virtualclassCont.congrea #listdocs .linkdocs .controls.delete::before {
+  content: "\e961";
+  font-family: 'icomoon';
+  font-size: 17px;
+  padding-top: 0;
+  color: #888;
+  margin-left: -5px;
+}
+
+#virtualclassCont.congrea #listdocs .list-group-item[data-selected="0"] .controls.delete::before,
+#virtualclassCont.congrea #listdocs .list-group-item[data-selected="1"] .controls.delete::before {
+  display: none;
+}
+
+#virtualclassCont.congrea #listdocs .list-group-item[data-selected="0"]:hover .controls.delete::before {
+  display: block;
+  color: #101010;
+}
+
+#virtualclassCont.congrea .dbContainer .linkdocs,
+#virtualclassCont.congrea .dbContainer .linkdocs .controlCont {
+  cursor: pointer;
+}
+
+#virtualclassCont.congrea .linkdocs:hover {
+  background-color: #f7f7f7;
+  color: black;
+}
+
+#virtualclassCont.congrea #listdocs .linkdocs:hover .controls.delete::before {
+  color: #c70a0a;
+}
+
+#virtualclassCont.congrea #listdocs .linkdocs[data-selected="1"] .controls.delete::before,
+#virtualclassCont.congrea #listdocs .linkdocs[data-selected="1"],
+#virtualclassCont.congrea #listdocs .linkdocs[data-selected="1"]:hover .controls.delete::before {
+  color: #464646;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+#virtualclassCont.congrea #listdocs .linkdocs[data-selected="1"] .controlCont {
+  pointer-events: none;
+}
+
+#virtualclassCont.congrea #listnotes .currentNav .controlCont {
+  pointer-events: none;
+}
+
+#virtualclassCont.congrea #docsListContainer {
+  width: 21.5%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#virtualclassCont.congrea #listdocs .linkdocs .controls.delete {
+  margin-right: 5px;
+}
+
+@media (min-width: 768px) {
+  .bootstrap .dashboardview.col-sm-10 {
+    width: 77.333333%;
+  }
+}
+
+#virtualclassCont.congrea #newDocBtn.btn-default {
+  width: 100%;
+  border: 1px solid #34404c;
+  border-radius: 0;
+  background: linear-gradient(to bottom, #515e69 0%, #34404c 100%);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding: 8px;
+  color: #fff;
+  height: 100%;
+  max-height: 42px;
+}
+
+#virtualclassCont.congrea #congdashboard.modal .modal-header {
+  width: 100%;
+  color: white;
+  border-top: none;
+}
+
+/** for dashboard grid  view */
+#virtualclassCont.congrea #listnotes .linknotes.links {
+  position: relative;
+  border-radius: 3px;
+  height: 6.5em;
+  margin: 2% 2% 0 1%;
+}
+
+#virtualclassCont.congrea #docsuploadContainer {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+#virtualclassCont #listnotes .mainpreview {
+  /* margin-top : 1.5%; */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 123%;
+  padding: 2px;
+  cursor: pointer;
+  height: 100%;
+}
+
+#virtualclassCont #listnotes linknotes.links {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#virtualclassCont #listnotes .mainpreview:hover {
+  border: 1px solid #ccc;
+}
+
+#virtualclassCont.congrea #listnotes {
+  position: absolute;
+  height: 100%;
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+#listdocs.listPages {
+  list-style: none;
+  padding: 8px;
+  margin: 0 auto;
+}
+
+.bootstrap #listdocs.listPages .list-group-item.links {
+  border: none;
+}
+
+#virtualclassCont.congrea .linkdocs {
+  border: 1px solid #fff !important;
+}
+
+#virtualclassCont.congrea .linkdocs:hover {
+  background-color: #fff;
+  color: black;
+  border: 1px solid #ddd !important;
+  border-radius: 4px;
+}
+
+#listdocs.listPages .links {
+  color: #3585d5;
+  letter-spacing: 0.02em;
+  display: block;
+  padding: 12px;
+}
+
+#listdocs.listPages .links .bootstrap .list-group-item:last-child {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+#virtualclassCont.congrea .dbContainer .linkdocs .mainpreview {
+  text-align: left;
+  margin-left: 6%;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+.bootstrap #listdocs.listPages .list-group-item.links {
+  height: auto;
+}
+
+#virtualclassCont.congrea .linkdocs[data-selected='1'] {
+  padding: 2px;
+  color: #0a4f16;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  background: #fff;
+}
+
+#virtualclassCont.congrea .fileSize {
+  position: absolute;
+  right: 111px;
+  font-size: 11px;
+  color: #82a1b3;
+}
+
+#virtualclassCont.congrea #dashboardnav button.btn-primary {
+  height: 45px;
+  width: 57px;
+  margin-left: 0;
+  border: 0;
+}
+
+#virtualclassCont.congrea #dashboardnav.congtooltip:hover::after {
+  top: 11px;
+  left: 64px;
+  height: 20px;
+}
+
+#virtualclassCont.congrea #dashboardnav.congtooltip,
+#virtualclassCont.congrea #virtualclassPollTool.congtooltip {
+  z-index: 1100;
+}
+
+#virtualclassCont.congrea #dashboardnav button.btn-primary:hover {
+  opacity: 0.8;
+}
+
+#virtualclassCont.congrea .bootstrap .modal-content,
+#virtualclassCont.congrea #congdashboard.modal {
+  box-shadow: none !important;
+}
+
+#virtualclassCont #dashboardContainer .modal .modal-content {
+  height: calc(100% - 7px);
+}
+
+#virtualclassCont #dashboardnav .btn-primary {
+  background: linear-gradient(to bottom, #495560 0%, #39434a 100%) !important;
+  height: 48px !important;
+  margin-left: 8px !important;
+  border-radius: 50%;
+  width: 48px !important;
+}
+
+@media (max-height: 768px) {
+  #virtualclassCont.congrea #dashboardnav {
+    position: absolute;
+    top: 606px;
+    left: -5px;
+  }
+}
+
+@media (max-height: 700px) {
+  #virtualclassCont.congrea #dashboardnav {
+    position: absolute;
+    top: unset;
+    bottom: 4px;
+    left: -3px;
+  }
+
+  #virtualclassCont #dashboardnav .btn-primary {
+    width: 42px !important;
+    height: 42px !important;
+  }
+
+  #virtualclassCont.congrea i.dashboard-icon::before {
+    font-size: 19px;
+  }
+
+  #virtualclassCont.congrea #dashboardnav .clicked i.dashboard-icon::before {
+    font-size: 21px;
+  }
+
+  #virtualclassCont.congrea.meetingmode #dashboardnav {
+    top: 551px;
+  }
+
+  #virtualclassCont.congrea.meetingmode #dashboardnav .clicked i.dashboard-icon::before {
+    font-size: 20px;
+  }
+
+  #virtualclassCont.meetingmode #dashboardnav .btn-primary {
+    width: 44px !important;
+    height: 44px !important;
+  }
+}
+
+@media (max-height: 805px) {
+  #virtualclassCont.congrea #virtualclassAppLeftPanel #virtualclassOptionsCont {
+    position: absolute;
+    top: 60px !important;
+  }
+}
+
+@media (max-height: 700px) {
+  #virtualclassCont.congrea #virtualclassAppLeftPanel #virtualclassOptionsCont {
+    position: absolute;
+    top: 47px;
+  }
+
+  #virtualclassCont.congrea.meetingmode #virtualclassAppLeftPanel #virtualclassOptionsCont {
+    position: absolute;
+    top: 53px;
+  }
+
+  #virtualclassCont.congrea.meetingmode.teacher[data-currapp="Video"] #virtualclassAppLeftPanel #virtualclassOptionsCont,
+  #virtualclassCont.congrea.meetingmode.teacher[data-currapp="SharePresentation"] #virtualclassAppLeftPanel #virtualclassOptionsCont,
+  #virtualclassCont.congrea.meetingmode.teacher[data-currapp="DocumentShare"] #virtualclassAppLeftPanel #virtualclassOptionsCont {
+    position: absolute;
+    top: 53px;
+  }
+
+  #virtualclassCont.congrea #pptuploadContainer {
+    top: 10px;
+  }
+
+  #virtualclassCont.congrea.meetingmode i.dashboard-icon::before {
+    font-size: 20px;
+  }
+}
+
+#virtualclassCont.congrea .currentNav .mainpreview {
+  box-shadow: 0 0 6px rgb(96, 96, 97);
+  pointer-events: none;
+}
+
+#virtualclassCont #dashboardContainer .modal .modal-content {
+  border: none;
+  max-height: none;
+  padding: 0;
+  height: 100%;
+  border-radius: 0 !important;
+}
+
+#virtualclassCont.congrea #virtualclassAppOptionsCont #dashboardnav button.btn {
+  cursor: pointer;
+}
+
+#virtualclassCont.congrea.teacher[data-currapp="DocumentShare"] #virtualclassApp.dashboard .zoomControler {
+  display: none;
+}

@@ -1,0 +1,127 @@
+#virtualclassCont.congrea #networkStatusContainer {
+  order: 2;
+}
+
+#virtualclassCont.congrea #virtualclassAppFooterPanel #proposedSpeed {
+  width: 1.375rem;
+  height: 1.375rem;
+  padding: 0.6875rem 0.811115rem;
+}
+
+#virtualclassCont.congrea #proposedSpeed[data-suggestion='high'] svg path.signalthree,
+#virtualclassCont.congrea #proposedSpeed[data-suggestion='high'] svg path.signalfoure,
+#virtualclassCont.congrea #proposedSpeed[data-suggestion='high'] svg path.signalfive,
+#virtualclassCont.congrea #proposedSpeed[data-suggestion='high'] svg path.signalsix,
+#virtualclassCont.congrea #proposedSpeed[data-suggestion='high'] svg path.signalone,
+#virtualclassCont.congrea #proposedSpeed[data-suggestion='high'] svg path.signaltwo,
+#virtualclassCont.congrea #proposedSpeed[data-suggestion='high'] svg path.signal {
+  fill: #0f0;
+}
+
+#virtualclassCont.congrea #proposedSpeed[data-suggestion='medium'] svg path.signalfive,
+#virtualclassCont.congrea #proposedSpeed[data-suggestion='medium'] svg path.signalsix,
+#virtualclassCont.congrea #proposedSpeed[data-suggestion='medium'] svg path.signalone,
+#virtualclassCont.congrea #proposedSpeed[data-suggestion='medium'] svg path.signaltwo,
+#virtualclassCont.congrea #proposedSpeed[data-suggestion='medium'] svg path.signal {
+  fill: #e1e842;
+}
+
+#virtualclassCont.congrea #proposedSpeed[data-suggestion='medium'] svg path.signalthree,
+#virtualclassCont.congrea #proposedSpeed[data-suggestion='medium'] svg path.signalfoure {
+  fill: #a9a9a9;
+}
+
+#virtualclassCont.congrea #proposedSpeed[data-suggestion='low'] svg path.signalfive,
+#virtualclassCont.congrea #proposedSpeed[data-suggestion='low'] svg path.signalsix,
+#virtualclassCont.congrea #proposedSpeed[data-suggestion='low'] svg path.signal,
+#virtualclassCont.congrea #proposedSpeed[data-suggestion='low'] svg path.signal {
+  fill: #fb9c42;
+}
+
+#virtualclassCont.congrea #proposedSpeed[data-suggestion='low'] svg path.signalthree,
+#virtualclassCont.congrea #proposedSpeed[data-suggestion='low'] svg path.signalfoure,
+#virtualclassCont.congrea #proposedSpeed[data-suggestion='low'] svg path.signalone,
+#virtualclassCont.congrea #proposedSpeed[data-suggestion='low'] svg path.signaltwo {
+  fill: #a9a9a9;
+}
+
+#virtualclassCont.congrea #networkLatency[data-latency='slow'] svg path.signal,
+#virtualclassCont.congrea #networkLatency[data-latency='slow'] svg path.signalone,
+#virtualclassCont.congrea #networkLatency[data-latency='slow'] svg path.signaltwo,
+#virtualclassCont.congrea #networkLatency[data-latency='slow'] svg path.signalthree,
+#virtualclassCont.congrea #networkLatency[data-latency='slow'] svg path.signalfoure,
+#virtualclassCont.congrea #networkLatency[data-latency='slow'] svg path.signalfive,
+#virtualclassCont.congrea #networkLatency[data-latency='slow'] svg path.signalsix {
+  fill: #f00;
+}
+
+#virtualclassCont.congrea #networkStatusContainer.connecting-room {
+  paddin-left: 2px;
+}
+
+#virtualclassCont.congrea #networkStatusContainer #videoLatency {
+  width: 46px;
+  height: 35px;
+  border-radius: 5px;
+
+  /* background-color: white; */
+}
+
+#virtualclassCont.congrea #networkStatusContainer.connecting-room #videoLatency {
+  display: none;
+}
+
+#virtualclassCont.congrea #networkStatusContainer.connecting-room #connectingRoomIcon {
+  display: block;
+}
+
+#virtualclassCont.congrea #networkStatusContainer.connecting-room #proposedSpeed {
+  display: none;
+}
+
+#virtualclassCont.congrea #networkStatusContainer #connectingRoomIcon .icon-whiteboard #svg-spinner {
+  display: none;
+}
+
+#virtualclassCont.congrea #networkStatusContainer #connectingRoomIcon {
+  float: right;
+  margin: 0.5rem 0.5625rem;
+}
+
+#virtualclassCont.congrea #networkStatusContainer.connecting-room #connectingRoomIcon .icon-whiteboard #svg-spinner {
+  transition-property: transform;
+  animation-name: rotate;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  display: block;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#virtualclassCont.congrea.student #virtualclassAppRightPanel.vidShow #videoHostContainer {
+  display: block !important;
+}
+
+#virtualclassCont.congrea.student #virtualclassAppRightPanel.vidHide #videoHostContainer {
+  display: none !important;
+}
+
+#virtualclassCont.congrea #virtualclassApp.try-to-connect #virtualclassAppLeftPanel #virtualclassAppContainer #virtualclassEditorRich #virtualclassEditorRichBody .vceditor .CodeMirror {
+  pointer-events: none;
+}
+
+#virtualclassCont.congrea #virtualclassAppFooterPanel #networkLatency:hover::after {
+  position: absolute;
+  bottom: 47px;
+
+  /* right: 1px; */
+}
